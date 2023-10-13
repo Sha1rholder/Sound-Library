@@ -18,9 +18,12 @@ https://www.mojo-audio.com/blog/dsd-vs-pcm-myth-vs-truth/ 科普DSD与PCM
 
 equalizer apo 和设备默认音效的玄学关系
 
-电流型与电压型耳放
+电流型与电压型耳放：电压型耳放在阻抗变化时输出功率变化不大，更适合高阻耳机【【HIFI科普】为什么需要耳放？什么是直推？耳放如何选择？ 手机直推选什么样的耳机 电子管耳机放大器】 https://www.bilibili.com/video/BV1w5411S7FK/?share_source=copy_web&vd_source=0d156261fad807ac85d735b6ab0a64ed
 
 歧视音乐软件是愚蠢的
+
+个人认为的最佳hifi视频们
+【经典HiFi耳机三剑客 HD650/K701/DT880】 https://www.bilibili.com/video/BV1yf4y127rE/?share_source=copy_web&vd_source=0d156261fad807ac85d735b6ab0a64ed
 
 讲一下音频品牌与外设品牌
 
