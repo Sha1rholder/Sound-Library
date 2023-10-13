@@ -1,0 +1,53 @@
+环境噪音较大时，不存在 hifi
+
+耳机最重要的永远是舒适度和健康性，然后才是声音！
+
+原道以及类似品控较弱的耳机可能不适合参考别人的 EQ 文件，因为个体差异可能较大。自己亲测在B站找的EQ后听感不好
+
+我从只是想去掉电脑底噪入烧到现在，看了至少上百篇从笼统到专业的文章，其中不乏无数浏览量只有个位数，以及一些10甚至00时代的文章、帖子
+
+找不到 Audio Enhancements 是声卡驱动问题，目前没有通解
+
+为什么廉价蓝牙耳机太差，因为一个耳机要包含太多部件
+
+平衡电路与非平衡电路
+
+https://www.foobar2000.org/components/view/foo_out_asio "Please note that this component is meant for systems where ASIO is the only available output method. It is highly recommended to use the default output modes instead of ASIO. Contrary to popular "audiophile" claims, there are NO benefits from using ASIO as far as music playback quality is concerned, while bugs in ASIO drivers may severely degrade the performance."
+
+https://www.mojo-audio.com/blog/dsd-vs-pcm-myth-vs-truth/ 科普DSD与PCM
+
+equalizer apo 和设备默认音效的玄学关系
+
+电流型与电压型耳放
+
+歧视音乐软件是愚蠢的
+
+讲一下音频品牌与外设品牌
+
+每3dB声能翻倍
+
+p😭q or b😭d
+
+不同的音乐编码与硬解方法，MQA、DSD等支持程度
+
+仅仅提一句：专业用途（比如浙大紫荆港的托福考试）koss sb45配sk8827键鼠套餐
+
+本文注重解释原理，会避免主观评价，并尽可能避开一些hifi界尚存争议的内容
+
+谐波失真
+
+https://www.whathifi.com/advice/mp3-aac-wav-flac-all-the-audio-file-formats-explained 音频格式的解释
+
+https://www.stereophile.com/asweseeit/1286awsi/index.html soundstage
+
+动态范围dB是比值，是对数的差值，对回放系统的响度具有明显的影响——录音界的响度战争
+
+人耳在压力场下具有本底噪音
+
+dB?dBfs?
+
+https://www.zhihu.com/question/20088396 动态范围和响度战争的通俗解释
+
+http://nwavguy.blogspot.com/2011/09/more-power.html 耳放详解
+
+https://zhuanlan.zhihu.com/p/457381792  物理声音
