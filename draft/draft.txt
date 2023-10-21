@@ -2,7 +2,7 @@
 
 耳机最重要的永远是舒适度和健康性，然后才是声音！
 
-原道以及类似品控较弱的耳机可能不适合参考别人的 EQ 文件，因为个体差异可能较大。自己亲测在B站找的EQ后听感不好
+一致性较差的耳机可能不适合参考别人的 EQ 文件，因为个体差异可能较大。自己亲测在B站找的EQ后听感不好
 
 我从只是想去掉电脑底噪入烧到现在，看了至少上百篇从笼统到专业的文章，其中不乏无数浏览量只有个位数，以及一些10甚至00时代的文章、帖子
 
@@ -72,4 +72,8 @@ ABX实验表明，我自己无法分辨不同解码耳放的区别，也无法�
 
 usb or spdif or i2s or……
 
-森海塞尔 HE1 都只能解码 DSD256 级别的音频，所以不需要迷信巨大的 DSD 比特率
+森海塞尔 HE1 都只能解码 DSD256 级别的音频，不需要迷信巨大的 DSD 比特率
+
+foobar2000（等Georgia-ReBORN插件出来后再考虑）
+
+Bose 员工锐评 And speaking of bass, in a sense, Bose represents the distillation of the perpetual conflict in the headphone market between audiophile sound quality and consumer preference. "Bose cannot be criticized for not winning a game they choose not to play," says audio pro and former Bose employee Steve Feinstein. "They win the game they're in." https://www.slashgear.com/1258811/major-headphone-brands-ranked-worst-to-best/
