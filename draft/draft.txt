@@ -79,3 +79,22 @@ Bose 员工锐评 And speaking of bass, in a sense, Bose represents the distilla
 https://www.zhihu.com/question/269222351
 https://zhuanlan.zhihu.com/p/55722359
 关于耳机对“推力”需求的问题
+
+不同的耳机对“煲机”的需求不同，比如 https://hifiman.cn/attachments/file/20220609/20220609043304_99868.pdf 提到 HIFIMAN edition XS 至少需要150h煲机（但有无证据存疑） https://www.rtings.com/headphones/learn/break-in 又以测试结果“证明”煲机似乎没啥意义（已发邮件问候hifiman）
+
+
+发声单元 sound units：
+
+1. 动圈 **Dynamic Drivers**: These are the most common type of headphone driver. They work similarly to the speakers in your home.
+
+2. 动铁 **Balanced Armature Drivers**: These drivers are smaller and more efficient than dynamic drivers. They are often used in in-ear headphones.
+
+补充：圈铁 **Hybrid Driver**: This type of driver attempts to utilize the strengths of both dynamic and balanced armature drivers to achieve a balanced and detailed sound output.
+
+3. 平面（磁）**Planar (Magnetic) Drivers**: These drivers use a thin, large diaphragm with conductive traces to produce sound. They are known for their accuracy and detail.
+
+4. 静电 **Electrostatic Drivers**: These are the most expensive and rare type of headphone driver. They use static electricity to move a very thin diaphragm and produce sound.
+
+5. 骨传导 **Bone Conduction Drivers**: These drivers bypass the eardrum altogether. Instead, they send vibrations directly into the top of your jaw, which then travel to your inner ear.
+
+Each type of driver has its own strengths and weaknesses, and the choice between them depends on your specific needs and preferences.
