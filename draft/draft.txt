@@ -2,7 +2,7 @@
 
 耳机最重要的永远是舒适度和健康性，然后才是声音！
 
-一致性较差的耳机可能不适合参考别人的 EQ 文件，因为个体差异可能较大。自己亲测在B站找的EQ后听感不好
+一致性较差的耳机可能不适合参考别人的 EQ 文件，因为个体差异可能较大
 
 找不到 Audio Enhancements 是声卡驱动问题，目前没有通解
 
@@ -10,11 +10,9 @@
 
 平衡电路与非平衡电路
 
-https://www.foobar2000.org/components/view/foo_out_asio "Please note that this component is meant for systems where ASIO is the only available output method. It is highly recommended to use the default output modes instead of ASIO. Contrary to popular "audiophile" claims, there are NO benefits from using ASIO as far as music playback quality is concerned, while bugs in ASIO drivers may severely degrade the performance."
+ASIO和wasapi：https://www.foobar2000.org/components/view/foo_out_asio "Please note that this component is meant for systems where ASIO is the only available output method. It is highly recommended to use the default output modes instead of ASIO. Contrary to popular "audiophile" claims, there are NO benefits from using ASIO as far as music playback quality is concerned, while bugs in ASIO drivers may severely degrade the performance."
 
 https://www.mojo-audio.com/blog/dsd-vs-pcm-myth-vs-truth/ 科普DSD与PCM
-
-equalizer apo 和设备默认音效的玄学关系
 
 电流型与电压型耳放：电压型耳放在阻抗变化时输出功率变化不大，更适合高阻耳机【【HIFI科普】为什么需要耳放？什么是直推？耳放如何选择？ 手机直推选什么样的耳机 电子管耳机放大器】 https://www.bilibili.com/video/BV1w5411S7FK/?share_source=copy_web&vd_source=0d156261fad807ac85d735b6ab0a64ed
 
@@ -31,11 +29,9 @@ p😭q or b😭d
 
 不同的音乐编码与硬解方法，MQA、DSD等支持程度
 
-仅仅提一句：专业用途（比如浙大紫荆港的托福考试）koss sb45配sk8827键鼠套餐
-
 本文注重解释原理，会避免主观评价，并尽可能避开一些hifi界尚存争议的内容
 
-谐波失真
+谐波是构成音色的主因
 
 https://www.whathifi.com/advice/mp3-aac-wav-flac-all-the-audio-file-formats-explained 音频格式的解释
 
@@ -62,9 +58,7 @@ https://zhuanlan.zhihu.com/p/457381792  物理声音
 
 购买耳放时要验证左右耳一致性，通过将音量调到最低再缓慢提高，如果左右耳一致性有问题的话你会先听到一边的声音
 
-ABX实验表明，我自己无法分辨不同解码耳放的区别，也无法分辨独占和非独占音质的区别，因此我不需要数字界面
-
-没有花1w块钱的决心就不需要买耳放
+ABX实验表明，我自己无法分辨不同解码耳放的区别，也无法分辨独占和非独占音质的区别
 
 各大音乐软件如QQ音乐的“随机播放”其实是算法下的伪随机，which令我深恶痛绝
 
