@@ -1,11 +1,5 @@
 ![cover](resource/cover.jpg)
 
-<div align="center">
+中文部分施工中，如果有大佬愿意帮忙翻译，欢迎提 PR 或以任何方式联系我
 
-<h1>HiFi Beginner</h1>
-
-English / [简体中文](./README%20zh-CN.md)
-
-</div>
-
-To be continued... （暂且先看简中版吧）
+目前已经基本成型的文章：
