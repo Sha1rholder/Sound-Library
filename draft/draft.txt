@@ -96,3 +96,12 @@ Each type of driver has its own strengths and weaknesses, and the choice between
 《天色交响曲（黑咪漫画组译）》 [#藤枝雅 fujiedamiyabi](https://www.pixiv.net/en/tags/%E8%97%A4%E6%9E%9D%E9%9B%85/artworks) [#ヘッドホン headphone](https://www.pixiv.net/en/tags/%E3%83%98%E3%83%83%E3%83%89%E3%83%9B%E3%83%B3/artworks) [#百合 yuri](https://www.pixiv.net/en/tags/%E7%99%BE%E5%90%88/artworks) [#漫画 manga](https://www.pixiv.net/en/tags/%E6%BC%AB%E7%94%BB/artworks) [#天色くろすおーばー](https://www.pixiv.net/en/tags/%E5%A4%A9%E8%89%B2%E3%81%8F%E3%82%8D%E3%81%99%E3%81%8A%E3%83%BC%E3%81%B0%E3%83%BC/artworks) [#CLIPSTUDIOPAINT](https://www.pixiv.net/en/tags/CLIPSTUDIOPAINT/artworks)
 
 由于主流都是英语交流，不同国家的人秉着人生地不熟的原则，很少会出现像国内论坛撕逼大战的情况，但私下还是有鄙视链的；国内或者说华人区主流耳机发烧是先定几个被同好认为是无法被击败的屠龙刀倚天剑之类的神兵比如一些特别贵和频响有瑕疵但被认为是好现象的耳机   【【生肉】欧美主流的发烧耳机主观喜好排序~】 https://www.bilibili.com/video/BV14C4y1w7ff/?share_source=copy_web&vd_source=0d156261fad807ac85d735b6ab0a64ed
+
+
+监听耳机和 HiFi 耳机并没有明确的界限，两者往往被音频从业者和发烧友混用。常有一个误区就是监听耳机通常频响平直音染较弱，其实不然，监听耳机分为录音监听和混音监听耳机，它们各有侧重和用处
+>
+> 其中，录音监听耳机又被称为耳返，顾名思义，就是将演奏者或演唱者的声音结合背景音乐返回到耳朵中辅助出好声。为了避免耳机漏音被录制进去劣化录音质量，录音监听耳机一定是封闭式的。这类耳机中用于人声监听的耳机在听众耳中常常触发“女毒”效果（即女声听起来好听），就是因为这类耳机通常相对削弱了其他频段而放大了要监听的频段
+>
+> 混音监听耳机大多数是开放式的，因为其声场通常更开阔，听感更自热，也有一些刻意模拟 Low-End（与 Hi-End 相对，对大多数听众的听音设备的戏称）声音表现的封闭式耳机如 ATH-M50x 等。许多混音监听耳机会突出一些比较容易“出错”的频段（典型的比如加强高频齿音频段）来让混音师更容易发现录音和混音阶段的失误
+>
+> 相比于监听耳机，HiFi 耳机更注重、追求对声音美感的表达，大多数监听耳机也可以作为 HiFi 耳机使用
