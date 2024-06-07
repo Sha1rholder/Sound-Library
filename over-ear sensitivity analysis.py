@@ -17,20 +17,24 @@ def plot_power_needed(
     for row in data:
         if row["mw"]:
             power = 10 ** ((target_db - row["mw"]) / 10)
-            power_data.append((f'{row["brand"]} {row["model"]}', power))
+            power_data.append(
+                (f'{row["brand"]} {row["model"]}', power, row["balanced"])
+            )
 
     power_data.sort(key=lambda x: x[1], reverse=not order)
 
-    print(power_data)
-
-    if stopper:
+    if stopper and beginner:
         power_data = power_data[-stopper:-beginner]
-    else:
+    elif stopper:
+        power_data = power_data[-stopper:]
+    elif beginner:
         power_data = power_data[:-beginner]
 
-    headphones, power = zip(*power_data)
+    headphones, power, balanced = zip(*power_data)
 
-    plt.barh(headphones, power)
+    plt.barh(
+        headphones, power, color=["blue" if b == "yes" else "red" for b in balanced]
+    )
     plt.xlabel("Power (mW)")
     plt.ylabel("Headphones")
     plt.title(title + str(target_db) + " dB")
@@ -51,18 +55,24 @@ def plot_voltage_needed(
     for row in data:
         if row["v"]:
             voltage = 10 ** ((target_db - row["v"]) / 20)
-            voltage_data.append((f'{row["brand"]} {row["model"]}', voltage))
+            voltage_data.append(
+                (f'{row["brand"]} {row["model"]}', voltage, row["balanced"])
+            )
 
     voltage_data.sort(key=lambda x: x[1], reverse=not order)
 
-    if stopper:
+    if stopper and beginner:
         voltage_data = voltage_data[-stopper:-beginner]
-    else:
+    elif stopper:
+        voltage_data = voltage_data[-stopper:]
+    elif beginner:
         voltage_data = voltage_data[:-beginner]
 
-    headphones, voltage = zip(*voltage_data)
+    headphones, voltage, balanced = zip(*voltage_data)
 
-    plt.barh(headphones, voltage)
+    plt.barh(
+        headphones, voltage, color=["blue" if b == "yes" else "red" for b in balanced]
+    )
     plt.xlabel("Voltage (Vrms)")
     plt.ylabel("Headphones")
     plt.title(title + str(target_db) + " dB")
@@ -125,7 +135,7 @@ with open("./resource/over-ear sensitivity.csv", "r", encoding="utf-8") as file:
 
 plot_power_needed(
     data,
-    title="Power Requirement of Headphones to ",
+    title="Power Requirement of Hardest-to-Drive Headphones (Except AKG K1000) to ",
     beginner=1,
     stopper=31,
     order=True,
@@ -133,7 +143,7 @@ plot_power_needed(
 
 plot_power_needed(
     [row for row in data if row["back"] == "open"],
-    title="Power Requirement of Open-back Headphones to ",
+    title="Power Requirement of Hardest-to-Drive Open-Back Headphones (Except AKG K1000) to ",
     beginner=1,
     stopper=31,
     order=True,
@@ -141,7 +151,7 @@ plot_power_needed(
 
 plot_power_needed(
     [row for row in data if row["back"] != "open"],
-    title="Power Requirement of Closed-back Headphones to ",
+    title="Power Requirement of Hardest-to-Drive Closed-Back Headphones to ",
     beginner=0,
     stopper=31,
     order=True,
@@ -149,7 +159,7 @@ plot_power_needed(
 
 plot_voltage_needed(
     data,
-    title="Voltage Requirement of Headphones to ",
+    title="Voltage Requirement of Hardest-to-Drive Headphones (Except AKG K1000) to ",
     beginner=1,
     stopper=31,
     order=True,
@@ -157,15 +167,15 @@ plot_voltage_needed(
 
 plot_voltage_needed(
     [row for row in data if row["back"] == "open"],
-    title="Voltage Requirement of Open-back Headphones to ",
-    beginner=1,
+    title="Voltage Requirement of Easiest-to-Drive Open-Back Headphones to ",
+    beginner=0,
     stopper=31,
-    order=True,
+    order=False,
 )
 
 plot_voltage_needed(
     [row for row in data if row["back"] != "open"],
-    title="Voltage Requirement of Closed-back Headphones to ",
+    title="Voltage Requirement of Hardest-to-Drive Closed-Back Headphones to ",
     beginner=0,
     stopper=31,
     order=True,
