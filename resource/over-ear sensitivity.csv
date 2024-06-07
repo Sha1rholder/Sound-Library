@@ -113,7 +113,7 @@ Focal,Radiance,dynamic,101,,35,yes,closed,
 Focal,Elegia,dynamic,105,,35,yes,open,
 Focal,Utopia (V1),dynamic,104,,80,yes,open,
 NAN,NAN-7,planar,,100,14,yes,open,
-NAN,NAN-6,planar,,94.4,41,yes,open,calculated dB/Vrms form obtained data from ASR
+NAN,NAN-6,planar,,94.4,41,yes,open,calculated dB/Vrms from ASR test data
 XK Audio,X1266,planar,88,,30,yes,open,
 Abyss,1266 Phi TC,planar,88,,50,yes,open,
 Abyss,Diana DZ,planar,92,,50,yes,open,
@@ -151,6 +151,9 @@ Audio-Technica,ad1000x,dynamic,102,,40,yes,open,
 Audio-Technica,ad900x,dynamic,103,,38,no,open,
 Audio-Technica,ad700x,dynamic,100,,38,no,open,
 Audio-Technica,ad500x,dynamic,100,,48,no,open,
+Dan Clark Audio,E3,planar,90,,27,yes,semi-closed,
+Dan Clark Audio,Expanse,planar,,97.5,23,yes,open,calculated dB/Vrms from ASR test data; impedance rises in low frequencies
+Dan Clark Audio,Stealth,planar,,99.2,23,yes,closed,calculated dB/Vrms from ASR test data
 Feaulle,Feature,dynamic,105,,32,yes,closed,should be dB/mW?
 Feaulle,Century,dynamic,110,,32,yes,open,should be dB/mW?
 Aune,ar5000,dynamic,,108,28,yes,open,

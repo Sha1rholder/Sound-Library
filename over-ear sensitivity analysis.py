@@ -4,7 +4,12 @@ import matplotlib.pyplot as plt
 
 
 def plot_power_needed(
-    data, title="Power Requirement of Headphones to ", target_db=100, max_num=0
+    data,
+    title="Power Requirement of Headphones to ",
+    target_db=94,
+    beginner=0,
+    stopper=0,
+    order=True,
 ):
 
     power_data = []
@@ -14,10 +19,14 @@ def plot_power_needed(
             power = 10 ** ((target_db - row["mw"]) / 10)
             power_data.append((f'{row["brand"]} {row["model"]}', power))
 
-    power_data.sort(key=lambda x: x[1])
+    power_data.sort(key=lambda x: x[1], reverse=not order)
 
-    if max_num:
-        power_data = power_data[-max_num:]
+    print(power_data)
+
+    if stopper:
+        power_data = power_data[-stopper:-beginner]
+    else:
+        power_data = power_data[:-beginner]
 
     headphones, power = zip(*power_data)
 
@@ -29,7 +38,12 @@ def plot_power_needed(
 
 
 def plot_voltage_needed(
-    data, title="Voltage Requirement of Headphones to ", target_db=100, max_num=0
+    data,
+    title="Voltage Requirement of Headphones to ",
+    target_db=94,
+    beginner=0,
+    stopper=0,
+    order=True,
 ):
 
     voltage_data = []
@@ -39,10 +53,12 @@ def plot_voltage_needed(
             voltage = 10 ** ((target_db - row["v"]) / 20)
             voltage_data.append((f'{row["brand"]} {row["model"]}', voltage))
 
-    voltage_data.sort(key=lambda x: x[1])
+    voltage_data.sort(key=lambda x: x[1], reverse=not order)
 
-    if max_num:
-        voltage_data = voltage_data[-max_num:]
+    if stopper:
+        voltage_data = voltage_data[-stopper:-beginner]
+    else:
+        voltage_data = voltage_data[:-beginner]
 
     headphones, voltage = zip(*voltage_data)
 
@@ -107,22 +123,50 @@ with open("./resource/over-ear sensitivity.csv", "r", encoding="utf-8") as file:
             row_dict["relation"] = "know nothing about sensitivities and impedance"
         data.append(row_dict)
 
-open_back = [row for row in data if row["back"] == "open"]
-closed_back = [row for row in data if row["back"] == "closed"]
+plot_power_needed(
+    data,
+    title="Power Requirement of Headphones to ",
+    beginner=1,
+    stopper=31,
+    order=True,
+)
 
+plot_power_needed(
+    [row for row in data if row["back"] == "open"],
+    title="Power Requirement of Open-back Headphones to ",
+    beginner=1,
+    stopper=31,
+    order=True,
+)
 
-# plot_power_needed(
-#     open_back, title="Power Requirement of Open-back Headphones to ", max_num=30
-# )
-
-# plot_power_needed(
-#     closed_back, title="Power Requirement of Closed-back Headphones to ", max_num=30
-# )
-
-# plot_voltage_needed(
-#     open_back, title="Voltage Requirement of Open-back Headphones to ", max_num=30
-# )
+plot_power_needed(
+    [row for row in data if row["back"] != "open"],
+    title="Power Requirement of Closed-back Headphones to ",
+    beginner=0,
+    stopper=31,
+    order=True,
+)
 
 plot_voltage_needed(
-    closed_back, title="Voltage Requirement of Closed-back Headphones to ", max_num=30
+    data,
+    title="Voltage Requirement of Headphones to ",
+    beginner=1,
+    stopper=31,
+    order=True,
+)
+
+plot_voltage_needed(
+    [row for row in data if row["back"] == "open"],
+    title="Voltage Requirement of Open-back Headphones to ",
+    beginner=1,
+    stopper=31,
+    order=True,
+)
+
+plot_voltage_needed(
+    [row for row in data if row["back"] != "open"],
+    title="Voltage Requirement of Closed-back Headphones to ",
+    beginner=0,
+    stopper=31,
+    order=True,
 )
