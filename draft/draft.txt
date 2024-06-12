@@ -1,16 +1,3 @@
-环境噪音较大时，不存在 hifi
-
-耳机最重要的永远是舒适度和健康性，然后才是声音！
-
-一致性较差的耳机可能不适合参考别人的 EQ 文件，因为个体差异可能较大
-
-找不到 Audio Enhancements 是声卡驱动问题，目前没有通解
-
-为什么廉价蓝牙耳机太差，因为一个耳机要包含太多部件
-
-平衡电路与非平衡电路
-
-ASIO和wasapi：https://www.foobar2000.org/components/view/foo_out_asio "Please note that this component is meant for systems where ASIO is the only available output method. It is highly recommended to use the default output modes instead of ASIO. Contrary to popular "audiophile" claims, there are NO benefits from using ASIO as far as music playback quality is concerned, while bugs in ASIO drivers may severely degrade the performance."
 
 https://www.mojo-audio.com/blog/dsd-vs-pcm-myth-vs-truth/ 科普DSD与PCM
 
