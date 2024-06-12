@@ -1,1 +1,1 @@
-print(not None)
+print(10**2 * 2)

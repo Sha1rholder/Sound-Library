@@ -15,8 +15,12 @@ Beyer,dt990 pro 250,dynamic,96,,250,no,open,producing,sensitivity at 500 hz
 Beyer,dt900 prox,dynamic,100,114,48,no,open,producing,sensitivity at 500 hz
 Beyer,dt1770 pro,dynamic,102,,250,no,closed,producing,sensitivity at 500 hz
 Beyer,dt1990 pro,dynamic,102,,250,no,open,producing,sensitivity at 500 hz
-Beyer,T1 3rd,dynamic,100,,32,no,open,producing,sensitivity at 500 hz
-Beyer,T5 3rd,dynamic,100,,32,no,closed,producing,sensitivity at 500 hz
+Beyer,T1 1st,dynamic,,,,yes,open,discontinued,
+Beyer,T1 2nd,dynamic,,,,yes,open,discontinued,
+Beyer,T1 3rd,dynamic,100,,32,yes,open,producing,sensitivity at 500 hz
+Beyer,T5 1st,dynamic,,,,yes,closed,discontinued,
+Beyer,T5 2nd,dynamic,,,,yes,closed,discontinued,
+Beyer,T5 3rd,dynamic,100,,32,yes,closed,producing,sensitivity at 500 hz
 Beyer,Amiron Home,dynamic,102,,250,yes,open,producing,sensitivity at 500 hz
 Beyer,dt150,dynamic,97,,250,no,closed,unsertain,sensitivity not sure at what frequency
 Sennheiser,hd490 pro,dynamic,96,105,130,yes,open,producing,
@@ -28,7 +32,7 @@ Sennheiser,hd660s2,dynamic,,104,300,yes,open,producing,
 Sennheiser,hd620s,dynamic,,110,150,yes,closed,producing,
 Sennheiser,hd800s,dynamic,,102,300,yes,open,producing,
 Sennheiser,hd820,dynamic,,103,300,yes,closed,producing,
-AKG,k240 Studio,dynamic,,104,55,no,open,producing,
+AKG,k240,dynamic,,104,55,no,open,producing,
 AKG,k701,dynamic,,105,62,no,open,producing,
 AKG,k702,dynamic,,105,62,no,open,producing,
 AKG,k712,dynamic,,105,62,no,open,producing,
@@ -100,6 +104,7 @@ Audeze,LCD-2 Classic,planar,101,,70,yes,open,producing,
 Audeze,LCD-2 Closed,planar,101,,70,yes,closed,producing,
 Audeze,LCD-4,planar,97,,200,yes,open,discontinued,
 Audeze,LCD-1,planar,99,,16,yes,open,discontinued,
+Audeze,Sine,planar,,,,no,closed,discontinued,
 Meze,Elite,planar,101,,32,yes,open,producing,
 Meze,Empyrean II,planar,,105,32,yes,open,producing,
 Meze,109 pro,dynamic,112,,40,yes,open,producing,
@@ -117,6 +122,8 @@ Focal,Listen Pro,dynamic,,122,32,no,closed,producing,
 Focal,Radiance,dynamic,101,,35,yes,closed,producing,
 Focal,Elegia,dynamic,105,,35,yes,open,producing,
 Focal,Utopia (V1),dynamic,104,,80,yes,open,discontinued,
+Focal,Clear,dynamic,,,,yes,open,discontinued,
+Focal,Clear Pro,dynamic,,,,yes,open,discontinued,
 NAN,NAN-7,planar,,100,14,yes,open,producing,
 NAN,NAN-6,planar,,,,yes,open,discontinued,
 XK Audio,X1266,planar,,,30,yes,open,producing,88 db not sure it's mW or Vrms sensitivity
@@ -251,3 +258,11 @@ Gold Planar,gl1000,planar,100,,50,yes,open,producing,
 Gold Planar,gl600,planar,100,,22,yes,open,producing,
 Hedd,Heddphone 1,AMT,87,,42,yes,open,inventory,
 Hedd,Heddphone 2,AMT,89,,41,yes,open,producing,
+汤老师,不朽 16 (both version),planar,98,,600,yes,open,producing,
+汤老师,不朽 80 (both version),planar,,,2500,yes,open,producing,
+Erzetich,Thalia,dynamic,,,32,yes,open,producing,
+Erzetich,Mania,dynamic,,,80,yes,open,producing,
+Erzetich,Phobos v2018,planar,,,45,yes,open,producing,
+Erzetich,Phobos v2021,planar,,,45,yes,open,producing,
+Erzetich,Charybdis,planar,,,43,yes,open,producing,
+Taksar,PRO82,dynamic,96,,32,no,closed,producing,
