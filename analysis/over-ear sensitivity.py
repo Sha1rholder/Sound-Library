@@ -1,3 +1,4 @@
+import sys
 import math
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -480,26 +481,10 @@ for index, data in asr.iterrows():
             found = True
             break
     if not found:
-        #     headphones.append(
-        #         Headphone(
-        #             data["brand"],
-        #             data["model"],
-        #             None,
-        #             None,
-        #             None,
-        #             None,
-        #             None,
-        #             None,
-        #             None,
-        #             None,
-        #             data["94db voltage"],
-        #             data["impedance"],
-        #             data["note"],
-        #         )
-        #     )
-        input(
+        print(
             f"Error! ASR has {data['brand']} {data['model']} but official data doesn't"
         )
+        sys.exit(1)
     # 这种情况不该出现的，ASR有的且我感兴趣的型号必须有official数据
 
 # plot_voltage_needed(
@@ -536,16 +521,16 @@ for index, data in asr.iterrows():
 #     order=False,
 # )
 
-plot_voltage_needed(
-    headphones=[
-        headphone
-        for headphone in headphones
-        if headphone.back != "open"
-        and headphone.production in ["producing", "inventory"]
-        and headphone.driver == "dynamic"
-    ],
-    title="Voltage Requirements of the Hardest-to-Drive Producing or Just Discontinued Dynamic Headphones to Reach 94 dB",
-)
+# plot_voltage_needed(
+#     headphones=[
+#         headphone
+#         for headphone in headphones
+#         if headphone.back != "open"
+#         and headphone.production in ["producing", "inventory"]
+#         and headphone.driver == "dynamic"
+#     ],
+#     title="Voltage Requirements of the Hardest-to-Drive Producing or Just Discontinued Dynamic Closed-Back Headphones to Reach 94 dB",
+# )
 
 # plot_power_needed(
 #     headphones=[
@@ -571,7 +556,7 @@ reference_headphones_official = dict(
     Fiio=["jt1"],
     AKG=["k812"],
     Audeze=["LCD-5"],
-    Sony=["MDR-Z1R"],
+    Sony=["MDR-Z1R", "MDR-7506"],
     Beyer=["dt880 250", "dt900 prox", "T1 3rd"],
     Philips=["shp9500"],
     Focal=["Utopia 2022"],
