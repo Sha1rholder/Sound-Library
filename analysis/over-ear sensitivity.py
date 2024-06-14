@@ -502,19 +502,39 @@ for index, data in asr.iterrows():
         )
     # 这种情况不该出现的，ASR有的且我感兴趣的型号必须有official数据
 
-plot_voltage_needed(
-    headphones=headphones,
-    title="Voltage Requirements of the Hardest-to-Drive Headphones to Reach 94 dB",
-)
+# plot_voltage_needed(
+#     headphones=headphones,
+#     title="Voltage Requirements of the Hardest-to-Drive Headphones to Reach 94 dB",
+# )
 
-plot_voltage_needed(
-    headphones=[
-        headphone
-        for headphone in headphones
-        if headphone.production in ["producing", "inventory"]
-    ],
-    title="Voltage Requirements of the Hardest-to-Drive Producing or Just Discontinued Headphones to Reach 94 dB",
-)
+# plot_voltage_needed(
+#     headphones=[
+#         headphone
+#         for headphone in headphones
+#         if headphone.production in ["producing", "inventory"]
+#     ],
+#     title="Voltage Requirements of the Hardest-to-Drive Producing or Just Discontinued Headphones to Reach 94 dB",
+# )
+
+# plot_voltage_needed(
+#     headphones=[
+#         headphone
+#         for headphone in headphones
+#         if headphone.back != "open"
+#         and headphone.production in ["producing", "inventory"]
+#     ],
+#     title="Voltage Requirements of the Hardest-to-Drive Producing or Just Discontinued Closed-Back Headphones to Reach 94 dB",
+# )
+
+# plot_voltage_needed(
+#     headphones=[
+#         headphone
+#         for headphone in headphones
+#         if headphone.production in ["producing", "inventory"]
+#     ],
+#     title="Voltage Requirements of the Easiest-to-Drive Producing or Just Discontinued Headphones to Reach 94 dB",
+#     order=False,
+# )
 
 plot_voltage_needed(
     headphones=[
@@ -522,49 +542,29 @@ plot_voltage_needed(
         for headphone in headphones
         if headphone.back != "open"
         and headphone.production in ["producing", "inventory"]
+        and headphone.driver == "dynamic"
     ],
-    title="Voltage Requirements of the Hardest-to-Drive Producing or Just Discontinued Closed-Back Headphones to Reach 94 dB",
+    title="Voltage Requirements of the Hardest-to-Drive Producing or Just Discontinued Dynamic Headphones to Reach 94 dB",
 )
 
-plot_voltage_needed(
-    headphones=[
-        headphone
-        for headphone in headphones
-        if headphone.production in ["producing", "inventory"]
-    ],
-    title="Voltage Requirements of the Easiest-to-Drive Producing or Just Discontinued Headphones to Reach 94 dB",
-    order=False,
-)
+# plot_power_needed(
+#     headphones=[
+#         headphone
+#         for headphone in headphones
+#         if headphone.production in ["producing", "inventory"]
+#     ],
+#     title="Power Requirements of the Hardest-to-Drive Producing or Just Discontinued Headphones to Reach 94 dB",
+# )
 
-plot_voltage_needed(
-    headphones=[
-        headphone
-        for headphone in headphones
-        if headphone.back != "open"
-        and headphone.production in ["producing", "inventory"]
-    ],
-    title="Voltage Requirements of the Easiest-to-Drive Producing or Just Discontinued Closed-Back Headphones to Reach 94 dB",
-    order=False,
-)
-
-plot_power_needed(
-    headphones=[
-        headphone
-        for headphone in headphones
-        if headphone.production in ["producing", "inventory"]
-    ],
-    title="Power Requirements of the Hardest-to-Drive Producing or Just Discontinued Headphones to Reach 94 dB",
-)
-
-plot_power_needed(
-    headphones=[
-        headphone
-        for headphone in headphones
-        if headphone.back != "open"
-        and headphone.production in ["producing", "inventory"]
-    ],
-    title="Power Requirements of the Hardest-to-Drive Producing or Just Discontinued Closed-Back Headphones to Reach 94 dB",
-)
+# plot_power_needed(
+#     headphones=[
+#         headphone
+#         for headphone in headphones
+#         if headphone.back != "open"
+#         and headphone.production in ["producing", "inventory"]
+#     ],
+#     title="Power Requirements of the Hardest-to-Drive Producing or Just Discontinued Closed-Back Headphones to Reach 94 dB",
+# )
 
 reference_headphones_official = dict(
     Sennheiser=["hd800s", "hd600"],
@@ -572,16 +572,22 @@ reference_headphones_official = dict(
     AKG=["k812"],
     Audeze=["LCD-5"],
     Sony=["MDR-Z1R"],
-    ATH=["ad500x"],
     Beyer=["dt880 250", "dt900 prox", "T1 3rd"],
     Philips=["shp9500"],
     Focal=["Utopia 2022"],
 )
 reference_headphones_asr = dict(
-    Hifiman=["Susvara", "he400se Stealth"], AKG=["k701"], Aune=["AR5000"]
+    Hifiman=["Susvara", "he400se Stealth"],
+    AKG=["k701"],
+    Beyer=["dt880 600"],
+    Aune=["AR5000"],
+    Focal=["Utopia 2016"],
 )
 target_headphones = dict(
-    Fiio=["jt1", "ft5"], Hifiman=["Susvara Unveiled"], Moondrop=["Joker", "Para"]
+    Fiio=["jt1", "ft5"],
+    Hifiman=["Sundara"],
+    Moondrop=["Joker", "Para", "Cosmo"],
+    NAN=["NAN-7"],
 )
 
 compare_voltage(

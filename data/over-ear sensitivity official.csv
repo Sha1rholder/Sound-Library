@@ -39,7 +39,7 @@ AKG,k712,dynamic,,105,62,no,open,producing,
 AKG,k812,dynamic,,110,36,no,open,producing,
 AKG,k872,dynamic,,112,36,no,closed,producing,
 AKG,k1000,dynamic,74,,120,yes,open,discontinued,head-speaker; data not secured
-Fiio,jt1,dynamic,,103,32,yes,closed,producing,
+Fiio,jt1,dynamic,103,117,32,yes,closed,producing,
 Fiio,ft1,dynamic,,,,no,closed,producing,
 Fiio,ft3 350,dynamic,,105,350,yes,open,producing,
 Fiio,ft3 32,dynamic,,110,32,yes,open,producing,
@@ -121,16 +121,16 @@ Focal,Clear Mg Pro,dynamic,104,,55,yes,open,producing,
 Focal,Listen Pro,dynamic,,122,32,no,closed,producing,
 Focal,Radiance,dynamic,101,,35,yes,closed,producing,
 Focal,Elegia,dynamic,105,,35,yes,open,producing,
-Focal,Utopia (V1),dynamic,104,,80,yes,open,discontinued,
+Focal,Utopia 2016,dynamic,104,,80,yes,open,discontinued,
 Focal,Clear,dynamic,,,,yes,open,discontinued,
 Focal,Clear Pro,dynamic,,,,yes,open,discontinued,
 NAN,NAN-7,planar,,100,14,yes,open,producing,
 NAN,NAN-6,planar,,,,yes,open,discontinued,
-XK Audio,X1266,planar,,,30,yes,open,producing,88 db not sure it's mW or Vrms sensitivity
-XK Audio,Avalon MKII,dynamic,,,280,yes,open,producing,97 db not sure it's mW or Vrms sensitivity
-XK Audio,Sinae Open,dynamic,,,300,yes,open,producing,98 db not sure it's mW or Vrms sensitivity
-XK Audio,Sinae Closed,dynamic,,,300,yes,closed,producing,98 db not sure it's mW or Vrms sensitivity
-XK Audio,Ken,dynamic,,,32,yes,open,producing,110 db not sure it's mW or Vrms sensitivity
+XK Audio,X1266,planar,88,,30,yes,open,producing,
+XK Audio,Avalon MKII,dynamic,97,,280,yes,open,producing,
+XK Audio,Sinae Open,dynamic,98,,300,yes,open,producing,
+XK Audio,Sinae Closed,dynamic,98,,300,yes,closed,producing,
+XK Audio,Ken,dynamic,110,,32,yes,open,producing,
 Abyss,1266 Phi TC,planar,88,,50,yes,open,producing,
 Abyss,Diana DZ,planar,92,,50,yes,open,producing,
 Abyss,Diana MR,planar,93,,30,yes,open,producing,
@@ -179,8 +179,8 @@ DCA,AEON 2,planar,,,,yes,open,producing,
 DCA,AEON 2 Noire,planar,,,,yes,closed,producing
 DCA,AEON RT open,planar,,,,yes,open,producing,
 DCA,AEON RT closed,planar,,,,yes,closed,producing,
-Feaulle,Feature,dynamic,,,32,yes,closed,producing,105 db not sure it's mW or Vrms sensitivity
-Feaulle,Century,dynamic,,,32,yes,open,producing,110 db not sure it's mW or Vrms sensitivity
+Feaulle,Feature,dynamic,,105,32,yes,closed,producing,
+Feaulle,Century,dynamic,,110,32,yes,open,producing,
 Aune,AR5000,dynamic,,108,28,yes,open,producing,
 Aune,SR7000,dynamic,,,,yes,closed,upcoming,
 Denon,AH-D5200,dynamic,103,,24,yes,closed,producing,
