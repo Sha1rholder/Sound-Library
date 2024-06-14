@@ -8,7 +8,7 @@ Verum,Verum 1,54,6.6,
 Nad,HP50,55,,
 PSB,M4U1,59,,
 Sennheiser,hd569,62,,
-AKG,k371,65,,
+AKG,k371,65,36,
 Aune,AR5000,65,27,24 Ω in 60 hz
 Verisonix,Pro DJ,66,,
 Drop,THX PANDA,68,,
@@ -21,8 +21,8 @@ ATH,m50x,86,39,
 ATH,msr7,86,,
 Aurorus,Borealis,87,,
 Zero Audio,ZH-DX200-CT,88,,
-Focal,Celestee,89,,
-Hifiman,Ananda V1,93,33,查阻抗查到这里
+Focal,Celestee,89,31,impedance rises to 55 Ω in 60 ~ 90 hz and drops to 40 Ω in 20 hz
+Hifiman,Ananda V1,93,33,
 Yamaha,RH-5MA,96,,
 Focal,Stellia,96,33,impedance rises to 55 Ω in 70 ~ 90 hz
 Sennheiser,hd598se,97,,
@@ -35,10 +35,10 @@ Taksar,PRO82,108,30,impedance rises to 42 Ω in 60 hz
 Sony,MDR-V7,111,,
 Tascam,TH-07,113,,
 AKG,N700NC M2,116,,
-Grado,60x,123,,
+Grado,SR60x,123,40,impendance rises to 102 Ω in 100 hz and drops to 40 Ω in 20 hz
 Sivga,Robin SV021,128,36,
 Superlux,hd688B,129,,
-Audeze,LCD-24,130,,
+Audeze,LCD-24,130,14,
 Audeze,LCD-XC,131,20,
 ZMF,Bokeh,131,86,
 Bose,qc35 II (ON),135,,
@@ -57,10 +57,10 @@ Audeze,LCD-X,152,20,
 Skullcandy,Grind,152,,
 Neumann,NDH 20,159,,
 Gold Planar,gl2000 dual-magenetic,159,63,
-AKG,k271 Chinese,160,,
+AKG,k271 MKII,160,60,impendance rises to 150 Ω in 160 hz and drops to 60 Ω in 20 hz and rises to 100 Ω in 20000 hz (it's k271 not k271 mkii Chinese)
 Focal,Clear Pro,160,60,impedance rises to 537 Ω in 37 hz but drops to 160 Ω in 20 hz
 Koss,PRO4AA,162,,
-AKG,K271,164,,
+AKG,k271,164,60,impendance rises to 90 Ω in 120 hz and drops to 60 Ω in 20 hz and rises to 100 Ω in 20000 hz
 DCA,Ether Flow 1.1 Open,164,,
 Sennheiser,hd490 pro,164,134,impendance rises to 200 Ω in 60 ~ 100 hz
 Drop,hd58x Jubilee,166,,
@@ -79,15 +79,15 @@ AKG,k240,230,57,impedance rises to 170 Ω in 107 hz and drops to 50 Ω in 20 hz 
 Audeze,LCD-1,230,15,
 ZMF,Atticus,239,350,
 Monoprice,M1570c,240,,
-Sennheiser,hd560s,246,,
+Sennheiser,hd560s,246,133,impendance rises to 224 Ω in 80 hz
 Sennheiser,hd820,256,390,impedance rises to 520 Ω in 50 hz and drops to 350 Ω in 3000 hz
 Sennheiser,hd650,288,320,imdepance rises to 480 Ω in 100 hz and drops to 305 Ω in 20 hz and rises to 370 Ω in 20000 hz
 AKG,k701,295,59,impedance rises to 90 Ω in 20000 hz; tested both China and Austrian version
 Hifiman,he400i,298,46,
-ATH,adx5000,316,,怎么没测阻抗？
+ATH,adx5000,316,,amirm didn't test the impedance
 Hifiman,Sundara,318,40,
 ATH,r70x,318,474,imdepance rises to over 1000 Ω in 100 hz
-Sennheiser,hd600,327,,
+Sennheiser,hd600,327,,amirm didn't test the impedance
 Hifiman,he400se Stealth,328,25,
 DCA,AEON 2 Noire,353,13,
 NAN,NAN-7,360,15,
@@ -101,7 +101,7 @@ Abyss,Diana Phi,611,50,Actual model is unsertain
 Abyss,Diana V2,631,46,
 DCA,Expanse,665,23,impedance rise in lower frequencies; reaches 36 Ω in 230 hz but 28 Ω in 20 hz
 DCA,AEON RT closed,677,13,
-Beyer,dt990 250,704,,
+Beyer,dt990 pro,704,252,impedance rises to 352 Ω in 90 hz and drops to 253 Ω in 20 hz and rises to 282 Ω in 20000 hz
 Beyer,dt880 600,948,616,impedance varies A LOT in different frequencies; reaches 722 Ω in 90 hz and 643 Ω in 20000 hz and 614 Ω in 2000 hz
 NAN,NAN-6,956,41,
 Abyss,1266 Phi TC,1030,49,

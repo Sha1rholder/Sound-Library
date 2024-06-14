@@ -485,7 +485,6 @@ for index, data in asr.iterrows():
             f"Error! ASR has {data['brand']} {data['model']} but official data doesn't"
         )
         sys.exit(1)
-    # 这种情况不该出现的，ASR有的且我感兴趣的型号必须有official数据
 
 # plot_voltage_needed(
 #     headphones=headphones,
