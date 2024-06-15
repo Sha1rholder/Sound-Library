@@ -4,6 +4,8 @@ English / [中文](./README%20zh-CN.md)
 
 **Sound Library** is an acoustics knowledge base, dedicated to helping audiophiles and those interested in high-quality audio understand the knowledge of sound playback.
 
+If you don't know how to get started or just want to have a glance, you can check this typical article [_Sensitivity and Impedance of Headphones_](./en-US/Knowledge/Sensitivity%20and%20Impedance%20of%20Headphones.md).
+
 # Localized Contents
 
 Folders named "en-US", "zh-CN", etc., contain localized content. Users from different regions can find content suitable for themselves in these folders. Currently, there is mainly localized content for mainland China, which includes over-ear headphone reviews, some essays, shopping guides, and knowledge bases. If you are interested in providing localized content or translations for other regions and languages, you are welcome to submit a PR.
@@ -48,18 +50,11 @@ Used to analyze and compare the voltage and power requirements of headphones, it
 
 For specific usage, please refer to the comments and the usage examples in the script.
 
-# Editor Tools
+# To-Do List
 
-Some small tools and drafts used by the editor for data and document processing, readers can ignore these files.
-
-# Resource
-
-Some primarily image-based resources, generally used for citation in various articles, readers can ignore these files.
-
-# Future Plan
-
-- Translate Chinese articles in knowledge to English
+- Translate articles in [zh-CN/knowledge](./zh-CN/Knowledge/) to English
+- [zh-CN/Knowledge/分析耳机的推力需求.md](./zh-CN/Knowledge/分析耳机的推力需求.md)
 - Fill comments in [data/over-ear assessments cn.csv](./data/over-ear%20assessments%20cn.csv)
 - ...
 
-You are welcomed to contribute to this project. If you have any questions or suggestions, please feel free to open an issue. Thank you for your support!
+You are welcomed to contribute to this project. If you have any questions or suggestions, no matter how insignificant, please feel free to [Open an Issue](https://github.com/Sha1rholder/Sound-Library/issues/new) or email me. Thank you for your support!

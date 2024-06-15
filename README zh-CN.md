@@ -46,18 +46,11 @@ Audio Science Review（ASR）头戴式耳机灵敏度表。ASR 是比较权威�
 
 具体使用方法请参考该脚本内的注释和使用实例
 
-# Editor Tools 编辑工具
+# 任务清单
 
-编者用于数据和文档处理的一些小工具和草稿等，读者可以忽略这些文件
-
-# Resource 资源
-
-一些主要为图片的资源，一般用于在各文章引用，读者可以忽略这些文件
-
-# 未来计划
-
-- Knowledge/分析耳机的推力需求.md
+- 翻译 [zh-CN/knowledge](./zh-CN/Knowledge/) 中的文章
+- [zh-CN/Knowledge/分析耳机的推力需求.md](./zh-CN/Knowledge/分析耳机的推力需求.md)
 - 写一句话产品评论 [data/over-ear assessments cn.csv](./data/over-ear%20assessments%20cn.csv)
 - …
 
-欢迎任何贡献。如果您有任何问题或建议，可以开 Issue 或直接邮件联系我。感谢您的支持!
+欢迎任何贡献。如果您有任何问题或建议，无论多微不足道，都可以 [创建 Issue](https://github.com/Sha1rholder/Sound-Library/issues/new/choose) 或直接邮件联系我。感谢您的支持!
