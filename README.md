@@ -1,4 +1,4 @@
-English / [中文](./README zh-CN.md)
+English / [中文](./README%20zh-CN.md)
 
 # What is Sound Library?
 
