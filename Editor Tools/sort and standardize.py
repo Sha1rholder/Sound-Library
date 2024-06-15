@@ -1,7 +1,7 @@
 import pandas as pd
 
 paths = [
-    "./data/over-ear assessments cn.csv",
+    "./data/over-ear score cn.csv",
     "./data/over-ear sensitivity official.csv",
 ]
 
