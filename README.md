@@ -24,15 +24,25 @@ Because 1. The reproducibility of various indicators of electro-acoustic convers
 
 Audio Science Review (ASR) over-ear headphone sensitivity table. ASR is one of the more authoritative third-party audio equipment testing websites, and its test data is relatively rigorous. This table contains some data on the voltage (mVrms) needed to drive some ASR-tested over-ear headphones to 94dBSPL and the impedance data at 1000 hz. If the impedance of the headphones varies greatly with frequency, the change trend of the impedance curve will be briefly summarized in the remarks.
 
-## over-ear assessments cn.csv
+## over-ear score cn.csv
 
-Over-ear headphone rating table (mainland China). This is the subjective rating, remarks, and rating date of the headphones by the contributors of this library. Each headphone can get 1 to 5 points. 0 points for not yet reviewed; 1 point for garbage, not recommended for purchase under any circumstances; 2 points for products with low cost performance, generally not recommended for purchase; 3 points for average products, can consider buying; 4 points for products with high cost performance, recommended for purchase; 5 points for almost perfect choices at this price point, strongly recommended.
+Over-ear score table (Based on Mainland China), which includes overall score, sound quality score, build quality score, comfort score, note, and date of review from the main contributor to this repository. Each scored between 1 to 5.
 
-The score mainly considers its price, sound quality, wearing comfort, workmanship, quality control, appearance, and after-sales at the time of scoring. Since the price of a pair of headphones may change, and the production line may also be updated, the scoring date is also an important reference factor. Generally speaking, the closer the scoring date, the more reference value the score has. Also, products with the same score do not mean that their product power is close. For example, Philips shp9500 and Sennheiser hd800s both get 3 points does not mean that their overall quality is similar. This score is a comprehensive consideration of its price and performance.
+**Score** Comprehensive rating, considers factors including price, sound quality, build quality, comfort, appearance, QC, and CS at the time of rating. 1 point for pure garbage and is not recommended for purchase under any circumstances; 2 points for a product with a lower cost-performance ratio, generally not recommended for purchase; 3 points for an average product; 4 points for a product with a higher cost-performance ratio, recommended for purchase; 5 points for an almost perfect choice at this price point, strongly recommended.
 
-You may notice that some classic products like hd600 score low at 2 points. This is because this rating only focuses on the practicality and cost performance of these headphones, and does not consider their historical status. Many classic headphone products are objectively behind newer products in terms of workmanship, sound quality, and power requirements, and their competitiveness at the same price point is really not high.
+**Sound** Sound quality rating, depending on the price and driving difficulty at the time of rating. Among products with similar prices, 1 point for extremely poor sound; 2 points for sound quality that is **significantly** inferior; 3 points for mediocre sound; 4 points for superior sound quality; 5 points for outstanding sound quality far surpassing competitors.
 
-Since the main contributors of this library are in mainland China, the scoring is based on the domestic price of the headphones and the warranty plan and reputation in the mainland China region. If you are in other parts of the world, the price of headphones and the warranty plan may be different, and the score will also be different.
+> You may notice that some classic products like the HD600 get a low score of 2. This is because this rating only focuses on the sound-quality-to-price ratio of these headphones, or the pleasure of listening and the cost itself, and does not consider their historical status. Let's be honest, many classic headphones have really fallen behind newer products in terms of sound quality.
+>
+> Also, headphones differ in driving difficulties and have different power requirements. Harder-to-drive headphones usually need to be paired with a more expensive amp, which has a negative impact on the sound-to-price ratio.
+
+**Build** Build quality rating, depending on the price at the time of rating. Among products with similar prices, 1 point for extremely poor build quality; 2 points for lower-than-average build quality; 3 points for mediocre; 4 points for superior build quality; 5 points for outstanding build quality far surpassing competitors.
+
+**Comfort** Comfort rating, no relation with price. 1 point for torturous wear; 2 points for discomfort for many people; 3 points mean that most people can wear it for a long time; 4 points mean that most people will find it comfortable; 5 points for lightweight and extremely comfortable. Headphones heavier than 400 g won't get 5 points.
+
+Since the price of a pair of headphones may change, and the production line may be updated, the rating date is also an important reference factor. Generally speaking, the closer the rating date, the more reference value the rating has. Products with the same score do not mean that they are close in product power, such as Audeze LCD-5 and Beyerdynamic dt880 both getting 3 points does not mean that their quality is similar.
+
+Since the main contributors to this repository are in mainland China, the scores will be based on the price, warranty, and reputation of the headphones in mainland China. If you are in other regions, the above factors may be different, and the scores will also be different.
 
 # Analysis Tools & Results
 
