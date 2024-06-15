@@ -5,13 +5,13 @@ import pandas as pd
 
 
 def plot_voltage_needed(
-    headphones,
+    headphones,  # select headphones interested
     title="Voltage Requirement of the Headphones to reach 94 dB",
-    target_db=94,
-    beginner=0,
-    max_shown=30,
-    order=True,
-    scale="log",
+    target_db=94,  # How loud you want to drive the headphones
+    beginner=0,  # How many headphones you want to skip from the start
+    max_shown=30,  # The maximum number of headphones to show
+    order=True,  # Whether to show the headphones with the highest voltage requirement or the lowest
+    scale="log",  # The scale of the x-axis
 ):
     voltage_data = []
     for headphone in headphones:
@@ -127,8 +127,8 @@ def plot_power_needed(
     plt.show()
 
 
-def compare_voltage(
-    target,
+def compare_voltage_needed(
+    target_headphones,
     reference_headphones_official,
     reference_headphones_asr,
     headphones,
@@ -168,8 +168,8 @@ def compare_voltage(
                                 False,
                             )
                         )
-    for brand in target:
-        for model in target[brand]:
+    for brand in target_headphones:
+        for model in target_headphones[brand]:
             for headphone in headphones:
                 if headphone.brand == brand and headphone.model == model:
                     voltage_needed = headphone.voltage_needed_official(
@@ -215,8 +215,8 @@ def compare_voltage(
     plt.show()
 
 
-def compare_power(
-    target,
+def compare_power_needed(
+    target_headphones,
     reference_headphones_official,
     reference_headphones_asr,
     headphones,
@@ -269,8 +269,8 @@ def compare_power(
                                     False,
                                 )
                             )
-    for brand in target:
-        for model in target[brand]:
+    for brand in target_headphones:
+        for model in target_headphones[brand]:
             for headphone in headphones:
                 if headphone.brand == brand and headphone.model == model:
                     power_needed = headphone.power_needed_official(target_db=target_db)
@@ -574,14 +574,14 @@ target_headphones = dict(
     NAN=["NAN-7"],
 )
 
-compare_voltage(
+compare_voltage_needed(
     target_headphones,
     reference_headphones_official,
     reference_headphones_asr,
     headphones,
 )
 
-compare_power(
+compare_power_needed(
     target_headphones,
     reference_headphones_official,
     reference_headphones_asr,
