@@ -1,84 +1,84 @@
-brand,model,94db voltage,impedance,note
-Grado,W/Elleven Acoustica R1,17,,
-V-Moda,M200,31,,
-Panasonic,RP-TCM125,35,,
+brand,model,94db voltage,impedance,note,ignore
+custom,W/Elleven Acoustica R1,17,,,yes
+V-Moda,M200,31,33,
+Panasonic,RP-TCM125,35,,IEM,yes
 Sivga,Pheonix,43,35,42 Ω in 60 hz
 Drop,Meze 99 Noir,47,,
 Verum,Verum 1,54,6.6,
-Nad,HP50,55,,
-PSB,M4U1,59,,
-Sennheiser,hd569,62,,
+Nad,HP50,55,,,yes
+PSB,M4U1,59,,,yes
+Sennheiser,hd569,62,30,
 AKG,k371,65,36,
 Aune,AR5000,65,27,24 Ω in 60 hz
-Verisonix,Pro DJ,66,,
-Drop,THX PANDA,68,,
-BOWERS,&WILKINS P5,69,,
-STATUS,FLAGSHIP ANC(ON),72,,
-Sony,WH-1000XM4,74,,
-STATUS AUDIO,CB1,81,,
+Verisonix,Pro DJ,66,,,yes
+Drop,THX PANDA,68,,,yes
+BOWERS,&WILKINS P5,69,,,yes
+STATUS,FLAGSHIP ANC(ON),72,,,yes
+Sony,WH-1000XM4,74,,,yes
+STATUS AUDIO,CB1,81,,,yes
 Focal,Elegia,82,30,52 Ω in 100 hz
 ATH,m50x,86,39,
 ATH,msr7,86,,
-Aurorus,Borealis,87,,
-Zero Audio,ZH-DX200-CT,88,,
+Aurorus,Borealis,87,,,yes
+Zero Audio,ZH-DX200-CT,88,,,yes
 Focal,Celestee,89,31,impedance rises to 55 Ω in 60 ~ 90 hz and drops to 40 Ω in 20 hz
 Hifiman,Ananda V1,93,33,
-Yamaha,RH-5MA,96,,
+Yamaha,RH-5MA,96,,,yes
 Focal,Stellia,96,33,impedance rises to 55 Ω in 70 ~ 90 hz
-Sennheiser,hd598se,97,,
-EMU,Teak,97,,
+Sennheiser,hd598se,97,,,yes
+EMU,Teak,97,,,yes
 Meze,Elite,98,,
 Sony,MDR-7506,101,75,impedance rises to 96 Ω in 70 hz
-Koss,Prota pro,102,,
-Sony,MDR-ZX110,105,,
+Koss,Prota pro,102,,,yes
+Sony,MDR-ZX110,105,,,yes
 Taksar,PRO82,108,30,impedance rises to 42 Ω in 60 hz
-Sony,MDR-V7,111,,
-Tascam,TH-07,113,,
-AKG,N700NC M2,116,,
+Sony,MDR-V7,111,,,yes
+Tascam,TH-07,113,,,yes
+AKG,N700NC M2,116,,,yes
 Grado,SR60x,123,40,impendance rises to 102 Ω in 100 hz and drops to 40 Ω in 20 hz
 Sivga,Robin SV021,128,36,
-Superlux,hd688B,129,,
+Superlux,hd688B,129,,,yes
 Audeze,LCD-24,130,14,
 Audeze,LCD-XC,131,20,
 ZMF,Bokeh,131,86,
-Bose,qc35 II (ON),135,,
-OPPO,PM3,138,,
+Bose,qc35 II (ON),135,,,yes
+OPPO,PM3,138,,,yes
 Audeze,Sine,139,22,impedance rises to 39 Ω in 2470 hz
-Kennerton,Rognir,143,,
-Ether,CX Closed,145,,
+Kennerton,Rognir,143,38,
+Ether,CX Closed,145,,,yes
 Austrian,Hi-X60,145,28,
-Panasonic,RP-HT16,146,,
+Panasonic,RP-HT16,146,,,yes
 Philips,Fidelio X2HR,148,35,impedance rises to 44 Ω in 80 hz but drops to 34 Ω in 20 hz
-OLLO,S5X,148,,
+OLLO,S5X,148,,,yes
 Focal,Utopia 2016,149,82,impedance rises to 300 Ω in 60 hz but drops to 150 Ω in 20 hz
-Drop,Sennheiser PC38X,149,,
+Drop,Sennheiser PC38X,149,,,yes
 Hifiman,Ananda Nano,149,16,
 Audeze,LCD-X,152,20,
-Skullcandy,Grind,152,,
-Neumann,NDH 20,159,,
+Skullcandy,Grind,152,,,yes
+Neumann,NDH 20,159,,,yes
 Gold Planar,gl2000 dual-magenetic,159,63,
 AKG,k271 MKII,160,60,impendance rises to 150 Ω in 160 hz and drops to 60 Ω in 20 hz and rises to 100 Ω in 20000 hz (it's k271 not k271 mkii Chinese)
 Focal,Clear Pro,160,60,impedance rises to 537 Ω in 37 hz but drops to 160 Ω in 20 hz
-Koss,PRO4AA,162,,
+Koss,PRO4AA,162,,,yes
 AKG,k271,164,60,impendance rises to 90 Ω in 120 hz and drops to 60 Ω in 20 hz and rises to 100 Ω in 20000 hz
-DCA,Ether Flow 1.1 Open,164,,
+DCA,Ether Flow 1.1 Open,164,,,yes
 Sennheiser,hd490 pro,164,134,impendance rises to 200 Ω in 60 ~ 100 hz
-Drop,hd58x Jubilee,166,,
+Drop,hd58x Jubilee,166,,,yes
 Sennheiser,hd660s,176,170,impedance rises to 360 Ω in 100 hz but drops 180 Ω in 20 hz
-Drop,Elex,180,,
-Mark,Levinson 5909,180,,
-Drop,Ether CX,182,,
+Drop,Elex,180,,,yes
+Mark,Levinson 5909,180,,,yes
+Drop,Ether CX,182,,,yes
 Hifiman,Ananda Stealth V2,183,28,
 Meze,Liric,204,33,impepance rises to 85 Ω in 18000 hz but drops to 23 Ω in 20 hz and drops to 20 Ω in 20000 hz
 AKG,k712,207,62,impedance rises to 90 Ω in 20000 hz
 ZMF,Caldera,208,55,
-Drop,k7xx,210,,
-Beyer,Amiron,212,,
+Drop,k7xx,210,,,yes
+Beyer,Amiron,212,,,yes
 Hifiman,Arya Stealth,214,30,
 AKG,k240,230,57,impedance rises to 170 Ω in 107 hz and drops to 50 Ω in 20 hz and rises to 130 Ω in 20000 hz
 Audeze,LCD-1,230,15,
 ZMF,Atticus,239,350,
-Monoprice,M1570c,240,,
+Monoprice,M1570c,240,,,yes
 Sennheiser,hd560s,246,133,impendance rises to 224 Ω in 80 hz
 Sennheiser,hd820,256,390,impedance rises to 520 Ω in 50 hz and drops to 350 Ω in 3000 hz
 Sennheiser,hd650,288,320,imdepance rises to 480 Ω in 100 hz and drops to 305 Ω in 20 hz and rises to 370 Ω in 20000 hz
@@ -105,7 +105,7 @@ Beyer,dt990 pro,704,252,impedance rises to 352 Ω in 90 hz and drops to 253 Ω i
 Beyer,dt880 600,948,616,impedance varies A LOT in different frequencies; reaches 722 Ω in 90 hz and 643 Ω in 20000 hz and 614 Ω in 2000 hz
 NAN,NAN-6,956,41,
 Abyss,1266 Phi TC,1030,49,
-Raal,CA-1A,1075,,
+Raal,CA-1a,1075,,,yes
 Hifiman,he6,1250,50,
 Hifiman,Susvara,1290,65,
 Hifiman,he6se,1370,64,big error in the impedance; hifiman may had changed the driver of he6se

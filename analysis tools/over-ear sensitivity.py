@@ -6,7 +6,7 @@ import pandas as pd
 
 def plot_voltage_needed(
     headphones,  # select headphones interested
-    title="Voltage Requirement of the Headphones to reach 94 dB",
+    title="Voltage Requirements of the Headphones to reach 94 dB",
     target_db=94,  # How loud you want to drive the headphones
     beginner=0,  # How many headphones you want to skip from the start
     max_shown=30,  # The maximum number of headphones to show
@@ -43,6 +43,7 @@ def plot_voltage_needed(
     else:
         voltage_data = voltage_data[-beginner - max_shown : -beginner]
 
+    plt.figure(figsize=(16, 10))
     model, voltages, balance = zip(*voltage_data)
     bars = plt.barh(
         model, voltages, color=["blue" if b == "yes" else "red" for b in balance]
@@ -55,12 +56,14 @@ def plot_voltage_needed(
     plt.xlabel("Voltage (Vrms) on Logarithmic Scale")
     plt.title(title)
     plt.xscale(scale)
-    plt.show()
+    plt.tight_layout()
+    plt.savefig(f"./analysis results/{title}.png")
+    plt.close()
 
 
 def plot_power_needed(
     headphones,
-    title="Voltage Requirement of the Headphones to reach 94 dB",
+    title="Voltage Requirements of the Headphones to reach 94 dB",
     target_db=94,
     beginner=0,
     max_shown=30,
@@ -109,6 +112,7 @@ def plot_power_needed(
     else:
         power_data = power_data[-beginner - max_shown : -beginner]
 
+    plt.figure(figsize=(16, 10))
     headphones, power, balance = zip(*power_data)
     bars = plt.barh(
         headphones, power, color=["blue" if b == "yes" else "red" for b in balance]
@@ -124,7 +128,9 @@ def plot_power_needed(
     plt.xlabel("Power (mW) on Logarithmic Scale")
     plt.title(title)
     plt.xscale(scale)
-    plt.show()
+    plt.tight_layout()
+    plt.savefig(f"./analysis results/{title}.png")
+    plt.close()
 
 
 def compare_voltage_needed(
@@ -196,14 +202,11 @@ def compare_voltage_needed(
                         )
     voltage_data.sort(key=lambda x: x[1], reverse=not order)
 
+    plt.figure(figsize=(16, 10))
     model, voltages, balance, is_target = zip(*voltage_data)
-    color = []
-    for b, t in zip(balance, is_target):
-        if t:
-            color.append("green")
-        else:
-            color.append("blue" if b == "yes" else "red")
-    bars = plt.barh(model, voltages, color=color)
+    bars = plt.barh(
+        model, voltages, color=["blue" if b == "yes" else "red" for b in balance]
+    )
     for bar in bars:
         width = bar.get_width()
         plt.text(
@@ -212,7 +215,9 @@ def compare_voltage_needed(
     plt.xlabel("Voltage (Vrms) on Logarithmic Scale")
     plt.title(title)
     plt.xscale(scale)
-    plt.show()
+    plt.tight_layout()
+    plt.savefig(f"./analysis results/{title}.png")
+    plt.close()
 
 
 def compare_power_needed(
@@ -257,7 +262,7 @@ def compare_power_needed(
                     else:
                         power_needed = (
                             headphone.power_needed_asr_voltage_official_impedance(
-                                target_db
+                                target_db=target_db
                             )
                         )
                         if power_needed:
@@ -296,7 +301,7 @@ def compare_power_needed(
                     else:
                         power_needed = (
                             headphone.power_needed_asr_voltage_official_impedance(
-                                target_db
+                                target_db=target_db
                             )
                         )
                         if power_needed:
@@ -310,14 +315,11 @@ def compare_power_needed(
                             )
     power_data.sort(key=lambda x: x[1], reverse=not order)
 
+    plt.figure(figsize=(16, 10))
     model, powers, balance, is_target = zip(*power_data)
-    color = []
-    for b, t in zip(balance, is_target):
-        if t:
-            color.append("green")
-        else:
-            color.append("blue" if b == "yes" else "red")
-    bars = plt.barh(model, powers, color=color)
+    bars = plt.barh(
+        model, powers, color=["blue" if b == "yes" else "red" for b in balance]
+    )
     for bar in bars:
         width = bar.get_width()
         plt.text(
@@ -329,7 +331,9 @@ def compare_power_needed(
     plt.xlabel("Power (mW) on Logarithmic Scale")
     plt.title(title)
     plt.xscale(scale)
-    plt.show()
+    plt.tight_layout()
+    plt.savefig(f"./analysis results/{title}.png")
+    plt.close()
 
 
 class Headphone:
@@ -338,15 +342,15 @@ class Headphone:
         brand,
         model,
         driver=None,
-        official_db_mw=None,
-        official_db_vrms=None,
-        official_impedance=None,
+        official_db_mw=math.nan,
+        official_db_vrms=math.nan,
+        official_impedance=math.nan,
         balance=None,
         back=None,
         production=None,
         official_note=None,
-        asr_94db_voltage=None,
-        asr_impedance=None,
+        asr_94db_voltage=math.nan,
+        asr_impedance=math.nan,
         asr_note=None,
     ):
         self.brand = brand
@@ -388,7 +392,7 @@ class Headphone:
             )
 
     def voltage_needed_asr(self, target_db=94):
-        if self.asr_94db_voltage:
+        if not math.isnan(self.asr_94db_voltage):
             return 10 ** ((target_db - 94) / 20) * self.asr_94db_voltage
 
     def power_needed_official(self, target_db=94):
@@ -411,7 +415,7 @@ class Headphone:
             )
 
     def power_needed_asr(self, target_db=94):
-        if self.asr_94db_voltage and self.asr_impedance:
+        if not math.isnan(self.asr_94db_voltage) and not math.isnan(self.asr_impedance):
             return (
                 10 ** ((target_db - 94) / 10)
                 * self.asr_94db_voltage**2
@@ -420,7 +424,9 @@ class Headphone:
             )
 
     def power_needed_asr_voltage_official_impedance(self, target_db=94):
-        if self.asr_94db_voltage and self.official_impedance:
+        if not math.isnan(self.asr_94db_voltage) and not math.isnan(
+            self.official_impedance
+        ):
             return (
                 10 ** ((target_db - 94) / 10)
                 * self.asr_94db_voltage**2
@@ -444,17 +450,20 @@ official = pd.read_csv(
         "note": str,
     },
 )
+official = official[
+    official["driver"].isin(["dynamic", "planar", "AMT", "planar magnetostatic"])
+]
 asr = pd.read_csv(
     "./data/over-ear sensitivity asr.csv",
     dtype={
         "brand": str,
         "model": str,
-        "94db voltage": int,
+        "94db voltage": float,
         "impedance": float,
         "note": str,
     },
 )
-asr = asr[asr["impedance"].notna()]
+asr = asr[asr["ignore"] != "yes"]
 headphones = []
 for index, data in official.iterrows():
     headphones.append(
@@ -486,72 +495,31 @@ for index, data in asr.iterrows():
         )
         sys.exit(1)
 
-# plot_voltage_needed(
-#     headphones=headphones,
-#     title="Voltage Requirements of the Hardest-to-Drive Headphones to Reach 94 dB",
-# )
 
-# plot_voltage_needed(
-#     headphones=[
-#         headphone
-#         for headphone in headphones
-#         if headphone.production in ["producing", "inventory"]
-#     ],
-#     title="Voltage Requirements of the Hardest-to-Drive Producing or Just Discontinued Headphones to Reach 94 dB",
-# )
+plot_voltage_needed(
+    headphones=[
+        headphone
+        for headphone in headphones
+        if headphone.production in ["producing", "inventory"]
+        and headphone.driver == "planar"
+    ],
+    title="Voltage Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 94 dB",
+)
+plot_power_needed(
+    headphones=[
+        headphone
+        for headphone in headphones
+        if not headphone.back in ["open", "speaker", ""]
+        and headphone.production in ["producing", "inventory"]
+    ],
+    order=False,
+    title="Power Requirements of the Easiest-to-Drive Producing or Inventory Closed-Back Headphones to Reach 110 dB",
+)
 
-# plot_voltage_needed(
-#     headphones=[
-#         headphone
-#         for headphone in headphones
-#         if headphone.back != "open"
-#         and headphone.production in ["producing", "inventory"]
-#     ],
-#     title="Voltage Requirements of the Hardest-to-Drive Producing or Just Discontinued Closed-Back Headphones to Reach 94 dB",
-# )
-
-# plot_voltage_needed(
-#     headphones=[
-#         headphone
-#         for headphone in headphones
-#         if headphone.production in ["producing", "inventory"]
-#     ],
-#     title="Voltage Requirements of the Easiest-to-Drive Producing or Just Discontinued Headphones to Reach 94 dB",
-#     order=False,
-# )
-
-# plot_voltage_needed(
-#     headphones=[
-#         headphone
-#         for headphone in headphones
-#         if headphone.back != "open"
-#         and headphone.production in ["producing", "inventory"]
-#         and headphone.driver == "dynamic"
-#     ],
-#     title="Voltage Requirements of the Hardest-to-Drive Producing or Just Discontinued Dynamic Closed-Back Headphones to Reach 94 dB",
-# )
-
-# plot_power_needed(
-#     headphones=[
-#         headphone
-#         for headphone in headphones
-#         if headphone.production in ["producing", "inventory"]
-#     ],
-#     title="Power Requirements of the Hardest-to-Drive Producing or Just Discontinued Headphones to Reach 94 dB",
-# )
-
-# plot_power_needed(
-#     headphones=[
-#         headphone
-#         for headphone in headphones
-#         if headphone.back != "open"
-#         and headphone.production in ["producing", "inventory"]
-#     ],
-#     title="Power Requirements of the Hardest-to-Drive Producing or Just Discontinued Closed-Back Headphones to Reach 94 dB",
-# )
 
 reference_headphones_official = dict(
     Sennheiser=["hd800s", "hd600"],
+    DCA=["Expanse"],
     Fiio=["jt1"],
     AKG=["k812"],
     Audeze=["LCD-5"],
@@ -562,17 +530,23 @@ reference_headphones_official = dict(
 )
 reference_headphones_asr = dict(
     Hifiman=["Susvara", "he400se Stealth"],
+    DCA=["Expanse"],
     AKG=["k701"],
     Beyer=["dt880 600"],
     Aune=["AR5000"],
     Focal=["Utopia 2016"],
+    Philips=["Fidelio X2HR"],
 )
 target_headphones = dict(
-    Fiio=["jt1", "ft5"],
-    Hifiman=["Sundara"],
-    Moondrop=["Joker", "Para", "Cosmo"],
+    Fiio=["jt1"],
+    Hifiman=["Sundara Closed", "Ananda Nano"],
+    ATH=["adx5000"],
+    Moondrop=["Cosmo"],
     NAN=["NAN-7"],
+    Abyss=["1266 Phi TC"],
+    ZMF=["Caldera"],
 )
+
 
 compare_voltage_needed(
     target_headphones,
@@ -586,4 +560,6 @@ compare_power_needed(
     reference_headphones_official,
     reference_headphones_asr,
     headphones,
+    title="Comparing Power Requirements of Headphones to Reach 100 dB",
+    target_db=100,
 )

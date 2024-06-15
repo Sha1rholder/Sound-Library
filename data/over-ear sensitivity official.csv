@@ -1,279 +1,296 @@
 brand,model,driver,db/mw,db/vrms,impedance,balance,back,production,note,date
-AKG,k1000,dynamic,74.0,,120.0,yes,open,discontinued,head-speaker; data not secured,2024-06-15
-AKG,k240,dynamic,,104.0,55.0,no,open,producing,,2024-06-15
-AKG,k271,dynamic,,,,no,closed,unsertain,,2024-06-15
-AKG,k271 MKII,dynamic,,104.0,55.0,no,closed,producing,,2024-06-15
-AKG,k361,dynamic,,114.0,32.0,no,closed,producing,,2024-06-15
-AKG,k371,dynamic,,114.0,32.0,no,closed,producing,,2024-06-15
-AKG,k612,dynamic,,101.0,120.0,no,open,producing,,2024-06-15
-AKG,k701,dynamic,,105.0,62.0,no,open,producing,,2024-06-15
-AKG,k702,dynamic,,105.0,62.0,no,open,producing,,2024-06-15
-AKG,k712,dynamic,,105.0,62.0,no,open,producing,,2024-06-15
-AKG,k812,dynamic,,110.0,36.0,no,open,producing,,2024-06-15
-AKG,k872,dynamic,,112.0,36.0,no,closed,producing,,2024-06-15
-ATH,AWAS,dynamic,99.0,,40.0,yes,closed,producing,,2024-06-15
-ATH,AWKG,dynamic,102.0,,48.0,yes,closed,producing,,2024-06-15
-ATH,AWKT,dynamic,102.0,,48.0,yes,closed,producing,,2024-06-15
-ATH,W2022,dynamic,98.0,,48.0,yes,closed,producing,,2024-06-15
-ATH,a1000z,dynamic,101.0,,44.0,unsertain,closed,producing,,2024-06-15
-ATH,a2000z,dynamic,101.0,,42.0,unsertain,closed,producing,,2024-06-15
-ATH,a550z,dynamic,100.0,,40.0,no,closed,producing,,2024-06-15
-ATH,a990z,dynamic,100.0,,44.0,no,closed,producing,,2024-06-15
-ATH,ad1000x,dynamic,102.0,,40.0,yes,open,producing,,2024-06-15
-ATH,ad2000x,dynamic,103.0,,40.0,yes,open,producing,,2024-06-15
-ATH,ad500x,dynamic,100.0,,48.0,no,open,producing,,2024-06-15
-ATH,ad700x,dynamic,100.0,,38.0,no,open,producing,,2024-06-15
-ATH,ad900x,dynamic,103.0,,38.0,no,open,producing,,2024-06-15
-ATH,adx5000,dynamic,100.0,,420.0,yes,open,producing,,2024-06-15
-ATH,m20x,dynamic,96.0,,47.0,no,closed,producing,,2024-06-15
-ATH,m30x,dynamic,96.0,,47.0,no,closed,producing,,2024-06-15
-ATH,m40x,dynamic,98.0,,35.0,no,closed,producing,,2024-06-15
-ATH,m50x,dynamic,99.0,,38.0,no,closed,producing,,2024-06-15
-ATH,m60x,dynamic,102.0,,38.0,no,closed,producing,,2024-06-15
-ATH,m70x,dynamic,97.0,,35.0,no,closed,producing,,2024-06-15
-ATH,msr7,dynamic,101.0,,36.0,yes,closed,producing,,2024-06-15
-ATH,r70x,dynamic,98.0,,470.0,yes,open,producing,,2024-06-15
-Abyss,1266 Phi TC,planar,88.0,,50.0,yes,open,producing,,2024-06-15
-Abyss,Diana DZ,planar,92.0,,50.0,yes,open,producing,,2024-06-15
-Abyss,Diana MR,planar,93.0,,30.0,yes,open,producing,,2024-06-15
+AKG,k1000,dynamic,74,,120,yes,speaker,discontinued,data not secured,2024-06-15
+AKG,k240,dynamic,,104,55,no,open,producing,,2024-06-15
+AKG,k271,dynamic,,,,no,closed,,,2024-06-15
+AKG,k271 MKII,dynamic,,104,55,no,closed,producing,,2024-06-15
+AKG,k361,dynamic,,114,32,no,closed,producing,,2024-06-15
+AKG,k371,dynamic,,114,32,no,closed,producing,,2024-06-15
+AKG,k612,dynamic,,101,120,no,open,producing,,2024-06-15
+AKG,k701,dynamic,,105,62,no,open,producing,,2024-06-15
+AKG,k702,dynamic,,105,62,no,open,producing,,2024-06-15
+AKG,k712,dynamic,,105,62,no,open,producing,,2024-06-15
+AKG,k812,dynamic,,110,36,no,open,producing,,2024-06-15
+AKG,k872,dynamic,,112,36,no,closed,producing,,2024-06-15
+ATH,AWAS,dynamic,99,,40,yes,closed,producing,,2024-06-15
+ATH,AWKG,dynamic,102,,48,yes,closed,producing,,2024-06-15
+ATH,AWKT,dynamic,102,,48,yes,closed,producing,,2024-06-15
+ATH,W2022,dynamic,98,,48,yes,closed,producing,,2024-06-15
+ATH,a1000z,dynamic,101,,44,,closed,producing,,2024-06-15
+ATH,a2000z,dynamic,101,,42,,closed,producing,,2024-06-15
+ATH,a550z,dynamic,100,,40,no,closed,producing,,2024-06-15
+ATH,a990z,dynamic,100,,44,no,closed,producing,,2024-06-15
+ATH,ad1000x,dynamic,102,,40,yes,open,producing,,2024-06-15
+ATH,ad2000x,dynamic,103,,40,yes,open,producing,,2024-06-15
+ATH,ad500x,dynamic,100,,48,no,open,producing,,2024-06-15
+ATH,ad700x,dynamic,100,,38,no,open,producing,,2024-06-15
+ATH,ad900x,dynamic,103,,38,no,open,producing,,2024-06-15
+ATH,adx5000,dynamic,100,,420,yes,open,producing,,2024-06-15
+ATH,m20x,dynamic,96,,47,no,closed,producing,,2024-06-15
+ATH,m30x,dynamic,96,,47,no,closed,producing,,2024-06-15
+ATH,m40x,dynamic,98,,35,no,closed,producing,,2024-06-15
+ATH,m50x,dynamic,99,,38,no,closed,producing,,2024-06-15
+ATH,m60x,dynamic,102,,38,no,closed,producing,,2024-06-15
+ATH,m70x,dynamic,97,,35,no,closed,producing,,2024-06-15
+ATH,msr7,dynamic,101,,36,yes,closed,producing,,2024-06-15
+ATH,r70x,dynamic,98,,470,yes,open,producing,,2024-06-15
+Abyss,1266 Phi TC,planar,88,,50,yes,open,producing,,2024-06-15
+Abyss,Diana DZ,planar,92,,50,yes,open,producing,,2024-06-15
+Abyss,Diana MR,planar,93,,30,yes,open,producing,,2024-06-15
 Abyss,Diana Phi,planar,,,,yes,open,discontinued,,2024-06-15
-Abyss,Diana TC,planar,90.0,,69.0,yes,open,producing,,2024-06-15
+Abyss,Diana TC,planar,90,,69,yes,open,producing,,2024-06-15
 Abyss,Diana V2,planar,,,,yes,open,discontinued,,2024-06-15
-Audeze,LCD-1,planar,99.0,,16.0,yes,open,discontinued,,2024-06-15
-Audeze,LCD-2,planar,101.0,,70.0,yes,open,producing,,2024-06-15
-Audeze,LCD-2 Classic,planar,101.0,,70.0,yes,open,producing,,2024-06-15
-Audeze,LCD-2 Closed,planar,101.0,,70.0,yes,closed,producing,,2024-06-15
-Audeze,LCD-24,planar,,,,yes,open,unsertain,,2024-06-15
-Audeze,LCD-3,planar,101.0,,110.0,yes,open,producing,,2024-06-15
-Audeze,LCD-4,planar,97.0,,200.0,yes,open,discontinued,,2024-06-15
-Audeze,LCD-4z,planar,98.0,,15.0,yes,open,producing,,2024-06-15
-Audeze,LCD-5,planar,90.0,,14.0,yes,open,producing,,2024-06-15
-Audeze,LCD-GX,planar,100.0,,20.0,yes,open,producing,,2024-06-15
-Audeze,LCD-MX4,planar,105.0,,20.0,yes,open,producing,,2024-06-15
-Audeze,LCD-X,planar,103.0,,20.0,yes,open,producing,,2024-06-15
-Audeze,LCD-XC,planar,100.0,,20.0,yes,closed,producing,,2024-06-15
-Audeze,MM-100,planar,98.0,,18.0,no,open,producing,,2024-06-15
-Audeze,MM-500,planar,100.0,,18.0,yes,open,producing,,2024-06-15
+Audeze,CRBN,electrostatic,,,,,open,producing,,2024-06-16
+Audeze,LCD-1,planar,99,,16,yes,open,discontinued,,2024-06-15
+Audeze,LCD-2,planar,101,,70,yes,open,producing,,2024-06-15
+Audeze,LCD-2 Classic,planar,101,,70,yes,open,producing,,2024-06-15
+Audeze,LCD-2 Closed,planar,101,,70,yes,closed,producing,,2024-06-15
+Audeze,LCD-24,planar,,,,yes,open,,,2024-06-15
+Audeze,LCD-3,planar,101,,110,yes,open,producing,,2024-06-15
+Audeze,LCD-4,planar,97,,200,yes,open,discontinued,,2024-06-15
+Audeze,LCD-4z,planar,98,,15,yes,open,producing,,2024-06-15
+Audeze,LCD-5,planar,90,,14,yes,open,producing,,2024-06-15
+Audeze,LCD-GX,planar,100,,20,yes,open,producing,,2024-06-15
+Audeze,LCD-MX4,planar,105,,20,yes,open,producing,,2024-06-15
+Audeze,LCD-X,planar,103,,20,yes,open,producing,,2024-06-15
+Audeze,LCD-XC,planar,100,,20,yes,closed,producing,,2024-06-15
+Audeze,MM-100,planar,98,,18,no,open,producing,,2024-06-15
+Audeze,MM-500,planar,100,,18,yes,open,producing,,2024-06-15
 Audeze,Sine,planar,,,,no,closed,discontinued,,2024-06-15
-Aune,AR5000,dynamic,,108.0,28.0,yes,open,producing,,2024-06-15
+Aune,AR5000,dynamic,,108,28,yes,open,producing,,2024-06-15
 Aune,SR7000,dynamic,,,,yes,closed,upcoming,,2024-06-15
-Austrian,Composer,dynamic,,112.0,22.0,yes,open,producing,,2024-06-15
-Austrian,Hi-X15,dynamic,,113.0,25.0,no,closed,producing,,2024-06-15
-Austrian,Hi-X50,dynamic,,118.0,25.0,no,closed,producing,,2024-06-15
-Austrian,Hi-X55,dynamic,,118.0,25.0,no,closed,producing,,2024-06-15
-Austrian,Hi-X60,dynamic,,110.0,25.0,no,closed,producing,,2024-06-15
-Austrian,Hi-X65,dynamic,,110.0,25.0,no,open,producing,,2024-06-15
-Beyer,Amiron Home,dynamic,102.0,,250.0,yes,open,producing,sensitivity at 500 hz,2024-06-15
+Austrian,Composer,dynamic,,112,22,yes,open,producing,,2024-06-15
+Austrian,Hi-X15,dynamic,,113,25,no,closed,producing,,2024-06-15
+Austrian,Hi-X50,dynamic,,118,25,no,closed,producing,,2024-06-15
+Austrian,Hi-X55,dynamic,,118,25,no,closed,producing,,2024-06-15
+Austrian,Hi-X60,dynamic,,110,25,no,closed,producing,,2024-06-15
+Austrian,Hi-X65,dynamic,,110,25,no,open,producing,,2024-06-15
+Beyer,Amiron Home,dynamic,102,,250,yes,open,producing,sensitivity at 500 hz,2024-06-15
 Beyer,T1 1st,dynamic,,,,yes,open,discontinued,,2024-06-15
 Beyer,T1 2nd,dynamic,,,,yes,open,discontinued,,2024-06-15
-Beyer,T1 3rd,dynamic,100.0,,32.0,yes,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,T1 3rd,dynamic,100,,32,yes,open,producing,sensitivity at 500 hz,2024-06-15
 Beyer,T5 1st,dynamic,,,,yes,closed,discontinued,,2024-06-15
 Beyer,T5 2nd,dynamic,,,,yes,closed,discontinued,,2024-06-15
-Beyer,T5 3rd,dynamic,100.0,,32.0,yes,closed,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt150,dynamic,97.0,,250.0,no,closed,unsertain,sensitivity not sure at what frequency,2024-06-15
-Beyer,dt1770 pro,dynamic,102.0,,250.0,no,closed,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt1990 pro,dynamic,102.0,,250.0,no,open,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt700 prox,dynamic,100.0,114.0,48.0,no,closed,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt770 pro 250,dynamic,96.0,,250.0,no,closed,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt770 pro 32,dynamic,96.0,,32.0,no,closed,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt770 pro 80,dynamic,96.0,,80.0,no,closed,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt770 prox,dynamic,98.0,112.0,48.0,no,closed,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt880 250,dynamic,96.0,,250.0,no,open,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt880 32,dynamic,96.0,,32.0,no,open,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt880 600,dynamic,96.0,,600.0,no,open,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt880 pro,dynamic,96.0,,250.0,no,open,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt900 prox,dynamic,100.0,114.0,48.0,no,open,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt990 250,dynamic,96.0,,250.0,no,open,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt990 32,dynamic,96.0,,32.0,no,open,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt990 600,dynamic,96.0,,600.0,no,open,producing,sensitivity at 500 hz,2024-06-15
-Beyer,dt990 pro,dynamic,96.0,,250.0,no,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,T5 3rd,dynamic,100,,32,yes,closed,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt150,dynamic,97,,250,no,closed,,sensitivity not sure at what frequency,2024-06-15
+Beyer,dt1770 pro,dynamic,102,,250,no,closed,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt1990 pro,dynamic,102,,250,no,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt700 prox,dynamic,100,114,48,no,closed,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt770 pro 250,dynamic,96,,250,no,closed,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt770 pro 32,dynamic,96,,32,no,closed,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt770 pro 80,dynamic,96,,80,no,closed,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt770 prox,dynamic,98,112,48,no,closed,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt880 250,dynamic,96,,250,no,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt880 32,dynamic,96,,32,no,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt880 600,dynamic,96,,600,no,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt880 pro,dynamic,96,,250,no,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt900 prox,dynamic,100,114,48,no,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt990 250,dynamic,96,,250,no,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt990 32,dynamic,96,,32,no,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt990 600,dynamic,96,,600,no,open,producing,sensitivity at 500 hz,2024-06-15
+Beyer,dt990 pro,dynamic,96,,250,no,open,producing,sensitivity at 500 hz,2024-06-15
 DCA,AEON 2,planar,,,,yes,open,producing,,2024-06-15
 DCA,AEON 2 Noire,planar,,,,yes,closed,producing,,2024-06-15
 DCA,AEON RT closed,planar,,,,yes,closed,producing,,2024-06-15
 DCA,AEON RT open,planar,,,,yes,open,producing,,2024-06-15
-DCA,E3,planar,90.0,,27.0,yes,semi-closed,producing,,2024-06-15
+DCA,E3,planar,90,,27,yes,semi-closed,producing,,2024-06-15
 DCA,Expanse,planar,,,,yes,open,producing,,2024-06-15
 DCA,Stealth,planar,,,,yes,closed,producing,,2024-06-15
-Denon,AH-D5200,dynamic,103.0,,24.0,yes,closed,producing,,2024-06-15
-Denon,AH-D7200,dynamic,105.0,,25.0,yes,closed,producing,,2024-06-15
-Denon,AH-D9200,dynamic,105.0,,24.0,yes,closed,producing,,2024-06-15
-Erzetich,Charybdis,planar,,,43.0,yes,open,producing,,2024-06-15
-Erzetich,Mania,dynamic,,,80.0,yes,open,producing,,2024-06-15
-Erzetich,Phobos v2018,planar,,,45.0,yes,open,producing,,2024-06-15
-Erzetich,Phobos v2021,planar,,,45.0,yes,open,producing,,2024-06-15
-Erzetich,Thalia,dynamic,,,32.0,yes,open,producing,,2024-06-15
-Feaulle,Century,dynamic,,110.0,32.0,yes,open,producing,,2024-06-15
-Feaulle,Feature,dynamic,,105.0,32.0,yes,closed,producing,,2024-06-15
+Denon,AH-D5200,dynamic,103,,24,yes,closed,producing,,2024-06-15
+Denon,AH-D7200,dynamic,105,,25,yes,closed,producing,,2024-06-15
+Denon,AH-D9200,dynamic,105,,24,yes,closed,producing,,2024-06-15
+Drop,Meze 99 Noir,dynamic,103,,32,yes,closed,producing,,2024-06-15
+Erzetich,Charybdis,planar,,,43,yes,open,producing,,2024-06-15
+Erzetich,Mania,dynamic,,,80,yes,open,producing,,2024-06-15
+Erzetich,Phobos v2018,planar,,,45,yes,open,producing,,2024-06-15
+Erzetich,Phobos v2021,planar,,,45,yes,open,producing,,2024-06-15
+Erzetich,Thalia,dynamic,,,32,yes,open,producing,,2024-06-15
+Feaulle,Century,dynamic,,110,32,yes,open,producing,,2024-06-15
+Feaulle,Feature,dynamic,,105,32,yes,closed,producing,,2024-06-15
 Fiio,ft1,dynamic,,,,no,closed,producing,,2024-06-15
-Fiio,ft3 32,dynamic,,110.0,32.0,yes,open,producing,,2024-06-15
-Fiio,ft3 350,dynamic,,105.0,350.0,yes,open,producing,,2024-06-15
-Fiio,ft5,planar,96.0,110.0,36.0,yes,open,producing,,2024-06-15
-Fiio,jt1,dynamic,103.0,117.0,32.0,yes,closed,producing,,2024-06-15
-Final,Sonorous III,dynamic,105.0,,16.0,yes,unsertain,unsertain,,2024-06-15
-Final,Sonorous IV,dynamic,105.0,,8.0,yes,unsertain,unsertain,,2024-06-15
-Final,Sonorous VI,dynamic,105.0,,8.0,yes,unsertain,unsertain,,2024-06-15
-Final,Sonorous VIII,dynamic,105.0,,16.0,yes,unsertain,unsertain,,2024-06-15
-Final,Sonorous X,dynamic,105.0,,16.0,yes,open,producing,,2024-06-15
-Final,d7000,planar,89.0,,50.0,yes,open,producing,,2024-06-15
-Final,d8000,planar,98.0,,60.0,yes,open,producing,,2024-06-15
-Final,d8000pro,planar,98.0,,60.0,yes,open,producing,,2024-06-15
-Focal,Azurys,dynamic,100.0,,26.0,no,closed,producing,,2024-06-15
-Focal,Celestee,dynamic,105.0,,35.0,yes,closed,producing,,2024-06-15
+Fiio,ft3 32,dynamic,,110,32,yes,open,producing,,2024-06-15
+Fiio,ft3 350,dynamic,,105,350,yes,open,producing,,2024-06-15
+Fiio,ft5,planar,96,110,36,yes,open,producing,,2024-06-15
+Fiio,jt1,dynamic,103,117,32,yes,closed,producing,,2024-06-15
+Final,Sonorous III,dynamic,105,,16,yes,,,,2024-06-15
+Final,Sonorous IV,dynamic,105,,8,yes,,,,2024-06-15
+Final,Sonorous VI,dynamic,105,,8,yes,,,,2024-06-15
+Final,Sonorous VIII,dynamic,105,,16,yes,,,,2024-06-15
+Final,Sonorous X,dynamic,105,,16,yes,open,producing,,2024-06-15
+Final,d7000,planar,89,,50,yes,open,producing,,2024-06-15
+Final,d8000,planar,98,,60,yes,open,producing,,2024-06-15
+Final,d8000pro,planar,98,,60,yes,open,producing,,2024-06-15
+Focal,Azurys,dynamic,100,,26,no,closed,producing,,2024-06-15
+Focal,Celestee,dynamic,105,,35,yes,closed,producing,,2024-06-15
 Focal,Clear,dynamic,,,,yes,open,discontinued,,2024-06-15
-Focal,Clear Mg,dynamic,104.0,,55.0,yes,open,producing,,2024-06-15
-Focal,Clear Mg Pro,dynamic,104.0,,55.0,yes,open,producing,,2024-06-15
+Focal,Clear Mg,dynamic,104,,55,yes,open,producing,,2024-06-15
+Focal,Clear Mg Pro,dynamic,104,,55,yes,open,producing,,2024-06-15
 Focal,Clear Pro,dynamic,,,,yes,open,discontinued,,2024-06-15
-Focal,Elegia,dynamic,105.0,,35.0,yes,open,producing,,2024-06-15
-Focal,Hadenys,dynamic,100.0,,26.0,no,open,producing,,2024-06-15
-Focal,Listen Pro,dynamic,,122.0,32.0,no,closed,producing,,2024-06-15
-Focal,Radiance,dynamic,101.0,,35.0,yes,closed,producing,,2024-06-15
-Focal,Stellia,dynamic,106.0,,35.0,yes,closed,producing,,2024-06-15
-Focal,Utopia 2016,dynamic,104.0,,80.0,yes,open,discontinued,,2024-06-15
-Focal,Utopia 2022,dynamic,104.0,,80.0,yes,open,producing,,2024-06-15
-Gold Planar,gl1000,planar,100.0,,50.0,yes,open,producing,,2024-06-15
-Gold Planar,gl1000c,planar,97.0,,18.0,yes,closed,producing,,2024-06-15
-Gold Planar,gl1200,ribbon,90.0,,4.2,yes,open,producing,0.1 Ω trans to 4.2 Ω,2024-06-15
-Gold Planar,gl2000 dual-magenetic,planar,99.0,,60.0,yes,open,producing,,2024-06-15
-Gold Planar,gl2000 single-magenetic,planar,95.0,,60.0,yes,open,producing,,2024-06-15
-Gold Planar,gl400,planar,94.0,,22.0,yes,open,unsertain,,2024-06-15
-Gold Planar,gl600,planar,100.0,,22.0,yes,open,producing,,2024-06-15
-Gold Planar,gl850,AMT,90.0,,32.0,yes,open,producing,,2024-06-15
-Grado,Alessandro MPROx,dynamic,98.0,,38.0,no,open,producing,,2024-06-15
-Grado,GS1000x,dynamic,99.8,,38.0,unsertain,open,producing,,2024-06-15
-Grado,GS2000e,dynamic,99.8,,32.0,unsertain,open,producing,,2024-06-15
-Grado,GS3000x,dynamic,99.8,,38.0,yes,open,producing,,2024-06-15
-Grado,Hemp,dynamic,,,38.0,unsertain,open,producing,,2024-06-15
-Grado,PS1000 LE,dynamic,99.8,,38.0,unsertain,open,producing,,2024-06-15
-Grado,PS500 Special,dynamic,98.8,,38.0,unsertain,open,producing,,2024-06-15
-Grado,RS1x,dynamic,99.8,,38.0,yes,open,producing,,2024-06-15
-Grado,RS2x,dynamic,99.8,,38.0,yes,open,producing,,2024-06-15
-Grado,SR125x,dynamic,98.0,,38.0,unsertain,open,producing,,2024-06-15
-Grado,SR225x,dynamic,98.0,,38.0,unsertain,open,producing,,2024-06-15
-Grado,SR325 LE Gold,dynamic,98.0,,38.0,unsertain,open,producing,,2024-06-15
-Grado,SR325x,dynamic,98.0,,38.0,unsertain,open,producing,,2024-06-15
-Grado,SR60x,dynamic,98.0,,38.0,unsertain,open,producing,,2024-06-15
-Grado,SR80x,dynamic,98.0,,38.0,unsertain,open,producing,,2024-06-15
-Harmonic Dyne,Black Hole,dynamic,,110.0,32.0,yes,semi-closed,producing,,2024-06-15
-Harmonic Dyne,Poseidon,dynamic,103.0,,64.0,yes,open,producing,,2024-06-15
-Harmonic Dyne,Zeus Elite,dynamic,,105.0,32.0,yes,open,producing,,2024-06-15
-Hedd,Heddphone 1,AMT,87.0,,42.0,yes,open,inventory,,2024-06-15
-Hedd,Heddphone 2,AMT,89.0,,41.0,yes,open,producing,,2024-06-15
-Hifiman,Ananda BT,planar,103.0,,35.0,no,open,producing,wireless,2024-06-15
-Hifiman,Ananda Nano,planar,94.0,,14.0,yes,open,producing,,2024-06-15
-Hifiman,Ananda Stealth V2,planar,93.0,,26.0,yes,open,discontinued,,2024-06-15
-Hifiman,Ananda Stealth V3,planar,93.0,,16.0,yes,open,producing,,2024-06-15
-Hifiman,Ananda V1,planar,93.0,,26.0,yes,open,discontinued,,2024-06-15
-Hifiman,Arya Organic,planar,94.0,,16.0,yes,open,producing,,2024-06-15
-Hifiman,Arya Stealth,planar,94.0,,32.0,yes,open,discontinued,,2024-06-15
-Hifiman,Arya V1,planar,90.0,,35.0,yes,open,discontinued,,2024-06-15
-Hifiman,Audivina,planar,97.0,,20.0,yes,closed,producing,,2024-06-15
-Hifiman,DEVA,planar,93.5,,18.0,yes,open,discontinued,wireless,2024-06-15
-Hifiman,DEVA pro,planar,93.5,,18.0,yes,open,producing,wireless,2024-06-15
-Hifiman,Edition S,dynamic,113.0,,18.0,yes,closed,discontinued,,2024-06-15
-Hifiman,Edition X V1,planar,103.0,,25.0,yes,open,discontinued,,2024-06-15
-Hifiman,Edition X V2,planar,103.0,,25.0,yes,open,discontinued,,2024-06-15
-Hifiman,Edition XS,planar,92.0,,18.0,yes,open,producing,,2024-06-15
-Hifiman,Sundara,planar,92.0,,32.0,yes,open,producing,,2024-06-15
-Hifiman,Sundara Closed,planar,98.0,,20.0,yes,closed,producing,,2024-06-15
-Hifiman,Susvara,planar,83.0,,60.0,yes,open,producing,,2024-06-15
-Hifiman,Susvara Unveiled,planar,86.0,,45.0,yes,open,producing,,2024-06-15
-Hifiman,he-r10d,dynamic,103.0,,60.0,yes,closed,producing,,2024-06-15
-Hifiman,he-r10p,planar,100.0,,35.0,yes,closed,producing,,2024-06-15
-Hifiman,he-r9,dynamic,100.0,,60.0,yes,closed,producing,,2024-06-15
-Hifiman,he1000 Stealth,planar,93.0,,32.0,yes,open,producing,,2024-06-15
-Hifiman,he1000 V1,planar,90.0,,35.0,yes,open,discontinued,35±3 Ω,2024-06-15
-Hifiman,he1000 V2,planar,90.0,,35.0,yes,open,producing,,2024-06-15
-Hifiman,he1000se,planar,96.0,,35.0,yes,open,producing,,2024-06-15
-Hifiman,he300,dynamic,93.0,,50.0,yes,open,discontinued,,2024-06-15
+Focal,Elegia,dynamic,105,,35,yes,open,producing,,2024-06-15
+Focal,Hadenys,dynamic,100,,26,no,open,producing,,2024-06-15
+Focal,Listen Pro,dynamic,,122,32,no,closed,producing,,2024-06-15
+Focal,Radiance,dynamic,101,,35,yes,closed,producing,,2024-06-15
+Focal,Stellia,dynamic,106,,35,yes,closed,producing,,2024-06-15
+Focal,Utopia 2016,dynamic,104,,80,yes,open,discontinued,,2024-06-15
+Focal,Utopia 2022,dynamic,104,,80,yes,open,producing,,2024-06-15
+Gold Planar,gl1000,planar,100,,50,yes,open,producing,,2024-06-15
+Gold Planar,gl1000c,planar,97,,18,yes,closed,producing,,2024-06-15
+Gold Planar,gl1200,ribbon,90,,0.1,yes,open,producing,0.1 Ω trans to 4.2 Ω,2024-06-15
+Gold Planar,gl2000 dual-magenetic,planar,99,,60,yes,open,producing,,2024-06-15
+Gold Planar,gl2000 single-magenetic,planar,95,,60,yes,open,producing,,2024-06-15
+Gold Planar,gl400,planar,94,,22,yes,open,,,2024-06-15
+Gold Planar,gl600,planar,100,,22,yes,open,producing,,2024-06-15
+Gold Planar,gl850,AMT,90,,32,yes,open,producing,,2024-06-15
+Grado,Alessandro MPROx,dynamic,98,,38,no,open,producing,,2024-06-15
+Grado,GS1000x,dynamic,99.8,,38,,open,producing,,2024-06-15
+Grado,GS2000e,dynamic,99.8,,32,,open,producing,,2024-06-15
+Grado,GS3000x,dynamic,99.8,,38,yes,open,producing,,2024-06-15
+Grado,Hemp,dynamic,,,38,,open,producing,,2024-06-15
+Grado,PS1000 LE,dynamic,99.8,,38,,open,producing,,2024-06-15
+Grado,PS500 Special,dynamic,98.8,,38,,open,producing,,2024-06-15
+Grado,RS1x,dynamic,99.8,,38,yes,open,producing,,2024-06-15
+Grado,RS2x,dynamic,99.8,,38,yes,open,producing,,2024-06-15
+Grado,SR125x,dynamic,98,,38,,open,producing,,2024-06-15
+Grado,SR225x,dynamic,98,,38,,open,producing,,2024-06-15
+Grado,SR325 LE Gold,dynamic,98,,38,,open,producing,,2024-06-15
+Grado,SR325x,dynamic,98,,38,,open,producing,,2024-06-15
+Grado,SR60x,dynamic,98,,38,,open,producing,,2024-06-15
+Grado,SR80x,dynamic,98,,38,,open,producing,,2024-06-15
+Harmonic Dyne,Black Hole,dynamic,,110,32,yes,semi-closed,producing,,2024-06-15
+Harmonic Dyne,Poseidon,dynamic,103,,64,yes,open,producing,,2024-06-15
+Harmonic Dyne,Zeus Elite,dynamic,,105,32,yes,open,producing,,2024-06-15
+Hedd,Heddphone 1,AMT,87,,42,yes,open,inventory,,2024-06-15
+Hedd,Heddphone 2,AMT,89,,41,yes,open,producing,,2024-06-15
+Hifiman,Ananda BT,planar,103,,35,no,open,producing,wireless,2024-06-15
+Hifiman,Ananda Nano,planar,94,,14,yes,open,producing,,2024-06-15
+Hifiman,Ananda Stealth V2,planar,93,,26,yes,open,discontinued,,2024-06-15
+Hifiman,Ananda Stealth V3,planar,93,,16,yes,open,producing,,2024-06-15
+Hifiman,Ananda V1,planar,93,,26,yes,open,discontinued,,2024-06-15
+Hifiman,Arya Organic,planar,94,,16,yes,open,producing,,2024-06-15
+Hifiman,Arya Stealth,planar,94,,32,yes,open,discontinued,,2024-06-15
+Hifiman,Arya V1,planar,90,,35,yes,open,discontinued,,2024-06-15
+Hifiman,Audivina,planar,97,,20,yes,closed,producing,,2024-06-15
+Hifiman,DEVA,planar,93.5,,18,yes,open,discontinued,wireless,2024-06-15
+Hifiman,DEVA pro,planar,93.5,,18,yes,open,producing,wireless,2024-06-15
+Hifiman,Edition S,dynamic,113,,18,yes,closed,discontinued,,2024-06-15
+Hifiman,Edition X V1,planar,103,,25,yes,open,discontinued,,2024-06-15
+Hifiman,Edition X V2,planar,103,,25,yes,open,discontinued,,2024-06-15
+Hifiman,Edition XS,planar,92,,18,yes,open,producing,,2024-06-15
+Hifiman,Sundara,planar,92,,32,yes,open,producing,,2024-06-15
+Hifiman,Sundara Closed,planar,98,,20,yes,closed,producing,,2024-06-15
+Hifiman,Susvara,planar,83,,60,yes,open,producing,,2024-06-15
+Hifiman,Susvara Unveiled,planar,86,,45,yes,open,producing,,2024-06-15
+Hifiman,he-r10d,dynamic,103,,60,yes,closed,producing,,2024-06-15
+Hifiman,he-r10p,planar,100,,35,yes,closed,producing,,2024-06-15
+Hifiman,he-r9,dynamic,100,,60,yes,closed,producing,,2024-06-15
+Hifiman,he1000 Stealth,planar,93,,32,yes,open,producing,,2024-06-15
+Hifiman,he1000 V1,planar,90,,35,yes,open,discontinued,35±3 Ω,2024-06-15
+Hifiman,he1000 V2,planar,90,,35,yes,open,producing,,2024-06-15
+Hifiman,he1000se,planar,96,,35,yes,open,producing,,2024-06-15
+Hifiman,he300,dynamic,93,,50,yes,open,discontinued,,2024-06-15
 Hifiman,he4,planar,,,,yes,open,discontinued,,2024-06-15
-Hifiman,he400,planar,92.5,,35.0,yes,open,discontinued,,2024-06-15
-Hifiman,he400i,planar,93.0,,35.0,yes,open,producing,,2024-06-15
-Hifiman,he400i ver.2020,planar,93.0,,35.0,yes,open,discontinued,,2024-06-15
-Hifiman,he400s,planar,98.0,,22.0,yes,open,discontinued,,2024-06-15
-Hifiman,he400se Dual-Magenetic,planar,91.0,,25.0,yes,open,producing,,2024-06-15
-Hifiman,he400se Stealth,planar,91.0,,32.0,yes,open,producing,,2024-06-15
+Hifiman,he400,planar,92.5,,35,yes,open,discontinued,,2024-06-15
+Hifiman,he400i,planar,93,,35,yes,open,producing,,2024-06-15
+Hifiman,he400i ver.2020,planar,93,,35,yes,open,discontinued,,2024-06-15
+Hifiman,he400s,planar,98,,22,yes,open,discontinued,,2024-06-15
+Hifiman,he400se Dual-Magenetic,planar,91,,25,yes,open,producing,,2024-06-15
+Hifiman,he400se Stealth,planar,91,,32,yes,open,producing,,2024-06-15
 Hifiman,he5 LE,planar,,,,yes,open,discontinued,,2024-06-15
-Hifiman,he500,planar,89.0,,38.0,yes,open,discontinued,,2024-06-15
-Hifiman,he560,planar,90.0,,45.0,yes,open,unsertain,,2024-06-15
+Hifiman,he500,planar,89,,38,yes,open,discontinued,,2024-06-15
+Hifiman,he560,planar,90,,45,yes,open,,,2024-06-15
 Hifiman,he560 V4,planar,,,,yes,open,discontinued,,2024-06-15
-Hifiman,he5se,planar,92.0,,40.0,yes,open,discontinued,,2024-06-15
-Hifiman,he6,planar,83.5,,50.0,yes,open,discontinued,,2024-06-15
-Hifiman,he6se,planar,83.5,,50.0,yes,open,producing,,2024-06-15
-Meze,109 pro,dynamic,112.0,,40.0,yes,open,producing,,2024-06-15
-Meze,99 Classics,dynamic,103.0,,32.0,yes,closed,producing,,2024-06-15
-Meze,99 Neo,dynamic,103.0,,26.0,yes,closed,producing,,2024-06-15
-Meze,Elite,planar,101.0,,32.0,yes,open,producing,,2024-06-15
-Meze,Empyrean II,planar,,105.0,32.0,yes,open,producing,,2024-06-15
-Meze,Liric,planar,100.0,,61.0,yes,closed,producing,,2024-06-15
-Moondrop,Cosmo,planar,,100.0,15.0,yes,open,producing,,2024-06-15
-Moondrop,Joker,dynamic,,106.0,68.0,yes,closed,producing,,2024-06-15
-Moondrop,Para,planar,,101.0,8.0,yes,open,producing,,2024-06-15
-Moondrop,Venus,planar,,100.0,18.0,yes,open,inventory,,2024-06-15
-Moondrop,Void,dynamic,,110.0,64.0,yes,open,producing,,2024-06-15
-MusicWizard,PMH-1,planar,99.0,,60.0,yes,open,producing,,2024-06-15
+Hifiman,he5se,planar,92,,40,yes,open,discontinued,,2024-06-15
+Hifiman,he6,planar,83.5,,50,yes,open,discontinued,,2024-06-15
+Hifiman,he6se,planar,83.5,,50,yes,open,producing,,2024-06-15
+Kennerton,Rognir,planar,100,,42,yes,closed,producing,not sure db/mw or db/vrms;more models should be added in this brand,2024-06-16
+Meze,109 pro,dynamic,112,,40,yes,open,producing,,2024-06-15
+Meze,99 Classics,dynamic,103,,32,yes,closed,producing,,2024-06-15
+Meze,99 Neo,dynamic,103,,26,yes,closed,producing,,2024-06-15
+Meze,Elite,planar,101,,32,yes,open,producing,,2024-06-15
+Meze,Empyrean II,planar,,105,32,yes,open,producing,,2024-06-15
+Meze,Liric,planar,100,,61,yes,closed,producing,,2024-06-15
+Moondrop,Cosmo,planar,,100,15,yes,open,producing,,2024-06-15
+Moondrop,Joker,dynamic,,106,68,yes,closed,producing,,2024-06-15
+Moondrop,Para,planar,,101,8,yes,open,producing,,2024-06-15
+Moondrop,Venus,planar,,100,18,yes,open,inventory,,2024-06-15
+Moondrop,Void,dynamic,,110,64,yes,open,producing,,2024-06-15
+MusicWizard,PMH-1,planar,99,,60,yes,open,producing,,2024-06-15
 NAN,NAN-6,planar,,,,yes,open,discontinued,,2024-06-15
-NAN,NAN-7,planar,,100.0,14.0,yes,open,producing,,2024-06-15
-Philips,Fidelio X1S,dynamic,100.0,,30.0,no,open,producing,,2024-06-15
-Philips,Fidelio X2,dynamic,100.0,,30.0,no,open,discontinued,,2024-06-15
-Philips,Fidelio X2HR,dynamic,100.0,,30.0,yes,open,producing,,2024-06-15
-Philips,Fidelio X3,dynamic,93.0,,30.0,yes,open,producing,,2024-06-15
-Philips,shp9500,dynamic,101.0,,32.0,no,open,producing,,2024-06-15
-Philips,shp9600,dynamic,102.0,,32.0,no,open,producing,,2024-06-15
-Sennheiser,hd490 pro,dynamic,96.0,105.0,130.0,yes,open,producing,,2024-06-15
-Sennheiser,hd560s,dynamic,,110.0,,no,open,producing,,2024-06-15
-Sennheiser,hd600,dynamic,,97.0,300.0,yes,open,producing,,2024-06-15
-Sennheiser,hd620s,dynamic,,110.0,150.0,yes,closed,producing,,2024-06-15
-Sennheiser,hd650,dynamic,,103.0,300.0,yes,open,producing,,2024-06-15
-Sennheiser,hd660s,dynamic,,104.0,150.0,yes,open,producing,,2024-06-15
-Sennheiser,hd660s2,dynamic,,104.0,300.0,yes,open,producing,,2024-06-15
-Sennheiser,hd800s,dynamic,,102.0,300.0,yes,open,producing,,2024-06-15
-Sennheiser,hd820,dynamic,,103.0,300.0,yes,closed,producing,,2024-06-15
-Shure,srh1440,dynamic,101.0,,37.0,yes,open,producing,,2024-06-15
-Shure,srh1540,dynamic,99.0,,46.0,yes,closed,producing,,2024-06-15
-Shure,srh1840,dynamic,96.0,,65.0,yes,open,producing,,2024-06-15
-Shure,srh240a,dynamic,107.0,,38.0,unsertain,closed,producing,,2024-06-15
-Shure,srh440a,dynamic,97.0,,40.0,no,closed,producing,,2024-06-15
-Shure,srh550dj,dynamic,109.0,,32.0,unsertain,closed,producing,,2024-06-15
-Shure,srh840a,dynamic,97.0,,40.0,no,open,producing,,2024-06-15
-Sivga,AIVA,planar,96.0,,32.0,yes,open,producing,,2024-06-15
-Sivga,Apollo,planar,95.0,,16.0,yes,open,producing,,2024-06-15
-Sivga,Luan,dynamic,100.0,,38.0,yes,open,producing,,2024-06-15
-Sivga,Oriole,dynamic,108.0,,32.0,yes,closed,producing,,2024-06-15
-Sivga,P2,planar,98.0,,32.0,yes,open,producing,,2024-06-15
-Sivga,P2 Pro,planar,98.0,,32.0,yes,open,producing,,2024-06-15
-Sivga,Peacock,planar,103.0,,50.0,yes,open,producing,,2024-06-15
-Sivga,Pheonix,dynamic,103.0,,32.0,yes,open,producing,,2024-06-15
-Sivga,Robin SV021,dynamic,105.0,,32.0,yes,closed,producing,,2024-06-15
-Sivga,SV007,dynamic,105.0,,16.0,yes,open,producing,,2024-06-15
-Sivga,SV023,dynamic,105.0,,300.0,yes,open,producing,,2024-06-15
-Sony,MDR-7506,dynamic,106.0,,63.0,no,closed,producing,,2024-06-15
-Sony,MDR-MV1,dynamic,100.0,,24.0,yes,open,producing,,2024-06-15
+NAN,NAN-7,planar,,100,14,yes,open,producing,,2024-06-15
+Philips,Fidelio X1S,dynamic,100,,30,no,open,producing,,2024-06-15
+Philips,Fidelio X2,dynamic,100,,30,no,open,discontinued,,2024-06-15
+Philips,Fidelio X2HR,dynamic,100,,30,yes,open,producing,,2024-06-15
+Philips,Fidelio X3,dynamic,93,,30,yes,open,producing,,2024-06-15
+Philips,shp9500,dynamic,101,,32,no,open,producing,,2024-06-15
+Philips,shp9600,dynamic,102,,32,no,open,producing,,2024-06-15
+Raal,1995,ribbon,,,,yes,,producing,,2024-06-16
+Raal,CA-1a,ribbon,,,,yes,,producing,,2024-06-16
+Raal,CS-1a,ribbon,,,,yes,,producing,,2024-06-16
+Raal,SR-1b,ribbon,,,,yes,speaker,producing,,2024-06-16
+Sennheiser,hd490 pro,dynamic,96,105,130,yes,open,producing,,2024-06-15
+Sennheiser,hd560s,dynamic,,110,,no,open,producing,,2024-06-15
+Sennheiser,hd569,dynamic,,115,23,no,closed,producing,,2024-06-15
+Sennheiser,hd600,dynamic,,97,300,yes,open,producing,,2024-06-15
+Sennheiser,hd620s,dynamic,,110,150,yes,closed,producing,,2024-06-15
+Sennheiser,hd650,dynamic,,103,300,yes,open,producing,,2024-06-15
+Sennheiser,hd660s,dynamic,,104,150,yes,open,producing,,2024-06-15
+Sennheiser,hd660s2,dynamic,,104,300,yes,open,producing,,2024-06-15
+Sennheiser,hd800s,dynamic,,102,300,yes,open,producing,,2024-06-15
+Sennheiser,hd820,dynamic,,103,300,yes,closed,producing,,2024-06-15
+Shure,srh1440,dynamic,101,,37,yes,open,producing,,2024-06-15
+Shure,srh1540,dynamic,99,,46,yes,closed,producing,,2024-06-15
+Shure,srh1840,dynamic,96,,65,yes,open,producing,,2024-06-15
+Shure,srh240a,dynamic,107,,38,,closed,producing,,2024-06-15
+Shure,srh440a,dynamic,97,,40,no,closed,producing,,2024-06-15
+Shure,srh550dj,dynamic,109,,32,,closed,producing,,2024-06-15
+Shure,srh840a,dynamic,97,,40,no,open,producing,,2024-06-15
+Sivga,AIVA,planar,96,,32,yes,open,producing,,2024-06-15
+Sivga,Apollo,planar,95,,16,yes,open,producing,,2024-06-15
+Sivga,Luan,dynamic,100,,38,yes,open,producing,,2024-06-15
+Sivga,Oriole,dynamic,108,,32,yes,closed,producing,,2024-06-15
+Sivga,P2,planar,98,,32,yes,open,producing,,2024-06-15
+Sivga,P2 Pro,planar,98,,32,yes,open,producing,,2024-06-15
+Sivga,Peacock,planar,103,,50,yes,open,producing,,2024-06-15
+Sivga,Pheonix,dynamic,103,,32,yes,open,producing,,2024-06-15
+Sivga,Robin SV021,dynamic,105,,32,yes,closed,producing,,2024-06-15
+Sivga,SV007,dynamic,105,,16,yes,open,producing,,2024-06-15
+Sivga,SV023,dynamic,105,,300,yes,open,producing,,2024-06-15
+Sony,MDR-7506,dynamic,106,,63,no,closed,producing,,2024-06-15
+Sony,MDR-MV1,dynamic,100,,24,yes,open,producing,,2024-06-15
 Sony,MDR-R10,dynamic,,,,yes,closed,discontinued,,2024-06-15
-Sony,MDR-Z1R,dynamic,100.0,,64.0,yes,closed,producing,,2024-06-15
-Sony,MDR-cd900st,dynamic,106.0,,63.0,no,closed,producing,,2024-06-15
+Sony,MDR-Z1R,dynamic,100,,64,yes,closed,producing,,2024-06-15
+Sony,MDR-cd900st,dynamic,106,,63,no,closed,producing,,2024-06-15
 Sony,Qualia 010,dynamic,,,,yes,open,discontinued,,2024-06-15
-T+A,Solitaire P,planar magnetostatic,,,80.0,yes,open,producing,,2024-06-15
-T+A,Solitaire P-SE,planar magnetostatic,,,45.0,yes,open,producing,,2024-06-15
-Taksar,PRO82,dynamic,96.0,,32.0,no,closed,producing,,2024-06-15
-Ultrasone,Edition 11,dynamic,,,32.0,yes,open,inventory,data not secured,2024-06-15
-VZR,Model One,dynamic,100.0,,32.0,yes,closed,producing,,2024-06-15
-Verum,Verum 1,planar,96.0,116.0,8.0,yes,open,producing,,2024-06-15
-Verum,Verum 2,planar,94.0,,12.0,yes,open,producing,,2024-06-15
-XK Audio,Avalon MKII,dynamic,97.0,,280.0,yes,open,producing,,2024-06-15
-XK Audio,Ken,dynamic,110.0,,32.0,yes,open,producing,,2024-06-15
-XK Audio,Sinae Closed,dynamic,98.0,,300.0,yes,closed,producing,,2024-06-15
-XK Audio,Sinae Open,dynamic,98.0,,300.0,yes,open,producing,,2024-06-15
-XK Audio,X1266,planar,88.0,,30.0,yes,open,producing,,2024-06-15
-Yamaha,YH-5000SE,planar,98.0,,34.0,yes,open,producing,,2024-06-15
-ZMF,Aeolus,dynamic,99.0,,300.0,yes,open,producing,,2024-06-15
-ZMF,Atticus,dynamic,99.0,,300.0,yes,semi-closed,producing,,2024-06-15
-ZMF,Auteur,dynamic,97.0,,300.0,yes,open,producing,,2024-06-15
-ZMF,Bokeh,dynamic,103.0,,80.0,yes,closed,producing,,2024-06-15
-ZMF,Caldera,planar,95.0,,60.0,yes,open,producing,,2024-06-15
-ZMF,Caldera Closed,planar,94.0,,60.0,yes,closed,producing,,2024-06-15
-ZMF,Eikon,dynamic,98.0,,300.0,yes,semi-closed,producing,,2024-06-15
-ZMF,Verite,dynamic,97.0,,300.0,yes,open,producing,,2024-06-15
-ZMF,Verite Closed,dynamic,99.0,,300.0,yes,closed,producing,,2024-06-15
-微翼,超新星,dynamic,103.0,,32.0,no,closed,producing,,2024-06-15
-汤老师,不朽 16 (both version),planar,98.0,,600.0,yes,open,producing,,2024-06-15
-汤老师,不朽 80 (both version),planar,,,2500.0,yes,open,producing,,2024-06-15
+Stax,SR-X9000,electrostatic,100,,145000,,open,producing,more models should be added in this brand,2024-06-16
+T+A,Solitaire P,planar magnetostatic,,,80,yes,open,producing,,2024-06-15
+T+A,Solitaire P-SE,planar magnetostatic,,,45,yes,open,producing,,2024-06-15
+Taksar,PRO82,dynamic,96,,32,no,closed,producing,,2024-06-15
+Tang diy,Gold 1,planar,84,,50,yes,open,producing,,2024-06-16
+Tang diy,Gold 1 pro,planar,82,,70,yes,open,producing,,2024-06-16
+Tang diy,Gold 2 pro,planar,82,,170,yes,open,producing,,2024-06-16
+Tang diy,Immortal 16,planar,99,,600,yes,open,producing,,2024-06-16
+Tang diy,Immortal 80,planar,,,2500,yes,open,producing,,2024-06-16
+Tang diy,Virtuoso 16,planar,,,,yes,open,,,2024-06-16
+Tang diy,Virtuoso 32,planar,,,,yes,open,,,2024-06-16
+Tang diy,Virtuoso 50,planar,,,,yes,open,,,2024-06-16
+Ultrasone,Edition 11,dynamic,,,32,yes,open,inventory,data not secured,2024-06-15
+V-Moda,M100,dynamic,107,,32,no,closed,producing,,2024-06-15
+V-Moda,M200,dynamic,101.5,,30,no,closed,producing,,2024-06-15
+VZR,Model One,dynamic,100,,32,yes,closed,producing,,2024-06-15
+Venture,Supernova,dynamic,103,,32,no,closed,producing,,2024-06-15
+Verum,Verum 1,planar,96,116,8,yes,open,producing,,2024-06-15
+Verum,Verum 2,planar,94,,12,yes,open,producing,,2024-06-15
+XK Audio,Avalon MKII,dynamic,97,,280,yes,open,producing,,2024-06-15
+XK Audio,Ken,dynamic,110,,32,yes,open,producing,,2024-06-15
+XK Audio,Sinae Closed,dynamic,98,,300,yes,closed,producing,,2024-06-15
+XK Audio,Sinae Open,dynamic,98,,300,yes,open,producing,,2024-06-15
+XK Audio,X1266,planar,88,,30,yes,open,producing,,2024-06-15
+Yamaha,YH-5000SE,planar,98,,34,yes,open,producing,,2024-06-15
+ZMF,Aeolus,dynamic,99,,300,yes,open,producing,,2024-06-15
+ZMF,Atticus,dynamic,99,,300,yes,semi-closed,producing,,2024-06-15
+ZMF,Auteur,dynamic,97,,300,yes,open,producing,,2024-06-15
+ZMF,Bokeh,dynamic,103,,80,yes,closed,producing,,2024-06-15
+ZMF,Caldera,planar,95,,60,yes,open,producing,,2024-06-15
+ZMF,Caldera Closed,planar,94,,60,yes,closed,producing,,2024-06-15
+ZMF,Eikon,dynamic,98,,300,yes,semi-closed,producing,,2024-06-15
+ZMF,Verite,dynamic,97,,300,yes,open,producing,,2024-06-15
+ZMF,Verite Closed,dynamic,99,,300,yes,closed,producing,,2024-06-15
