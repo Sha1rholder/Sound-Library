@@ -4,7 +4,7 @@ English / [中文](./README%20zh-CN.md)
 
 **Sound Library** is an acoustics knowledge base, dedicated to helping audiophiles and those interested in high-quality audio understand the knowledge of sound playback.
 
-If you don't know how to get started or just want to have a glance, you can check this typical article [_Sensitivity and Impedance of Headphones_](./en-US/Knowledge/Sensitivity%20and%20Impedance%20of%20Headphones.md).
+If you don't know how to get started or just want to have a glance, you can check this article [_Conversion Relation between Sensitivities and Impedance of Headphones_](./en-US/Knowledge/Conversion%20Relation%20between%20Sensitivities%20and%20Impedance%20of%20Headphones.md).
 
 # Localized Contents
 
@@ -57,4 +57,4 @@ For specific usage, please refer to the comments and the usage examples in the s
 - Fill comments in [data/over-ear assessments cn.csv](./data/over-ear%20assessments%20cn.csv)
 - ...
 
-You are welcomed to contribute to this project. If you have any questions or suggestions, no matter how insignificant, please feel free to [Open an Issue](https://github.com/Sha1rholder/Sound-Library/issues/new) or email me. Thank you for your support!
+You are welcomed to contribute to this project. If you have any questions or suggestions, no matter how insignificant, please feel free to [open an Issue](https://github.com/Sha1rholder/Sound-Library/issues/new) or email me. Thank you for your support!
