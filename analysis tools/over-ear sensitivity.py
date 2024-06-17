@@ -501,9 +501,17 @@ plot_voltage_needed(
         headphone
         for headphone in headphones
         if headphone.production in ["producing", "inventory"]
+    ],
+    title="Voltage Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB",
+)
+plot_power_needed(
+    headphones=[
+        headphone
+        for headphone in headphones
+        if headphone.production in ["producing", "inventory"]
         and headphone.driver == "planar"
     ],
-    title="Voltage Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 110 dB",
+    title="Power Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 110 dB",
 )
 plot_power_needed(
     headphones=[
@@ -528,7 +536,7 @@ reference_headphones_official = dict(
     Beyer=["dt880 250", "dt900 prox", "T1 3rd"],
     Philips=["shp9500"],
     Focal=["Utopia 2022"],
-)
+)  # Only select official data
 reference_headphones_asr = dict(
     Hifiman=["Susvara", "he400se Stealth"],
     DCA=["Expanse"],
@@ -537,7 +545,7 @@ reference_headphones_asr = dict(
     Aune=["AR5000"],
     Focal=["Utopia 2016"],
     Philips=["Fidelio X2HR"],
-)
+)  # Only select ASR data
 target_headphones = dict(
     Fiio=["jt1"],
     Hifiman=["Sundara Closed", "Ananda Nano"],
@@ -546,7 +554,7 @@ target_headphones = dict(
     NAN=["NAN-7"],
     Abyss=["1266 Phi TC"],
     ZMF=["Caldera"],
-)
+)  # Select both official and ASR data (if exists)
 
 
 compare_voltage_needed(
@@ -556,7 +564,6 @@ compare_voltage_needed(
     headphones,
     title="Comparing Voltage Requirements of Headphones to Reach 110 dB",
 )
-
 compare_power_needed(
     target_headphones,
     reference_headphones_official,
