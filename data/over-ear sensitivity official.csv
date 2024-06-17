@@ -210,7 +210,7 @@ Meze,Empyrean II,planar,,105,32,yes,open,producing,,2024-06-15
 Meze,Liric,planar,100,,61,yes,closed,producing,,2024-06-15
 Moondrop,Cosmo,planar,,100,15,yes,open,producing,,2024-06-15
 Moondrop,Joker,dynamic,,106,68,yes,closed,producing,,2024-06-15
-Moondrop,Para,planar,,101,8,yes,open,producing,,2024-06-15
+Moondrop,Para,planar,,101,8,yes,open,producing,I suspect the sensitivity is mislabeled,2024-06-15
 Moondrop,Venus,planar,,100,18,yes,open,inventory,,2024-06-15
 Moondrop,Void,dynamic,,110,64,yes,open,producing,,2024-06-15
 MusicWizard,PMH-1,planar,99,,60,yes,open,producing,,2024-06-15

@@ -48,13 +48,13 @@ Audio Science Review（ASR）头戴式耳机灵敏度表。ASR 是比较权威�
 
 用于分析和对比头戴式耳机的电压和功率需求，能够绘制你感兴趣的耳机驱动到一定声压级所需电压或功率的直方图，可作为评估耳机驱动难度的一个参考
 
-![Voltage Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 94 dB](./analysis%20results/Voltage%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Planar%20Headphones%20to%20Reach%2094%20dB.png)
+![Voltage Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 110 dB](./analysis%20results/Voltage%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Planar%20Headphones%20to%20Reach%20110%20dB.png)
 
-![Power Requirements of the Easiest-to-Drive Producing or Inventory Closed-Back Headphones to Reach 110 dB](./analysis%20results/Power%20Requirements%20of%20the%20Easiest-to-Drive%20Producing%20or%20Inventory%20Closed-Back%20Headphones%20to%20Reach%20110%20dB.png)
+![Power Requirements of the Easiest-to-Drive Producing or Inventory Closed-Back Headphones to Reach 94 dB](./analysis%20results/Power%20Requirements%20of%20the%20Easiest-to-Drive%20Producing%20or%20Inventory%20Closed-Back%20Headphones%20to%20Reach%2094%20dB.png)
 
-![Comparing Voltage Requirements of Headphones to Reach 94 dB](./analysis%20results/Comparing%20Voltage%20Requirements%20of%20Headphones%20to%20Reach%2094%20dB.png)
+![Comparing Voltage Requirements of Headphones to Reach 110 dB](./analysis%20results/Comparing%20Voltage%20Requirements%20of%20Headphones%20to%20Reach%20110%20dB.png)
 
-![Comparing Power Requirements of Headphones to Reach 100 dB](./analysis%20results/Comparing%20Power%20Requirements%20of%20Headphones%20to%20Reach%20100%20dB.png)
+![Comparing Power Requirements of Headphones to Reach 110 dB](./analysis%20results/Comparing%20Power%20Requirements%20of%20Headphones%20to%20Reach%20110%20dB.png)
 
 具体使用方法请参考该脚本内的注释和使用实例
 
@@ -65,4 +65,4 @@ Audio Science Review（ASR）头戴式耳机灵敏度表。ASR 是比较权威�
 - 写一句话产品评论 [data/over-ear assessments cn.csv](./data/over-ear%20assessments%20cn.csv)
 - …
 
-欢迎任何贡献。如果您有任何问题或建议，无论多微不足道，都可以 [创建 Issue](https://github.com/Sha1rholder/Sound-Library/issues/new/choose) 或直接邮件联系我。感谢您的支持!
+欢迎任何贡献或投稿您的文章，我尊重你的著作权。如果您有任何问题或建议，无论多微不足道，都可以 [创建 Issue](https://github.com/Sha1rholder/Sound-Library/issues/new/choose) 或直接邮件联系我。感谢您的支持!

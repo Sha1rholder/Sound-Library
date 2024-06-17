@@ -4,9 +4,108 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
+class Headphone:
+    def __init__(
+        self,
+        brand,
+        model,
+        driver=None,
+        official_db_mw=math.nan,
+        official_db_vrms=math.nan,
+        official_impedance=math.nan,
+        balance=None,
+        back=None,
+        production=None,
+        official_note=None,
+        asr_94db_voltage=math.nan,
+        asr_impedance=math.nan,
+        asr_note=None,
+    ):
+        self.brand = brand
+        self.model = model
+        self.driver = driver
+        self.official_db_mw = official_db_mw
+        self.official_db_vrms = official_db_vrms
+        self.official_impedance = official_impedance
+        self.balance = balance
+        self.back = back
+        self.production = production
+        self.official_note = official_note
+        self.asr_94db_voltage = asr_94db_voltage
+        self.asr_impedance = asr_impedance
+        self.asr_note = asr_note
+
+    def print_info(self):
+        for attr, value in self.__dict__.items():
+            print(f"{attr}: {value}")
+
+    def voltage_needed_official(self, target_db=110):
+        if not math.isnan(self.official_db_vrms):
+            return (10 ** ((target_db - self.official_db_vrms) / 20)) * 1000
+        elif not math.isnan(self.official_db_mw) and not math.isnan(
+            self.official_impedance
+        ):
+            return (
+                10
+                ** (
+                    (
+                        target_db
+                        - self.official_db_mw
+                        - 30
+                        + 10 * math.log10(self.official_impedance)
+                    )
+                    / 20
+                )
+                * 1000
+            )
+
+    def voltage_needed_asr(self, target_db=110):
+        if not math.isnan(self.asr_94db_voltage):
+            return 10 ** ((target_db - 94) / 20) * self.asr_94db_voltage
+
+    def power_needed_official(self, target_db=110):
+        if not math.isnan(self.official_db_mw):
+            return 10 ** ((target_db - self.official_db_mw) / 10)
+        elif not math.isnan(self.official_db_vrms) and not math.isnan(
+            self.official_impedance
+        ):
+            return (
+                10
+                ** (
+                    (
+                        target_db
+                        - self.official_db_vrms
+                        - 10 * math.log10(self.official_impedance)
+                    )
+                    / 10
+                )
+                * 1000
+            )
+
+    def power_needed_asr(self, target_db=110):
+        if not math.isnan(self.asr_94db_voltage) and not math.isnan(self.asr_impedance):
+            return (
+                10 ** ((target_db - 94) / 10)
+                * self.asr_94db_voltage**2
+                / self.asr_impedance
+                / 1000
+            )
+
+    def power_needed_asr_voltage_official_impedance(self, target_db=110):
+        if not math.isnan(self.asr_94db_voltage) and not math.isnan(
+            self.official_impedance
+        ):
+            return (
+                10 ** ((target_db - 94) / 10)
+                * self.asr_94db_voltage**2
+                / self.official_impedance
+                / 1000
+            )
+
+
 def plot_voltage_needed(
     headphones,  # select headphones interested
-    title="Voltage Requirements of the Headphones to reach 94 dB",
+    title="Voltage Requirements of the Headphones to reach 110 dB",
     target_db=94,  # How loud you want to drive the headphones
     beginner=0,  # How many headphones you want to skip from the start
     max_shown=30,  # The maximum number of headphones to show
@@ -63,8 +162,8 @@ def plot_voltage_needed(
 
 def plot_power_needed(
     headphones,
-    title="Voltage Requirements of the Headphones to reach 94 dB",
-    target_db=94,
+    title="Voltage Requirements of the Headphones to reach 110 dB",
+    target_db=110,
     beginner=0,
     max_shown=30,
     order=True,
@@ -138,8 +237,8 @@ def compare_voltage_needed(
     reference_headphones_official,
     reference_headphones_asr,
     headphones,
-    title="Comparing Voltage Requirements of Headphones to Reach 94 dB",
-    target_db=94,
+    title="Comparing Voltage Requirements of Headphones to Reach 110 dB",
+    target_db=110,
     order=True,
     scale="log",
 ):
@@ -225,8 +324,8 @@ def compare_power_needed(
     reference_headphones_official,
     reference_headphones_asr,
     headphones,
-    title="Comparing Power Requirements of Headphones to Reach 94 dB",
-    target_db=94,
+    title="Comparing Power Requirements of Headphones to Reach 110 dB",
+    target_db=110,
     order=True,
     scale="log",
 ):
@@ -336,105 +435,6 @@ def compare_power_needed(
     plt.close()
 
 
-class Headphone:
-    def __init__(
-        self,
-        brand,
-        model,
-        driver=None,
-        official_db_mw=math.nan,
-        official_db_vrms=math.nan,
-        official_impedance=math.nan,
-        balance=None,
-        back=None,
-        production=None,
-        official_note=None,
-        asr_94db_voltage=math.nan,
-        asr_impedance=math.nan,
-        asr_note=None,
-    ):
-        self.brand = brand
-        self.model = model
-        self.driver = driver
-        self.official_db_mw = official_db_mw
-        self.official_db_vrms = official_db_vrms
-        self.official_impedance = official_impedance
-        self.balance = balance
-        self.back = back
-        self.production = production
-        self.official_note = official_note
-        self.asr_94db_voltage = asr_94db_voltage
-        self.asr_impedance = asr_impedance
-        self.asr_note = asr_note
-
-    def print_original_info(self):
-        for attr, value in self.__dict__.items():
-            print(f"{attr}: {value}")
-
-    def voltage_needed_official(self, target_db=94):
-        if not math.isnan(self.official_db_vrms):
-            return (10 ** ((target_db - self.official_db_vrms) / 20)) * 1000
-        elif not math.isnan(self.official_db_mw) and not math.isnan(
-            self.official_impedance
-        ):
-            return (
-                10
-                ** (
-                    (
-                        target_db
-                        - self.official_db_mw
-                        - 30
-                        + 10 * math.log10(self.official_impedance)
-                    )
-                    / 20
-                )
-                * 1000
-            )
-
-    def voltage_needed_asr(self, target_db=94):
-        if not math.isnan(self.asr_94db_voltage):
-            return 10 ** ((target_db - 94) / 20) * self.asr_94db_voltage
-
-    def power_needed_official(self, target_db=94):
-        if not math.isnan(self.official_db_mw):
-            return 10 ** ((target_db - self.official_db_mw) / 10)
-        elif not math.isnan(self.official_db_vrms) and not math.isnan(
-            self.official_impedance
-        ):
-            return (
-                10
-                ** (
-                    (
-                        target_db
-                        - self.official_db_vrms
-                        - 10 * math.log10(self.official_impedance)
-                    )
-                    / 10
-                )
-                * 1000
-            )
-
-    def power_needed_asr(self, target_db=94):
-        if not math.isnan(self.asr_94db_voltage) and not math.isnan(self.asr_impedance):
-            return (
-                10 ** ((target_db - 94) / 10)
-                * self.asr_94db_voltage**2
-                / self.asr_impedance
-                / 1000
-            )
-
-    def power_needed_asr_voltage_official_impedance(self, target_db=94):
-        if not math.isnan(self.asr_94db_voltage) and not math.isnan(
-            self.official_impedance
-        ):
-            return (
-                10 ** ((target_db - 94) / 10)
-                * self.asr_94db_voltage**2
-                / self.official_impedance
-                / 1000
-            )
-
-
 official = pd.read_csv(
     "./data/over-ear sensitivity official.csv",
     dtype={
@@ -503,7 +503,7 @@ plot_voltage_needed(
         if headphone.production in ["producing", "inventory"]
         and headphone.driver == "planar"
     ],
-    title="Voltage Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 94 dB",
+    title="Voltage Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 110 dB",
 )
 plot_power_needed(
     headphones=[
@@ -513,7 +513,8 @@ plot_power_needed(
         and headphone.production in ["producing", "inventory"]
     ],
     order=False,
-    title="Power Requirements of the Easiest-to-Drive Producing or Inventory Closed-Back Headphones to Reach 110 dB",
+    title="Power Requirements of the Easiest-to-Drive Producing or Inventory Closed-Back Headphones to Reach 94 dB",
+    target_db=94,
 )
 
 
@@ -553,6 +554,7 @@ compare_voltage_needed(
     reference_headphones_official,
     reference_headphones_asr,
     headphones,
+    title="Comparing Voltage Requirements of Headphones to Reach 110 dB",
 )
 
 compare_power_needed(
@@ -560,6 +562,5 @@ compare_power_needed(
     reference_headphones_official,
     reference_headphones_asr,
     headphones,
-    title="Comparing Power Requirements of Headphones to Reach 100 dB",
-    target_db=100,
+    title="Comparing Power Requirements of Headphones to Reach 110 dB",
 )

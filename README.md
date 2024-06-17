@@ -67,4 +67,4 @@ For specific usage, please refer to the comments and the usage examples in the s
 - Fill comments in [data/over-ear assessments cn.csv](./data/over-ear%20assessments%20cn.csv)
 - ...
 
-You are welcomed to contribute to this project. If you have any questions or suggestions, no matter how insignificant, please feel free to [open an Issue](https://github.com/Sha1rholder/Sound-Library/issues/new) or email me. Thank you for your support!
+You are welcomed to contribute to this project or submit your own articles. Your copyright is paid respect here. If you have any questions or suggestions, no matter how insignificant, please feel free to [open an Issue](https://github.com/Sha1rholder/Sound-Library/issues/new) or email me. Thank you for your support!
