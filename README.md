@@ -50,13 +50,13 @@ Since the main contributors to this repository are in mainland China, the scores
 
 Used to analyze and compare the voltage and power requirements of headphones, it can draw a histogram of the voltage or power requirements to drive the headphones interested to a certain sound pressure level, which can be used as a reference to evaluate the difficulty of driving the headphones.
 
-![Voltage Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 94 dB](./analysis%20results/Voltage%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Planar%20Headphones%20to%20Reach%2094%20dB.png)
+![Voltage Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 110 dB](./analysis%20results/Voltage%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Planar%20Headphones%20to%20Reach%20110%20dB.png)
 
-![Power Requirements of the Easiest-to-Drive Producing or Inventory Closed-Back Headphones to Reach 110 dB](./analysis%20results/Power%20Requirements%20of%20the%20Easiest-to-Drive%20Producing%20or%20Inventory%20Closed-Back%20Headphones%20to%20Reach%20110%20dB.png)
+![Power Requirements of the Easiest-to-Drive Producing or Inventory Closed-Back Headphones to Reach 94 dB](./analysis%20results/Power%20Requirements%20of%20the%20Easiest-to-Drive%20Producing%20or%20Inventory%20Closed-Back%20Headphones%20to%20Reach%2094%20dB.png)
 
-![Comparing Voltage Requirements of Headphones to Reach 94 dB](./analysis%20results/Comparing%20Voltage%20Requirements%20of%20Headphones%20to%20Reach%2094%20dB.png)
+![Comparing Voltage Requirements of Headphones to Reach 110 dB](./analysis%20results/Comparing%20Voltage%20Requirements%20of%20Headphones%20to%20Reach%20110%20dB.png)
 
-![Comparing Power Requirements of Headphones to Reach 100 dB](./analysis%20results/Comparing%20Power%20Requirements%20of%20Headphones%20to%20Reach%20100%20dB.png)
+![Comparing Power Requirements of Headphones to Reach 110 dB](./analysis%20results/Comparing%20Power%20Requirements%20of%20Headphones%20to%20Reach%20110%20dB.png)
 
 For specific usage, please refer to the comments and the usage examples in the script.
 
