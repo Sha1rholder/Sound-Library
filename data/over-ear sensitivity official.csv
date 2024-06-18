@@ -226,6 +226,7 @@ Raal,1995,ribbon,,,,yes,,producing,,2024-06-16
 Raal,CA-1a,ribbon,,,,yes,,producing,,2024-06-16
 Raal,CS-1a,ribbon,,,,yes,,producing,,2024-06-16
 Raal,SR-1b,ribbon,,,,yes,speaker,producing,,2024-06-16
+Sennheiser,hd25,dynamic,,,70,no,closed,producing,,2024-06-19
 Sennheiser,hd490 pro,dynamic,96,105,130,yes,open,producing,,2024-06-15
 Sennheiser,hd560s,dynamic,,110,,no,open,producing,,2024-06-15
 Sennheiser,hd569,dynamic,,115,23,no,closed,producing,,2024-06-15
@@ -287,7 +288,7 @@ XK Audio,Sinae Open,dynamic,98,,300,yes,open,producing,,2024-06-15
 XK Audio,X1266,planar,88,,30,yes,open,producing,,2024-06-15
 Yamaha,YH-5000SE,planar,98,,34,yes,open,producing,,2024-06-15
 ZMF,Aeolus,dynamic,99,,300,yes,open,producing,,2024-06-15
-ZMF,Atticus,dynamic,99,,300,yes,semi-closed,producing,,2024-06-15
+ZMF,Atticus,dynamic,99,,300,yes,semi-closed,discontinued,,2024-06-19
 ZMF,Auteur,dynamic,97,,300,yes,open,producing,,2024-06-15
 ZMF,Bokeh,dynamic,103,,80,yes,closed,producing,,2024-06-15
 ZMF,Caldera,planar,95,,60,yes,open,producing,,2024-06-15
