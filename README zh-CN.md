@@ -44,17 +44,17 @@ Audio Science Review（ASR）头戴式耳机灵敏度表。ASR 是比较权威�
 
 # Analysis Tools & Results 数据分析工具和结果
 
-## over-ear sensitivity.py
+## over-ear sensitivity analysis.py
 
 用于分析和对比头戴式耳机的电压和功率需求，能够绘制你感兴趣的耳机驱动到一定声压级所需电压或功率的直方图，可作为评估耳机驱动难度的一个参考
 
-![Voltage Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 110 dB](./analysis%20results/Voltage%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Planar%20Headphones%20to%20Reach%20110%20dB.png)
+![Voltage Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB](./analysis%20results/Voltage%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Headphones%20to%20Reach%20110%20dB.png)
 
-![Power Requirements of the Easiest-to-Drive Producing or Inventory Closed-Back Headphones to Reach 94 dB](./analysis%20results/Power%20Requirements%20of%20the%20Easiest-to-Drive%20Producing%20or%20Inventory%20Closed-Back%20Headphones%20to%20Reach%2094%20dB.png)
+![Power Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 110 dB](./analysis%20results/Power%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Planar%20Headphones%20to%20Reach%20110%20dB.png)
 
-![Comparing Voltage Requirements of Headphones to Reach 110 dB](./analysis%20results/Comparing%20Voltage%20Requirements%20of%20Headphones%20to%20Reach%20110%20dB.png)
+![Voltage Requirements of Some Headphones to Reach 110 dB](./analysis%20results/Voltage%20Requirements%20of%20Some%20Headphones%20to%20Reach%20110%20dB.png)
 
-![Comparing Power Requirements of Headphones to Reach 110 dB](./analysis%20results/Comparing%20Power%20Requirements%20of%20Headphones%20to%20Reach%20110%20dB.png)
+![Power Requirements of Some Headphones to Reach 110 dB](./analysis%20results/Power%20Requirements%20of%20Some%20Headphones%20to%20Reach%20110%20dB.png)
 
 具体使用方法请参考该脚本内的注释和使用实例
 
