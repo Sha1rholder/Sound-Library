@@ -9,7 +9,9 @@ $$U=10^\frac{I-S_{Vrms}}{20}$$
 
 # Background Knowledge
 
-Most headphones, including dynamic, planar, and electrostatic headphones, have a constant impedance at a constant frequency. The sound pressure (Pa) they produce is directly proportional to the equivalent voltage (Vrms). We refer to this as **the Direct Proportionality between Sound Pressure and Equivalent Voltage**.
+Most headphones, including dynamic, planar, and electrostatic headphones, have a constant impedance at a constant frequency. The sound pressure (Pa) they produce is directly proportional to the equivalent voltage (Vrms). In other words, the ratio of sound pressure to voltage is a fixed value. We refer to this as **the Direct Proportionality between Sound Pressure and Equivalent Voltage**. That is:
+
+$$\frac{P_1}{U_1}=\frac{P_2}{U_2}$$
 
 The definition of Decibel Sound Pressure Level
 
@@ -27,7 +29,9 @@ Where $I$ is the sound pressure level in decibels (dBSPL, abbreviated as dB); $P
 
 # Derivation
 
-First, according to **the Direct Proportionality between Sound Pressure and Equivalent Voltage** (for the convenience of subsequent calculations, the units were removed), we get:
+> For the convenience of subsequent calculations, the units were removed from the formulas.
+
+First, according to **the Direct Proportionality between Sound Pressure and Equivalent Voltage** , when the voltage is 1 Vrms, the ratio of sound pressure to voltage should be equal to the ratio of sound pressure to power when the power is 1 mW. That is:
 
 $$\frac{P_{1Vrms}(Pa)}{1(Vrms)}=\frac{P_{1mW}(Pa)}{U_{1mW}(Vrms)}$$
 
