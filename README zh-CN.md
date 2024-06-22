@@ -50,11 +50,9 @@ Audio Science Review（ASR）头戴式耳机灵敏度表。[Audio Science Review
 
 ![Voltage Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB](./analysis%20results/Voltage%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Headphones%20to%20Reach%20110%20dB.png)
 
-![Power Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 110 dB](./analysis%20results/Power%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Planar%20Headphones%20to%20Reach%20110%20dB.png)
-
-![Voltage Requirements of Some Headphones to Reach 110 dB](./analysis%20results/Voltage%20Requirements%20of%20Some%20Headphones%20to%20Reach%20110%20dB.png)
-
 ![Power Requirements of Some Headphones to Reach 110 dB](./analysis%20results/Power%20Requirements%20of%20Some%20Headphones%20to%20Reach%20110%20dB.png)
+
+![Current Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB](./analysis%20results/Current%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Headphones%20to%20Reach%20110%20dB.png)
 
 具体使用方法请参考该脚本内的注释和使用实例
 

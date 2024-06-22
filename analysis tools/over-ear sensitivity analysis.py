@@ -16,10 +16,8 @@ class Headphone:
         balance=None,
         back=None,
         production=None,
-        official_note=None,
         asr_94db_voltage=math.nan,
         asr_impedance=math.nan,
-        asr_note=None,
     ):
         self.brand = brand
         self.model = model
@@ -30,10 +28,8 @@ class Headphone:
         self.balance = balance
         self.back = back
         self.production = production
-        self.official_note = official_note
         self.asr_94db_voltage = asr_94db_voltage
         self.asr_impedance = asr_impedance
-        self.asr_note = asr_note
 
     def print_info(self):
         for attr, value in self.__dict__.items():
@@ -45,18 +41,14 @@ class Headphone:
         elif not math.isnan(self.official_db_mw) and not math.isnan(
             self.official_impedance
         ):
-            return (
-                10
-                ** (
-                    (
-                        target_db
-                        - self.official_db_mw
-                        - 30
-                        + 10 * math.log10(self.official_impedance)
-                    )
-                    / 20
+            return 10 ** (
+                (
+                    target_db
+                    - self.official_db_mw
+                    + 30
+                    + 10 * math.log10(self.official_impedance)
                 )
-                * 1000
+                / 20
             )
 
     def voltage_needed_asr(self, target_db=110):
@@ -100,6 +92,59 @@ class Headphone:
                 * self.asr_94db_voltage**2
                 / self.official_impedance
                 / 1000
+            )
+
+    def current_needed_official(self, target_db=110):
+        # db/vrms is prefered for no compelling reason. It's just a choice.
+        if not math.isnan(self.official_db_vrms) and not math.isnan(
+            self.official_impedance
+        ):
+            return (
+                10 ** ((target_db - self.official_db_vrms) / 20)
+                / self.official_impedance
+                * 1000
+            )
+        elif not math.isnan(self.official_db_mw) and not math.isnan(
+            self.official_impedance
+        ):
+            return (
+                10
+                ** (
+                    (
+                        target_db
+                        - self.official_db_mw
+                        + 30
+                        + 10 * math.log10(self.official_impedance)
+                    )
+                    / 20
+                )
+                / self.official_impedance
+            )
+        elif not math.isnan(self.official_db_vrms) and not math.isnan(
+            self.official_db_mw
+        ):
+            return (
+                10
+                ** ((target_db + self.official_db_vrms - 2 * self.official_db_mw) / 20)
+                / 1000
+            )
+
+    def current_needed_asr(self, target_db=110):
+        if not math.isnan(self.asr_94db_voltage) and not math.isnan(self.asr_impedance):
+            return (
+                10 ** ((target_db - 94) / 20)
+                * self.asr_94db_voltage
+                / self.asr_impedance
+            )
+
+    def current_needed_asr_voltage_official_impedance(self, target_db=110):
+        if not math.isnan(self.asr_94db_voltage) and not math.isnan(
+            self.official_impedance
+        ):
+            return (
+                10 ** ((target_db - 94) / 20)
+                * self.asr_94db_voltage
+                / self.official_impedance
             )
 
 
@@ -153,7 +198,10 @@ def plot(
     for bar in bars:
         width = bar.get_width()
         plt.text(
-            width, bar.get_y() + bar.get_height() / 2, f"{round(width)}", va="center"
+            width,
+            bar.get_y() + bar.get_height() / 2,
+            "%.3g" % width,
+            va="center",
         )
     plt.xlabel(xlabel)
     plt.title(title)
@@ -231,6 +279,45 @@ def power_needed(headphones, target_db):
     return power_data
 
 
+def current_needed(headphones, target_db):
+    current_data = []
+    for headphone in headphones:
+        current_needed = headphone.current_needed_official(target_db=target_db)
+        if current_needed:
+            current_data.append(
+                (
+                    f"{headphone.brand} {headphone.model}",
+                    current_needed,
+                    headphone.driver,
+                    headphone.balance,
+                )
+            )
+        current_needed = headphone.current_needed_asr(target_db=target_db)
+        if current_needed:
+            current_data.append(
+                (
+                    f"{headphone.brand} {headphone.model} ASR",
+                    current_needed,
+                    headphone.driver,
+                    headphone.balance,
+                )
+            )
+        else:
+            current_needed = headphone.current_needed_asr_voltage_official_impedance(
+                target_db
+            )
+            if current_needed:
+                current_data.append(
+                    (
+                        f"{headphone.brand} {headphone.model} ASR (official impedance)",
+                        current_needed,
+                        headphone.driver,
+                        headphone.balance,
+                    )
+                )
+    return current_data
+
+
 official = pd.read_csv(
     "./data/over-ear sensitivity official.csv",
     dtype={
@@ -273,7 +360,6 @@ for index, data in official.iterrows():
             data["balance"],
             data["back"],
             data["production"],
-            data["note"],
         )
     )
 for index, data in asr.iterrows():
@@ -282,7 +368,6 @@ for index, data in asr.iterrows():
         if headphone.brand == data["brand"] and headphone.model == data["model"]:
             headphone.asr_94db_voltage = data["94db voltage"]
             headphone.asr_impedance = data["impedance"]
-            headphone.asr_note = data["note"]
             found = True
             break
     if not found:
@@ -320,6 +405,21 @@ plot(
     max_shown=30,
     title="Power Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 110 dB",
     xlabel="Power (mW)",
+    save_path="./analysis results/",
+)
+
+plot(
+    current_needed(
+        [
+            headphone
+            for headphone in headphones
+            if headphone.production in ["producing", "inventory"]
+        ],
+        110,
+    ),
+    max_shown=30,
+    title="Current Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB",
+    xlabel="Current (mA)",
     save_path="./analysis results/",
 )
 
@@ -363,5 +463,12 @@ plot(
     power_needed(reference_headphones, 110),
     title="Power Requirements of Some Headphones to Reach 110 dB",
     xlabel="Power (mW)",
+    save_path="./analysis results/",
+)
+
+plot(
+    current_needed(reference_headphones, 110),
+    title="Current Requirements of Some Headphones to Reach 110 dB",
+    xlabel="Current (mA)",
     save_path="./analysis results/",
 )
