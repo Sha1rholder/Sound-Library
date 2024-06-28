@@ -215,7 +215,7 @@ moondrop,para,planar,,101,8,yes,open,producing,I suspect the sensitivity is misl
 moondrop,venus,planar,,100,18,yes,open,inventory,,2024-06-15
 moondrop,void,dynamic,,110,64,yes,open,producing,,2024-06-15
 musicwizard,pmh-1,planar,99,,60,yes,open,producing,,2024-06-15
-nan diy,nan-6,planar,,,,yes,open,discontinued,,2024-06-15
+nan diy,nan-6,planar,,,45,yes,open,discontinued,,2024-06-15
 nan diy,nan-7,planar,,100,14,yes,open,producing,,2024-06-15
 philips,fidelio x1s,dynamic,100,,30,no,open,producing,,2024-06-15
 philips,fidelio x2,dynamic,100,,30,no,open,discontinued,,2024-06-15
