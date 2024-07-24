@@ -17,6 +17,8 @@ akg,k702,dynamic,,105,62,no,open,producing,,2024-06-15
 akg,k712,dynamic,,105,62,no,open,producing,,2024-06-15
 akg,k812,dynamic,,110,36,no,open,producing,,2024-06-15
 akg,k872,dynamic,,112,36,no,closed,producing,,2024-06-15
+anan audio,nan-6,planar,,,45,yes,open,discontinued,,2024-06-15
+anan audio,nan-7,planar,,100,14,yes,open,producing,,2024-06-15
 ath,a1000z,dynamic,101,,44,,closed,producing,,2024-06-15
 ath,a2000z,dynamic,101,,42,,closed,producing,,2024-06-15
 ath,a550z,dynamic,100,,40,no,closed,producing,,2024-06-15
@@ -82,6 +84,7 @@ beyer,dt990 250,dynamic,96,,250,no,open,producing,sensitivity at 500 hz,2024-06-
 beyer,dt990 32,dynamic,96,,32,no,open,producing,sensitivity at 500 hz,2024-06-15
 beyer,dt990 600,dynamic,96,,600,no,open,producing,sensitivity at 500 hz,2024-06-15
 beyer,dt990 pro,dynamic,96,,250,no,open,producing,sensitivity at 500 hz,2024-06-15
+beyer,mmx300 pro,dynamic,96,127.3,48,no,closed,producing,db/mw sensitivity at 500 hz; 127.3 db/v calculated from 21.6 mV/Pa at 1 khz,2024-07-25
 beyer,t1 1st,dynamic,,,,yes,open,discontinued,,2024-06-15
 beyer,t1 2nd,dynamic,,,,yes,open,discontinued,,2024-06-15
 beyer,t1 3rd,dynamic,100,,32,yes,open,producing,sensitivity at 500 hz,2024-06-15
@@ -215,8 +218,6 @@ moondrop,para,planar,,101,8,yes,open,producing,I suspect the sensitivity is misl
 moondrop,venus,planar,,100,18,yes,open,inventory,,2024-06-15
 moondrop,void,dynamic,,110,64,yes,open,producing,,2024-06-15
 music wizard,pmh-1,planar,99,,60,yes,open,producing,,2024-06-15
-nan diy,nan-6,planar,,,45,yes,open,discontinued,,2024-06-15
-nan diy,nan-7,planar,,100,14,yes,open,producing,,2024-06-15
 philips,fidelio x1s,dynamic,100,,30,no,open,producing,,2024-06-15
 philips,fidelio x2,dynamic,100,,30,no,open,discontinued,,2024-06-15
 philips,fidelio x2hr,dynamic,100,,30,yes,open,producing,,2024-06-15
