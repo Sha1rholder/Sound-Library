@@ -2,9 +2,9 @@ English / [中文](./README%20zh-CN.md)
 
 # What is Sound Library?
 
-**Sound Library** is an acoustics knowledge base, dedicated to helping audiophiles and those interested in high-quality audio understand the knowledge of sound playback.
+**Sound Library** is an acoustics knowledge base, dedicated to helping audiophiles and those interested in high-quality audio learn the knowledge of sound.
 
-If you don't know how to get started or just want to have a glance, you can check this article [_Conversion Relation between Sensitivities and Impedance of Headphones_](./en-US/Knowledge/Conversion%20Relation%20between%20Sensitivities%20and%20Impedance%20of%20Headphones.md).
+If you don't know how to get started or just want to have a glance, you can check this article [_Algebraic Relation between Sensitivities and Impedance_](./en-US/Knowledge/Algebraic%20Relation%20between%20Sensitivities%20and%20Impedance.md).
 
 # Localized Contents
 
