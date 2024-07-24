@@ -177,10 +177,6 @@ def plot(
             colors.append(
                 "green" if balance == "yes" or balance == "both" else "darkgreen"
             )
-        elif driver == "planar magnetostatic":
-            colors.append(
-                "cran" if balance == "yes" or balance == "both" else "#darkcran"
-            )
         elif driver == "AMT":
             colors.append(
                 "magenta" if balance == "yes" or balance == "both" else "darkmagenta"
@@ -334,7 +330,7 @@ official = pd.read_csv(
     },
 )
 official = official[
-    official["driver"].isin(["dynamic", "planar", "AMT", "planar magnetostatic"])
+    official["driver"].isin(["dynamic", "planar", "AMT"])
 ]
 asr = pd.read_csv(
     "./data/over-ear sensitivity asr.csv",

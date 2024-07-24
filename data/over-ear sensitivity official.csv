@@ -264,8 +264,8 @@ sony,mdr-r10,dynamic,,,,yes,closed,discontinued,,2024-06-15
 sony,mdr-z1r,dynamic,100,,64,yes,closed,producing,,2024-06-15
 sony,qualia 010,dynamic,,,,yes,open,discontinued,,2024-06-15
 stax,sr-x9000,electrostatic,100,,145000,,open,producing,more models should be added in this brand,2024-06-16
-t+a,solitaire p,planar magnetostatic,,,80,yes,open,producing,,2024-06-15
-t+a,solitaire p-se,planar magnetostatic,,,45,yes,open,producing,,2024-06-15
+t+a,solitaire p,planar,,,80,yes,open,producing,,2024-06-15
+t+a,solitaire p-se,planar,,,45,yes,open,producing,,2024-06-15
 taksar,pro82,dynamic,96,,32,no,closed,producing,,2024-06-15
 tang diy,gold 1,planar,84,,50,yes,open,producing,,2024-06-16
 tang diy,gold 1 pro,planar,82,,70,yes,open,producing,,2024-06-16
