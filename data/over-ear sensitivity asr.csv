@@ -65,15 +65,15 @@ dca,ether flow 1.1 open,164,,,yes
 sennheiser,hd490 pro,164,134,impendance rises to 200 Ω in 60 ~ 100 hz,
 drop,hd58x jubilee,166,,,yes
 sennheiser,hd660s,176,170,impedance rises to 360 Ω in 100 hz but drops 180 Ω in 20 hz,
-drop,elex,180,,,yes
+drop,ether elex,180,,,yes
 mark,levinson 5909,180,,,yes
 drop,ether cx,182,,,yes
 hifiman,ananda stealth v2,183,28,,
 meze,liric,204,33,impepance rises to 85 Ω in 18000 hz but drops to 23 Ω in 20 hz and drops to 20 Ω in 20000 hz,
 akg,k712,207,62,impedance rises to 90 Ω in 20000 hz,
 zmf,caldera,208,55,,
-drop,k7xx,210,,,yes
-beyer,amiron,212,,,yes
+drop,akg k7xx,210,,,yes
+beyer,amiron home,212,250,impedance rises to 500 Ω in 100 hz,
 hifiman,arya stealth,214,30,,
 akg,k240,230,57,impedance rises to 170 Ω in 107 hz and drops to 50 Ω in 20 hz and rises to 130 Ω in 20000 hz,
 audeze,lcd-1,230,15,,
@@ -84,6 +84,7 @@ sennheiser,hd820,256,390,impedance rises to 520 Ω in 50 hz and drops to 350 Ω 
 sennheiser,hd650,288,320,imdepance rises to 480 Ω in 100 hz and drops to 305 Ω in 20 hz and rises to 370 Ω in 20000 hz,
 akg,k701,295,59,impedance rises to 90 Ω in 20000 hz; tested both China and Austrian version,
 hifiman,he400i,298,46,,
+beyer,dt1990 pro,306,267,imdepance rises to 550 Ω in 60 hz
 ath,adx5000,316,,amirm didn't test the impedance,
 hifiman,sundara,318,40,,
 ath,r70x,318,474,imdepance rises to over 1000 Ω in 100 hz,
@@ -93,7 +94,7 @@ dca,aeon 2 noire,353,13,,
 anan audio,nan-7,360,15,,
 beyer,t1 2nd,370,600,impedance rises to 900 Ω in 100 hz,
 beyer,dt150,400,242,impedance rises to 300 Ω in 80 ~ 90 hz,
-hifiman,he560,420,39,,
+hifiman,he560 v4,420,39,,
 dca,e3,512,27,,
 dca,stealth,549,23,,
 hedd,heddphone 1,583,40.9,,

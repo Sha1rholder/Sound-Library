@@ -1,3 +1,11 @@
+We usually judge how difficulty it is to drive a certain headphone by its sensitivity and impedance, while sensitivity is further divided into voltage sensitivity (measured in dB/Vrms) and power sensitivity (measured in dB/mW).
+
+Since some headphone manufacturers indicate sensitivity in dB/Vrms, while others indicate sensitivity in dB/mW (if only how many dB is mentioned, it usually refers to power sensitivity), we sometimes need to convert the two types of sensitivities to the same unit for comparison.
+
+Editor has also prepared a small puzzle, which you will be able to solve after understanding this article.
+
+![here comes mathemetics](../../resource/here%20comes%20mathemetics.jpg)
+
 > mrima bought a new dynamic headphone and began reviewing it. He started by measuring the frequency response and discovered that the headphone is exactly 92 dB at 1 kHz and exactly 97 dB at 5 kHz. However, right after the measurement, he realized he forgot to record the voltage used for the frequency response test!
 >
 > Then, mrima used a 1 kHz sine wave to drive the headphone to exactly 94 dB and noted down the equivalent voltage as $U(mV)$. He continued to measure the impedance curve and found that the headphone had an impedance of $Z_1(Ω)$ at 1 kHz and $Z_2(Ω)$ at 5 kHz. After the measurements, mrima asked the manufacturer about the headphone's linear resistance and got an answer of $R(Ω)$.

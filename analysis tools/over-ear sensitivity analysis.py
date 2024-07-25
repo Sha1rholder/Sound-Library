@@ -166,13 +166,14 @@ def plot(
     elif beginner == 0:
         data = data[-max_shown:]
     else:
-        data = data[-beginner - max_shown : -beginner]
+        data = data[-beginner - max_shown: -beginner]
     models, values, drivers, balances = zip(*data)
 
     colors = []
     for driver, balance in zip(drivers, balances):
         if driver == "dynamic":
-            colors.append("red" if balance == "yes" or balance == "both" else "darkred")
+            colors.append("red" if balance == "yes" or balance ==
+                          "both" else "darkred")
         elif driver == "planar":
             colors.append(
                 "green" if balance == "yes" or balance == "both" else "darkgreen"
@@ -266,7 +267,8 @@ def power_needed(headphones, target_db):
             if power_needed:
                 power_data.append(
                     (
-                        f"{headphone.brand} {headphone.model} ASR (official impedance)",
+                        f"{headphone.brand} {
+                            headphone.model} ASR (official impedance)",
                         power_needed,
                         headphone.driver,
                         headphone.balance,
@@ -305,7 +307,8 @@ def current_needed(headphones, target_db):
             if current_needed:
                 current_data.append(
                     (
-                        f"{headphone.brand} {headphone.model} ASR (official impedance)",
+                        f"{headphone.brand} {
+                            headphone.model} ASR (official impedance)",
                         current_needed,
                         headphone.driver,
                         headphone.balance,
@@ -368,7 +371,8 @@ for index, data in asr.iterrows():
             break
     if not found:
         print(
-            f"Error! ASR has {data['brand']} {data['model']} but official data doesn't"
+            f"Error! ASR has {data['brand']} {
+                data['model']} but official data doesn't"
         )
         sys.exit(1)
 
@@ -423,17 +427,17 @@ reference_headphones_names = dict(
     {
         "sennheiser": ["hd800s", "hd600"],
         "dca": ["expanse"],
-        "fiio": ["jt1"],
-        "akg": ["k812,k701"],
+        "fiio": ["jt1", "ft3 350"],
+        "akg": ["k812", "k701"],
         "audeze": ["lcd-5"],
-        "sony": ["mdr-a1r", "mdr-7506"],
-        "beyer": ["dt880 250", "dt900 prox", "t1 3rd", "dt880 600"],
+        "sony": ["mdr-z1r", "mdr-7506"],
+        "beyer": ["dt880 250", "dt900 prox", "t1 3rd", "dt880 600", "dt1990 pro"],
         "philips": ["shp9500", "fidelio x2hr"],
-        "focal": ["utopia 2016", "utopia 2022"],
+        "focal": ["utopia 2022"],
         "hifiman": ["susvara", "he400se stealth", "sundara closed", "ananda nano"],
         "zmf": ["caldera"],
         "abyss": ["1266 phi tc"],
-        "nan diy": ["nan-7"],
+        "anan audio": ["nan-7"],
         "moondrop": ["cosmo"],
         "ath": ["adx5000"],
     }
