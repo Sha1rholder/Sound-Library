@@ -370,12 +370,9 @@ for index, data in asr.iterrows():
             found = True
             break
     if not found:
-        print(
-            f"Error! ASR has {data['brand']} {
-                data['model']} but official data doesn't"
-        )
+        print("Error! ASR has "+data['brand']+" " +
+              data['model']+" but official data does not")
         sys.exit(1)
-
 
 plot(
     voltage_needed(
