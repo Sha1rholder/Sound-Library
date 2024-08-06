@@ -4,7 +4,7 @@ Since some headphone manufacturers indicate sensitivity in dB/Vrms, while others
 
 Editor has also prepared a small puzzle, which you will be able to solve after understanding this article.
 
-![here comes mathemetics](../../resource/here%20comes%20mathemetics.jpg)
+![here comes mathemetics](../../assets/here%20comes%20mathemetics.jpg)
 
 > mrima bought a new dynamic headphone and began reviewing it. He started by measuring the frequency response and discovered that the headphone is exactly 92 dB at 1 kHz and exactly 97 dB at 5 kHz. However, right after the measurement, he realized he forgot to record the voltage used for the frequency response test!
 >

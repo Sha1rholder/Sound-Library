@@ -1,6 +1,6 @@
-![img](../../../resource/r9.jpg)
+![img](../../../assets/r9.jpg)
 
-![freq](../../../resource/r9%20freq.png)
+![freq](../../../assets/r9%20freq.png)
 
 - 罩耳
 - 封闭

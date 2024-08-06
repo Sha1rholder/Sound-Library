@@ -1,10 +1,10 @@
-![img](../../../resource/he400se.jpg)
+![img](../../../assets/he400se.jpg)
 
 - 罩耳
 - 开放
 - 平面磁
 
-![freq](../../../resource/he400se%20non-stealth%20freq.png)  
+![freq](../../../assets/he400se%20non-stealth%20freq.png)  
 双边磁体版
 
 - 25 Ω
@@ -13,7 +13,7 @@
 - 双 3.5 mm AUX
 - 京东 ￥ 329
 
-![freq](../../../resource/he400se%20stealth%20freq.png)  
+![freq](../../../assets/he400se%20stealth%20freq.png)  
 隐形磁体版
 
 - 32 Ω

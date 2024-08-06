@@ -1,4 +1,4 @@
-![img](../../../resource/ed11.jpg)
+![img](../../../assets/ed11.jpg)
 
 找不到频响曲线，已写信问候 UltraSone。逼养的不回复，你好歹像 VZR 那样给个解释啊
 

@@ -1,4 +1,4 @@
-![img](../../../resource/black%20hole.png)
+![img](../../../assets/black%20hole.png)
 
 暂无频响
 

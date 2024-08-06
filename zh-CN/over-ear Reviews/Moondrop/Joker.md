@@ -1,6 +1,6 @@
-![img](../../../resource/joker.jpg)
+![img](../../../assets/joker.jpg)
 
-![freq](../../../resource/joker%20freq.png)
+![freq](../../../assets/joker%20freq.png)
 
 - 罩耳
 - 封闭
@@ -11,7 +11,7 @@
 - 双 3.5 mm AUX
 - 官网 ￥ 499
 
-![joker](../../../resource/joker%20emjoy.jpg)
+![joker](../../../assets/joker%20emjoy.jpg)
 
 谁买谁 Joker
 

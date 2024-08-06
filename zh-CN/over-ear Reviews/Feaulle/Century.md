@@ -1,6 +1,6 @@
-![img](../../../resource/century.jpg)
+![img](../../../assets/century.jpg)
 
-![freq](../../../resource/century%20freq.jpg)
+![freq](../../../assets/century%20freq.jpg)
 
 - 罩耳
 - 开放

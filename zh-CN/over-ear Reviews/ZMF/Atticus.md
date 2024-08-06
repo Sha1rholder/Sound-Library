@@ -1,6 +1,6 @@
-![img](../../../resource/atticus.jpg)
+![img](../../../assets/atticus.jpg)
 
-![freq](../../../resource/atticus%20freq.png)  
+![freq](../../../assets/atticus%20freq.png)  
 频响图仅供参考，因为这款耳机采用“木碗”设计，木材的选用可能对声音产生一些影响。而且 ZMF 的出货量小，同系列每个耳机间声音很可能稍有不同
 
 - 罩耳
@@ -20,7 +20,7 @@
 
 ZMF 是一家介于定制和量产之间的 Hi-End 发烧耳机品牌在收到 Endgame 送测前，我甚至没有听说过这个品牌……可能这就是高端市场 Only 的高贵欧美品牌吧。戴上 Atticus 的一刻，我就被其恐怖的低频“烈度”震撼了，以至于一时间无暇欣赏别的方面。说来惭愧，我平常试听的曲目中，_Stained, Brutal Calamity_ 作为电音的代表，我一直没注意到 4:37 及往后的一段背景中重复的低频，直到 Atticus 把这段低频的质感表现得出色到 @&#\*%^@@!#$&^……
 
-![波奇发癫](../../../resource/波奇发癫.webp)
+![波奇发癫](../../../assets/波奇发癫.webp)
 
 > Note that fair amount of sound escapes the vents so don't assume these are "closed headphones" in the classical sense.
 >

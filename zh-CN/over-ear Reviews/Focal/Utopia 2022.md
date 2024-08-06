@@ -1,6 +1,6 @@
-![img](../../../resource/utopia2022.jpg)
+![img](../../../assets/utopia2022.jpg)
 
-![freq](../../../resource/utopia2022%20freq.png)
+![freq](../../../assets/utopia2022%20freq.png)
 
 - 罩耳
 - 开放

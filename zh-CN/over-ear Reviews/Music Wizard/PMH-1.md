@@ -1,4 +1,4 @@
-![img](./resource/pmh1.png)  
+![img](./assets/pmh1.png)  
 [【PMH-1】音乐精灵首款开放式平板耳机详细介绍及云试听对比 - bilibili](https://www.bilibili.com/video/BV1RU4y1b7q1/?share_source=copy_web&vd_source=0d156261fad807ac85d735b6ab0a64ed)
 
 暂无频响图

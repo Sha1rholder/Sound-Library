@@ -1,6 +1,6 @@
-![img](../../../resource/lcd5.webp)
+![img](../../../assets/lcd5.webp)
 
-![freq](../../../resource/lcd5%20freq.png)
+![freq](../../../assets/lcd5%20freq.png)
 
 - 罩耳
 - 开放

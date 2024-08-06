@@ -2,7 +2,7 @@ The Frequency-Response (FR) Curve illustrates the relationship between the sound
 
 This article uses the FR and compensation curves of the Sennheiser HD800s provided by the frequency response query and EQ suggestion website [AutoEQ.app](https://www.autoeq.app) as an example to introduce how to interpret FR curve.
 
-![freq](../../resource/freq%20example.png)  
+![freq](../../assets/freq%20example.png)  
 The x-axis represents frequency, in Hz; the y-axis represents the relative intensity of the sound produced at a specific frequency, in dBSPL.
 
 - Raw: The original FR curve. The FR of the same type of headphones may vary significantly under different test conditions, especially the results of the ultra-high frequency part.

@@ -1,6 +1,6 @@
-![img](../../../resource/dt900prox.webp)
+![img](../../../assets/dt900prox.webp)
 
-![freq](../../../resource/dt900prox%20freq.png)
+![freq](../../../assets/dt900prox%20freq.png)
 
 - 罩耳
 - 半开放

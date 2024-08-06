@@ -1,6 +1,6 @@
-![img](../../../resource/z1r.webp)
+![img](../../../assets/z1r.webp)
 
-![freq](../../../resource/z1r%20freq.png)
+![freq](../../../assets/z1r%20freq.png)
 
 - 罩耳
 - 封闭

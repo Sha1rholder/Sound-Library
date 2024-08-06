@@ -1,7 +1,7 @@
-![img](../../../resource/para.jpg)
+![img](../../../assets/para.jpg)
 
-![freq](../../../resource/para%20hybrid%20freq.png)  
-![freq](../../../resource/para%20PU%20freq.png)  
+![freq](../../../assets/para%20hybrid%20freq.png)  
+![freq](../../../assets/para%20PU%20freq.png)  
 Para 标配两套耳罩，分别为椭圆和圆形（暂时不确定上图哪个对应圆形哪个对应椭圆）
 
 - 罩耳
@@ -27,7 +27,7 @@ Para 标配两套耳罩，分别为椭圆和圆形（暂时不确定上图哪个
 >
 > [评价下水月雨的新平板 乐园 Para - 贴吧](https://tieba.baidu.com/p/8610487983)
 
-![para box](../../../resource/para%20box.jpg)  
+![para box](../../../assets/para%20box.jpg)  
 虽然耳机丑了点但盒子颜值还行
 
 不过这款耳机虽然重，在佩戴体验上还是很不错的，出乎意料得舒服，这可能是得益于其松松软软的头带，值得表扬。然而这耳机的金属头梁做工和质感属实不太行……上手后感觉这薄薄的金属头梁很容易被耳罩的重量拧断（也可能是我多虑了吧）

@@ -1,6 +1,6 @@
-![img](../../../resource/susvara.jpg)
+![img](../../../assets/susvara.jpg)
 
-![freq](../../../resource/susvara%20freq.png)
+![freq](../../../assets/susvara%20freq.png)
 
 - 罩耳
 - 开放

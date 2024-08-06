@@ -1,6 +1,6 @@
-![img](../../../resource/radiance.jpg)
+![img](../../../assets/radiance.jpg)
 
-![freq](../../../resource/radiance%20freq.png)
+![freq](../../../assets/radiance%20freq.png)
 
 - 罩耳
 - 封闭

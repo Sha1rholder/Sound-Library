@@ -1,6 +1,6 @@
-![img](../../../resource/lcdgx.webp)
+![img](../../../assets/lcdgx.webp)
 
-![freq](../../../resource/lcdgx%20freq.png)
+![freq](../../../assets/lcdgx%20freq.png)
 
 - 罩耳
 - 开放

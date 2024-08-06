@@ -1,6 +1,6 @@
-![img](../../../resource/edxs.jpg)
+![img](../../../assets/edxs.jpg)
 
-![freq](../../../resource/edxs%20freq.png)
+![freq](../../../assets/edxs%20freq.png)
 
 - 罩耳
 - 开放
@@ -11,7 +11,7 @@
 - 双 3.5 mm AUX
 - 官网 ￥ 2999
 
-![rtings](../../../resource/edxs%20rtings.png)
+![rtings](../../../assets/edxs%20rtings.png)
 
 适合：  
 不适合：  

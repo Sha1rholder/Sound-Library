@@ -6,7 +6,7 @@ The NAN-6, NAN's first commercially available DIY headphone, is essentially a re
 
 The NAN-7, the successor to the NAN-6, significantly reduces weight while improving sensitivity, making it **one of the most comfortable and lightweight planar headphones in the world**. Notably, the NAN-7 has a variety of interchangeable ear pads, each offering a different sound profile, adding to the fun of using it. The NAN-7 enjoys a high reputation and maintains its value well in the second-hand market within China's mid-fi community. It was even used as a demo model at the HIGH END Munich by staff from the well-known dac/amp manufacturer Topping. Several visitors expressed interest in purchasing the demo model on the spot, but refused of course. NAN-7, equipped with a carbon fiber headband and cloth angled ear pads, is the author's current main headphone now (Jun 29, 2024).
 
-![NAN-7](../../resource/nan-7.png)  
+![NAN-7](../../assets/nan-7.png)  
 The basic version of NAN-7 at ¥5099, with options to upgrade the headband to carbon fiber and purchase official cables and additional ear pads.
 
 The owner of XK Audio, Mr. Xu 徐 comes from a physics background and approaches headphone development with a rigorous scientific attitude and solid theoretical foundation, making his headphones arguably the most "technically superior" diy headphones.
@@ -17,11 +17,11 @@ As of June 28, 2024, the planar flagship Youyun has completed its R&D phase and 
 
 They also offer the X1266, a replica of the Abyss1266, which may be the closest and most successful replica to 1266 in the world. The Sinae series are their second-tier dynamic headphones. Similar to ZMF, Sinea features wooden cups, being visually appealing while offers an acceptable price. They also have Ken as an entry-level dynamic headphone.
 
-![x1266](../../resource/x1266.png)  
-![阿瓦隆2](../../resource/avalon%20mk2.png)  
-![秦O](../../resource/sinae-open.png)  
-![秦C](../../resource/sinae-closed.png)  
-![Ken](../../resource/ken.png)  
+![x1266](../../assets/x1266.png)  
+![阿瓦隆2](../../assets/avalon%20mk2.png)  
+![秦O](../../assets/sinae-open.png)  
+![秦C](../../assets/sinae-closed.png)  
+![Ken](../../assets/ken.png)  
 X1266 at ¥6500; Avalon MK2 at ¥3199; Sinae-Open at ¥2700; Sinae-Closed at ¥2199; Ken at ¥1998.
 
 Tang 汤, a professor at Hanghzhou City University, focuses on developing planar headphones and has successively launched the Zhuji 筑基, Master 大师, Immortal 不朽, and Gold 化神金 series.
@@ -34,7 +34,7 @@ The gold diaphragm flagships Gold 1, Gold 1 Pro, and Gold 2 Pro feature a gold d
 
 However, **Tang is known for his lavish praise of his own products, which has led to some skepticism**. Please do take the official introductions of these headphones with a grain of salt.
 
-![Tang's Listening Session](../../resource/Tang%20diy.jpg)  
+![Tang's Listening Session](../../assets/Tang%20diy.jpg)  
 Immortal 16 at ¥5120; Immortal 80 at ¥4320; Gold 1 at ¥4500; Gold 1 Pro at ¥5500; Gold 2 Pro at ¥6800.
 
 Hongshu 虹曙 Audio is a workshop that only produces electrostatic headphones. It remains experiencing stock shortages and sells its products through pre-orders, making it a niche player in the market.
@@ -45,7 +45,7 @@ The EH1, as an electrostatic headphone, has a very high failure rate comparing t
 
 As the world's cheapest electrostatic headphone, it has a very high price-to-performance ratio, leading to the joke: **"My three-thousand-yuan headphone is Hongshu, what can you compare with it?"**
 
-![EH1](../../resource/eh1.png)  
+![EH1](../../assets/eh1.png)  
 Hongshu EH1, including the amplifier, priced at an amazing ¥3000 (which will increase for the next batch).
 
 These DIY headphone manufacturers all offer unparalleled after-sales service in China. Any product issues can be directly addressed to the workshop owners. As these workshops rely heavily on word-of-mouth, they cannot afford negative impact on their reputation from a bad customer service experience.

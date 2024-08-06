@@ -1,6 +1,6 @@
-![img](../../../resource/x2hr.webp)
+![img](../../../assets/x2hr.webp)
 
-![freq](../../../resource/x2hr%20freq.png)
+![freq](../../../assets/x2hr%20freq.png)
 
 - 罩耳
 - 开放

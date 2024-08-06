@@ -1,6 +1,6 @@
-![img](../../../resource/dt700prox.webp)
+![img](../../../assets/dt700prox.webp)
 
-![freq](../../../resource/dt700prox%20freq.png)
+![freq](../../../assets/dt700prox%20freq.png)
 
 - 罩耳
 - 封闭
