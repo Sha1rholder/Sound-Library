@@ -1,12 +1,9 @@
 Popular Science and Miscellaneous Talks on Planar Headphones (Part 1): What and Why
 
-[Original link](https://www.bilibili.com/read/cv35985244) Author：炎栊轩主梼昧狂客 Madman
+[Original link](https://www.bilibili.com/read/cv35985244) Author：炎栊轩主梼昧狂客 Madman  
+[Original Chinese Version](../../zh-CN/Reposts/平板耳机电声科普杂谈（一）.md)
 
 ![Inside Cover](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%201)/inside%20cover.jpg>)
-
-# Preface by Translator
-
-This is indeed an exceptionally lengthy article. However, its literary quality and in-depth research on HiFi are undeniably impressive.
 
 # Preface
 
@@ -63,7 +60,7 @@ For those with unlimited budgets who go straight for the summit-fi, no worry. Fl
 ZMF Caldera Open. A closed version was recently released.
 
 ![11](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%201)/11.jpg>)  
-Abyss 1266, nothing much to say. The biggest issue is comfort, but the sound is just so-so in my opinion.
+Abyss 1266, nothing much to say. The biggest issue is comfort, but the sound is just so so in my opinion.
 
 Haha, criticize me later. I know it's full of bullshit for most people. Most people buy an HE400, find it hard to drive, with poor detail and dynamics, then seek advice and try to tweak the source and amplifier. This is the norm.
 
