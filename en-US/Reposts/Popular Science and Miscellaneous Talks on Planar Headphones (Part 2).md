@@ -47,39 +47,39 @@ According to a popular saying: analog is superior to digital. This is not wrong 
 [_How to Scientifically Tinker with Vinyl — Vinyl Source Technology Manual Revised Edition (Part 3) Cartridge_](https://www.bilibili.com/read/cv18239543)
 
 [_How to Scientifically Tinker with Vinyl — Vinyl Source Technology Manual Revised Edition (Part 4) Phono Stage_](https://www.bilibili.com/read/cv20875531)
-<!-- 翻译到这里 -->
+
 Here's a small question: do products like digital amplifiers and digital speakers (e.g., GENELEC SAM series 8351) that don't require "conversion" still need a source?
 
 Absolutely, where does the digital signal come from? From a USB Audio Bridge (DDC), an Audio Interface (sound card), a CD Transport (CDT), or a Network Audio Streamer.
 
 ![6](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%202)/6.jpg>)  
-WEISS INT204, USB interface
+WEISS INT204 USB interface
 
 ![7](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%202)/7.jpg>)  
 Lynx Hilo, professional dual-channel AD/DA
 
 ![8](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%202)/8.jpg>)  
-Shanling T3.2, CD transport
+Shanling T3.2, CD player
 
 ![9](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%202)/9.jpg>)  
 Cayin IDAP-6, digital player/network player transport
 
-Therefore, there is a further subdivision — "digital sources and analog sources in digital audio sources."
+Therefore, there is a further subdivision: digital sources and analog sources.
 
-Analog sources refer to decoders, while digital sources refer to machines that provide digital signals. Different digital sources mean different ways of playing and system composition. For example, USB interfaces and audio interfaces belong to PChifi. If using digital speakers or digital amplifiers, only digital sources are needed (the simplest is the optical or coaxial output of the computer motherboard).
+Analog sources refer to DACs, while digital sources refer to machines that provide digital signals. Different digital sources mean different ways of playing and system composition. For example, USB interfaces and audio interfaces belong to PChifi. If using digital speakers or digital amplifiers, only digital sources are needed (the simplest is the optical or coaxial output of the computer motherboard).
 
-The function of the Amplifier is simple — to amplify analog electrical signals (temporarily not discussing digital amplifiers), but the specific classification is more complicated, such as common preamps, power amps, and integrated amps, which some friends don't understand.
+The function of amplifiers is simple: to amplify analog electrical signals (temporarily not discussing digital amplifiers), but the specific classification is more complicated, such as common preamps, power amps, and integrated amps. Some audiophiles don't understand understand the difference between these terms, so let's clarify.
 
-Traditionally, a preamp (before the CD player became popular) refers to a high-gain amplifier that amplifies "weak electrical signals" and is used before a power amplifier (gain can be over 1000 times). The input signal voltage is in the millivolt (mV) range, used with vinyl cartridges, tapes, and other storage media, the most common being the phono stage. In the current context, a preamp accurately refers to a "line stage," with input signal voltages typically ranging from 1-6V RMS, used with digital sources, and the gain is usually low (typically not exceeding 10 times/20dB).
+Traditionally, a preamp (before the CD player became popular) refers to a high-gain amplifier that amplifies "weak electrical signals" and is used before a power amplifier (gain can be over 1000 times). The input signal voltage is in the millivolt range, used with vinyl cartridges, tapes, and other storage media, the most common being the phono stage. In the current context, a preamp accurately refers to a "line stage," with input signal voltages typically ranging from 1-6V RMS, used with digital sources, and the gain is usually low (typically not exceeding 10 times/20dB).
 
 ![10](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%202)/10.jpg>)  
-PS Audio's pure phono stage, with non-adjustable output level
+PS Audio's phono stage, with non-adjustable output level
 
-They only provide voltage gain, without low-impedance load capacity, and cannot directly drive passive speakers and headphones. Since the output level of digital sources is very high (common specifications: single-ended 2V RMS, balanced 4V RMS), a preamp is not necessary for headphone users, unless also using active speakers. However, most headphone amplifiers have preamp outputs, which are sufficient unless pursuing the ultimate.
+They only provide voltage gain, without low-impedance load capacity, and cannot directly drive passive speakers and headphones. Since the output level of digital sources is very high (common specifications: single-ended 2V RMS, balanced 4V RMS), a preamp is not necessary for headphone users. Most headphone amplifiers have preamp outputs, which can also be a part of a speaker system if not pursuing the ultimate.
 
-The function of a power amp is power amplification, providing voltage gain while having high current output capability (i.e., load capacity).
+Power amp amplifies power, providing voltage gain while having high current output capability (i.e., load capacity).
 
-Unlike integrated amplifiers, pure power amps have a very simple function — only responsible for power output. The intuitive difference is that pure power amps cannot adjust the volume, relying on the source or preamp for control. In essence, it is still the "pursuit of the ultimate" theory. Hi-End equipment has no new tricks, just splitting into more parts to sell more expensively, which is understandable (electronic crossover + multiple amplifiers is not a gimmick, it is the ultimate version of passive speaker systems, typically represented by B&W Nautilus, requiring 8 monoblock amps or 4 stereo amps).
+Unlike integrated speaker amps, power amps' function is simple: output power. The intuitive difference is that pure power amps cannot adjust the volume, relying on the source or preamp for control. In essence, it is still some "pursuit of the audiophile's ultimate". Hi-End equipment has no new tricks, just splitting into more parts to sell more expensively, which is understandable (electronic crossover + multiple amplifiers is not a gimmick, it is the ultimate version of passive speaker systems, typically represented by B&W Nautilus, requiring 8 monoblock amps or 4 stereo amps).
 
 ![11](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%202)/11.jpg>)  
 My previous setup with Mark Levinson No.326S preamp and Bryston 4B3 power amp
