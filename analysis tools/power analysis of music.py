@@ -18,7 +18,7 @@ def freq_power(data):
     plt.xlim(20, 20000)
     plt.ylim(5, 65)
     plt.xlabel('Frequency (Hz)')
-    plt.ylabel('Power (dB)')
+    plt.ylabel('Relative Power (dB)')
     plt.title('Frequency-Power Spectrum of Hotel California (Live On MTV, 1994)')
     plt.grid(True)
     plt.xticks([20, 50, 100, 500, 1000, 5000, 10000, 20000], [
@@ -33,7 +33,7 @@ def time_freq_power(data):
     power = np.abs(Zxx) ** 2
     plt.pcolormesh(times, frequencies, 10*np.log(power)+50,
                    shading='gouraud', vmin=0)
-    plt.colorbar(label='Power (dB)')
+    plt.colorbar(label='Relative Power (dB)')
     plt.yscale('log')
     plt.ylim(20, 20000)
     plt.title(
@@ -47,4 +47,4 @@ def time_freq_power(data):
 
 
 # freq_power(data)
-# time_freq_power(data)
+time_freq_power(data)

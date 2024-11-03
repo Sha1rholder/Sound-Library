@@ -41,7 +41,6 @@ ath,m70x,dynamic,97,,35,no,closed,producing,,2024-06-15
 ath,msr7,dynamic,101,,36,yes,closed,producing,,2024-06-15
 ath,r70x,dynamic,98,,470,yes,open,producing,,2024-06-15
 ath,w2022,dynamic,98,,48,yes,closed,producing,,2024-06-15
-audeze,crbn,electrostatic,,,,,open,producing,,2024-06-16
 audeze,lcd-1,planar,99,,16,yes,open,discontinued,,2024-06-15
 audeze,lcd-2,planar,101,,70,yes,open,producing,,2024-06-15
 audeze,lcd-2 classic,planar,101,,70,yes,open,producing,,2024-06-15
@@ -104,6 +103,7 @@ denon,ah-d5200,dynamic,103,,24,yes,closed,producing,,2024-06-15
 denon,ah-d7200,dynamic,105,,25,yes,closed,producing,,2024-06-15
 denon,ah-d9200,dynamic,105,,24,yes,closed,producing,,2024-06-15
 drop,meze 99 noir,dynamic,103,,32,yes,closed,producing,,2024-06-15
+dunu,arashi,planar,97,113,26,yes,open,producing,,2024-11-4
 erzetich,charybdis,planar,,,43,yes,open,producing,,2024-06-15
 erzetich,mania,dynamic,,,80,yes,open,producing,,2024-06-15
 erzetich,phobos v2018,planar,,,45,yes,open,producing,,2024-06-15
@@ -111,11 +111,14 @@ erzetich,phobos v2021,planar,,,45,yes,open,producing,,2024-06-15
 erzetich,thalia,dynamic,,,32,yes,open,producing,,2024-06-15
 feaulle,century,dynamic,,110,32,yes,open,producing,,2024-06-15
 feaulle,feature,dynamic,,105,32,yes,closed,producing,,2024-06-15
-fiio,ft1,dynamic,,,,no,closed,producing,,2024-06-15
+fiio,ft1,dynamic,98,113,32,yes,closed,producing,,2024-06-15
+fiio,ft1 pro,planar,,,,yes,open,,,2024-11-4
 fiio,ft3 32,dynamic,,110,32,yes,open,producing,,2024-06-15
 fiio,ft3 350,dynamic,,105,350,yes,open,producing,,2024-06-15
 fiio,ft5,planar,96,110,36,yes,open,producing,,2024-06-15
+fiio,ft7,planar,,,,yes,open,,,2024-11-4
 fiio,jt1,dynamic,103,117,32,yes,closed,producing,,2024-06-15
+fiio,jt3,,,,,yes,,,,2024-11-4
 final,d7000,planar,89,,50,yes,open,producing,,2024-06-15
 final,d8000,planar,98,,60,yes,open,producing,,2024-06-15
 final,d8000pro,planar,98,,60,yes,open,producing,,2024-06-15
@@ -172,6 +175,7 @@ hifiman,ananda stealth v3,planar,93,,16,yes,open,producing,,2024-06-15
 hifiman,ananda v1,planar,93,,26,yes,open,discontinued,,2024-06-15
 hifiman,arya organic,planar,94,,16,yes,open,producing,,2024-06-15
 hifiman,arya stealth,planar,94,,32,yes,open,discontinued,,2024-06-15
+hifiman,arya unveiled,planar,94,,27,yes,open,producing,,2024-11-4
 hifiman,arya v1,planar,90,,35,yes,open,discontinued,,2024-06-15
 hifiman,audivina,planar,97,,20,yes,closed,producing,,2024-06-15
 hifiman,deva,planar,93.5,,18,yes,open,discontinued,wireless,2024-06-15
@@ -182,8 +186,9 @@ hifiman,edition x v2,planar,103,,25,yes,open,discontinued,,2024-06-15
 hifiman,edition xs,planar,92,,18,yes,open,producing,,2024-06-15
 hifiman,he-r10d,dynamic,103,,60,yes,closed,producing,,2024-06-15
 hifiman,he-r10p,planar,100,,35,yes,closed,producing,,2024-06-15
-hifiman,he-r9,dynamic,100,,60,yes,closed,producing,,2024-06-15
+hifiman,he-r9,dynamic,100,,60,yes,closed,producing,跳水后规格有变动,2024-06-15
 hifiman,he1000 stealth,planar,93,,32,yes,open,producing,,2024-06-15
+hifiman,he1000 unveiled,planar,95,,28,yes,open,producing,,2024-11-4
 hifiman,he1000 v1,planar,90,,35,yes,open,discontinued,35±3 Ω,2024-06-15
 hifiman,he1000 v2,planar,90,,35,yes,open,producing,,2024-06-15
 hifiman,he1000se,planar,96,,35,yes,open,producing,,2024-06-15
@@ -203,11 +208,12 @@ hifiman,he5se,planar,92,,40,yes,open,discontinued,,2024-06-15
 hifiman,he6,planar,83.5,,50,yes,open,discontinued,,2024-06-15
 hifiman,he6se v1,planar,,,,yes,open,inventory,not sure the data describes which version of he6se;it has two major versions,2024-06-22
 hifiman,he6se v2,planar,83.5,,50,yes,open,producing,not sure the data describes which version of he6se;it has two major versions,2024-06-22
+hifiman,isvarna,planar and dynamic,93,,16,yes,semi-closed,producing,,2024-11-4
 hifiman,sundara,planar,92,,32,yes,open,producing,,2024-06-15
 hifiman,sundara closed,planar,98,,20,yes,closed,producing,,2024-06-15
 hifiman,susvara,planar,83,,60,yes,open,producing,,2024-06-15
 hifiman,susvara unveiled,planar,86,,45,yes,open,producing,,2024-06-15
-kennerton,rognir,planar,100,,42,yes,closed,producing,not sure db/mw or db/vrms;more models should be added to this brand,2024-06-16
+kennerton,rognir,planar,,,42,yes,closed,producing,100 db sensitivity not sure db/mw or db/vrms;more models should be added to this brand,2024-06-16
 meze,109 pro,dynamic,112,,40,yes,open,producing,,2024-06-15
 meze,99 classics,dynamic,103,,32,yes,closed,producing,,2024-06-15
 meze,99 neo,dynamic,103,,26,yes,closed,producing,,2024-06-15
@@ -261,15 +267,17 @@ sivga,pheonix,dynamic,103,,32,yes,open,producing,,2024-06-15
 sivga,robin sv021,dynamic,105,,32,yes,closed,producing,,2024-06-15
 sivga,sv007,dynamic,105,,16,yes,open,producing,,2024-06-15
 sivga,sv023,dynamic,105,,300,yes,open,producing,,2024-06-15
+sonciemeory,g50,dynamic,,,,no,closed,producing,,2024-11-4
 sony,mdr-7506,dynamic,106,,63,no,closed,producing,,2024-06-15
 sony,mdr-cd900st,dynamic,106,,63,no,closed,producing,,2024-06-15
 sony,mdr-mv1,dynamic,100,,24,yes,open,producing,,2024-06-15
 sony,mdr-r10,dynamic,,,,yes,closed,discontinued,,2024-06-15
 sony,mdr-z1r,dynamic,100,,64,yes,closed,producing,,2024-06-15
 sony,qualia 010,dynamic,,,,yes,open,discontinued,,2024-06-15
-stax,sr-x9000,electrostatic,100,,145000,,open,producing,more models should be added in this brand,2024-06-16
 t+a,solitaire p,planar,,,80,yes,open,producing,,2024-06-15
 t+a,solitaire p-se,planar,,,45,yes,open,producing,,2024-06-15
+tago,t3-01,dynamic,100,,70,yes,closed,producing,,2024-11-4
+tago,t3-03,dynamic,102,,70,yes,closed,producing,,2024-11-4
 taksar,pro82,dynamic,96,,32,no,closed,producing,,2024-06-15
 tang diy,gold 1,planar,84,,50,yes,open,producing,,2024-06-16
 tang diy,gold 1 pro,planar,82,,70,yes,open,producing,,2024-06-16

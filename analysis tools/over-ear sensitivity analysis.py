@@ -182,6 +182,9 @@ def plot(
             colors.append(
                 "magenta" if balance == "yes" or balance == "both" else "darkmagenta"
             )
+        elif driver == "planar and dynamic":
+            colors.append("blue" if balance == "yes" or balance ==
+                          "both" else "darkblue")
         else:
             print(f"Unknown driver: {driver}")
             sys.exit(1)
@@ -332,9 +335,6 @@ official = pd.read_csv(
         "note": str,
     },
 )
-official = official[
-    official["driver"].isin(["dynamic", "planar", "AMT"])
-]
 asr = pd.read_csv(
     "./data/over-ear sensitivity asr.csv",
     dtype={

@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Parameters
-f = 1000
+f = 100
 sampling_rate = 1000000  # Sampling rate
-t = np.linspace(0, 0.001, int(sampling_rate * 0.01),
+t = np.linspace(0, 0.01, int(sampling_rate * 0.01),
                 endpoint=False)  # Time array
 
 threshold = 0.7
@@ -29,9 +29,9 @@ soft_clipped_sine_wave_100hz = soft_clip(
     sine_wave_100hz, clip_begin, upper_limit)
 
 # Plotting
-plt.figure(figsize=(10, 6))
+# plt.figure(figsize=(10, 6))
 
-plt.plot(1000*t, sine_wave_100hz, label='1000 Hz Sine Wave')
+plt.plot(1000*t, sine_wave_100hz, label='100 Hz Sine Wave')
 plt.plot(1000*t, hard_clipped_sine_wave_100hz, label='Hard Clipped Sine Wave')
 plt.plot(1000*t, soft_clipped_sine_wave_100hz, label='Soft Clipped Sine Wave')
 
