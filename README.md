@@ -4,7 +4,7 @@ English / [中文](./README%20zh-CN.md)
 
 **Sound Library** is an acoustics knowledge base, dedicated to helping audiophiles and those interested in high-quality audio learn the knowledge of sound.
 
-If you don't know how to get started or just want to have a glance, you can check this article [_Algebraic Relation between Sensitivities and Impedance_](./en-US/Knowledge/Algebraic%20Relation%20between%20Sensitivities%20and%20Impedance.md).
+If you don't know how to get started or just want to have a glance, you can check this article [_Not Very Advanced Knowledge about Headphone Amplifiers_](./en-US/Knowledge/Not%20Very%20Advanced%20Knowledge%20about%20Headphone%20Amplifiers.md).
 
 # Localized Contents
 
@@ -46,23 +46,22 @@ Since the main contributors to this repository are in mainland China, the scores
 
 # Analysis Tools & Results
 
+This section contains some scripts and results for analyzing and visualizing data.
+
 ## over-ear sensitivity analysis.py
 
 Used to analyze and compare the voltage and power requirements of headphones, it can draw a histogram of the voltage or power requirements to drive the headphones interested to a certain sound pressure level, which can be used as a reference to evaluate the difficulty of driving the headphones.
 
-![Voltage Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB](./analysis%20results/Voltage%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Headphones%20to%20Reach%20110%20dB.png)
+![Voltage Requirements of Some Headphones to Reach 96 dB](./analysis%20results/Voltage%20Requirements%20of%20Some%20Headphones%20to%20Reach%2096%20dB.png)
 
-![Power Requirements of Some Headphones to Reach 110 dB](./analysis%20results/Power%20Requirements%20of%20Some%20Headphones%20to%20Reach%20110%20dB.png)
+![Power Requirements of Some Headphones to Reach 96 dB](./analysis%20results/Power%20Requirements%20of%20Some%20Headphones%20to%20Reach%2096%20dB.png)
 
-![Current Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB](./analysis%20results/Current%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Headphones%20to%20Reach%20110%20dB.png)
+![Current Requirements of Some Headphones to Reach 96 dB](./analysis%20results/Current%20Requirements%20of%20Some%20Headphones%20to%20Reach%2096%20dB.png)
 
 For specific usage, please refer to the comments and the usage examples in the script.
 
 # To-Do List
 
-- Translate articles in [zh-CN/knowledge](./zh-CN/Knowledge/) to English
-- [zh-CN/Knowledge/分析耳机的推力需求.md](./zh-CN/Knowledge/分析耳机的推力需求.md)
-- Fill comments in [data/over-ear assessments cn.csv](./data/over-ear%20assessments%20cn.csv)
-- ...
+...
 
 You are welcomed to contribute to this project or submit your own articles. Your copyright is paid respect here. If you have any questions or suggestions, no matter how insignificant, please feel free to [open an Issue](https://github.com/Sha1rholder/Sound-Library/issues/new) or email me. Thank you for your support!

@@ -1,21 +1,21 @@
-Headphone amplifiers amplify analog signal to drive headphones. This article will introduce some advanced knowledge of headphone amps for those who are interested in electroacoustics, and help you better choose the right headphone amp for you!
+Headphone amplifiers amplify analog signal to drive headphones. This article will introduce some advanced knowledge of headphone amps for those who are interested in electroacoustics, and help you better choose the right headphone amp for you.
 
 ![lcd1](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%202)/15.jpg>)  
 Amplifier doesn't have to be a box or box with bulbs plugged on it. It's built in every audio device used to drive headphones.
 
 # Output Power
 
-One of the most important metrics of a headphone amp is its output power. This section explains the specific impact of power and its significance for audiophiles to choose headphone amp, as well as explaining the concept of gain.
+One of the most important metrics of a headphone amp is its output power. This section explains specific impacts of output power and its significance for audiophiles to choose headphone amp, as well as explaining the concept of gain.
 
 ## What is output power?
 
-**Maximum Undistorted Output Power** = the maximum output power of an headphone amp when THD+N is < 1% or 0.1%, audiophiles often abbreviated as power.
+**Maximum Undistorted Output Power** = the maximum output power of an headphone amp when THD+N is < 1% or 0.1%.
 
 ![Fosi DS2 Power](../../assets/Fosi%20ds2.webp)
 
 When driving a headphone whose impedance is over 32Ω, the maximum undistorted power of an amp will usually be lower with higher impedance, which indicates that the amplifier's maximum output voltage is limited. Below 32Ω, the power of an amp may be lower with lower impedance, which indicates that the maximum output current of the amp is limited.
 
-**The power of an amp represents its ability to output voltage, current, and energy**
+**The power of an amp represents its ability to output voltage, current, and energy.**
 
 ---
 
@@ -27,20 +27,20 @@ There are two types of clipping distortion: hard clipping and soft clipping. Whe
 
 ![Hifiman Shangri-La](../../assets/shangri-la.jpg)
 
-Since electronic tubes have lower native distortion than transistors and higher voltages (you read that right), they are ideal for use in High-End systems to drive high resistance headphones. As electrostatic headphones are essentially a type of headphone with ultra-high impedance, low power requirement, and extremely high voltage requirement, they are also very suitable for tube amps, such as Sennheiser Orpheus and Hifiman Shangri-La.
+Since vacuum tubes have lower native distortion than transistors and higher voltages (you read that right), they are ideal for use in high-end systems to drive high resistance headphones. As electrostatic headphones are essentially a type of headphone with ultra-high impedance, low power requirement, and extremely high voltage requirement, they are also very suitable for tube amps, such as Sennheiser Orpheus and Hifiman Shangri-La.
 
-**It is worth noting that the maximum undistorted power labeled by the manufacturer is usually measured at 1000hz. Power in other frequency varies**.
+**It is worth noting that the maximum undistorted output power labeled by the manufacturer is usually measured at 1000hz. Output power in other frequency varies**.
 
 ## What is the use of output power?
 
 **How much power does it take to drive a certain headphone?** There is no standard answer to this question.  
-**Can a certain headphone amp drive a certain headphone?** As long as user enjoys music at normal healthy volume, then 99.9% of the time the amp is able to drive the headphone.
+**Can a certain headphone amp drive a certain headphone?** As long as user enjoys music at a healthy volume, 99.9% of the time the amp is able to drive the headphone.
 
 ---
 
 **Clipping distortion is not a concern in 99% of cases.**
 
-The vast majority of digital audio for human listening is only 16bit deep, which means that the maximum loudness of music without quantization noise is only 96dB. As long as you listen to music at a volume above 96dB for one second, you're probably able to hear that background noise in the quietest part of the music.
+The vast majority of digital audio for human listening is only 16bit deep, which means that the maximum loudness of music without quantization noise is only 96dB. As long as you listen to music at a volume above 96dB for one second, you may be able to hear that noise in the quietest part of the music.
 
 Don't say that some classics with super high dynamic range may reach 110dB instantaneous loudness. There won't be a single moment of music you listen to on headphones that can reach the loudness of an airplane taking off. If it does, then Sennheiser is not what you need, what you need is Sennheiser's old man.
 
@@ -170,133 +170,134 @@ I heard that before the rise of Chinese "scientific" headphone amps (like Toppin
 
 ![None Distortion!](../../assets/none%20distortion.jpg)
 
----<!--  -->
+---
 
-Harmonic distortion is divided into odd and even harmonic distortion. Audiophiles generally believe that odd harmonic distortion is much worse for listening than even harmonic distortion, and there are even those who believe that “even harmonic distortion is the source of the warm, pleasant sound of a gallbladder” to the extent that it is not the end of the story, or the other side of the coin. However, the relationship between sound and psychological mapping is extremely complex\*\*, and all kinds of harmonic distortion are important factors in the composition of timbre!
+Harmonic distortion can be divided into odd harmonic distortion and even harmonic distortion. Audiophiles generally believe that odd harmonic distortion degrades sound quality much more severely than even harmonic distortion. Some even argue that "even harmonic distortion is the source of the warm and pleasant tone of tube amps", leading to a misguided focus on this distinction. However, **the relationship between sound and subjective listening experience is extremely complex**, and all types of harmonic distortion are important factors in shaping timbre.
 
-! [Stimulator] (... /... /assets/actuator.jpg)  
-An exciter is an effector that uses harmonic distortion to adjust timbre by combining odd and even harmonics to produce a variety of subjective listening sensations.
+![actuator](../../assets/actuator.jpg)  
+An actuator is an effect that adjusts timbre using harmonic distortion. It generate various subjective listening experiences through the combination of odd and even harmonics.
 
-The essential reason why gallows have not been phased out by stoners is the high linearity of tubes; linearity is antithetical to any distortion, and buying a gallows for the sake of even-order harmonic distortion is akin to buying a box. If you really like the richness of even harmonic tones, why not add a dsp in front of a lower priced, better spec'd stone machine to add and customize your own harmonic distortion?
+The fundamental reason that tube amps have not been replaced by transistor amps is the high linearity of vacuum tubes. Linearity is contrary to any distortion; paying for even harmonic distortion of tube amps is like buy the box and throw the pearls (an old Chinese idiom 买椟还珠). If you do enjoy the rich timbre of even harmonics, why not apply a DSP to a transistor amp system which is often cheaper with superior specifications to customize harmonic yourself?
 
-! [Gallbladders & Stones](...) /... /assets/tube%20and%20transistor.jpg)
+![tube amp and transistor amp](../../assets/tube%20and%20transistor.jpg)
 
-If one believes in arbitrary superiority or inferiority, and scoffs at stone machines, while leaving the even harmonic distortion of gallows completely unchecked, and calling it “gallows flavor”, one can be said to be going against the grain of the original intent of **Hi**gh-**Fi**delity!
+If one blindly accepts arbitrary distinctions of superiority, scoffing at transistor amps while allowing the uncontrolled even harmonic distortion of tube amps, dubbed "tube flavor", it contradicts the original intention of High-Fidelity.
 
-## Cross-over distortion and temperature drift
+# Crossover Distortion and Thermal Drift
 
-Cross-over distortion is a type of non-linear distortion commonly found in Class B amplifiers. This type of amplifier uses a push-pull structure to increase efficiency, causing the output signal to become distorted at the crossover point, where the rising and falling edges of the output signal are asymmetrical.
+Crossover distortion is a type of nonlinear distortion commonly found in Class B amplifiers. To improve efficiency, these amplifiers use a push-pull output, leading to distortion at crossover point, where the rising and falling edges of the output signal become asymmetrical.
 
-Class A and B (Class AB) amplifiers are amplifiers that operate in Class A (Class A) at low power and in Class B at high power. Its crossover distortion is only visible when it reaches a certain power level.
+Class AB amps behave like Class A at low output and Class B at high output. Efficiency of Class AB amps is higher than that of Class A, and distortion is lower than that of Class B. Crossover distortion only becomes noticeable at higher output.
 
-[The cross over distortion is only visible at a certain power level. [crossover distortion](...) /... /analysis%20results/crossover%20distortion.png)](... /... /analysis%20tools/crossover%20distortion%20simulator.py)
+[![corssover distortion](../../analysis%20results/crossover%20distortion.png)](../../analysis%20tools/crossover%20distortion%20simulator.py)
 
-Most amplifiers used to drive speakers these days are either Class D or Class A or B. There are quite a few pure Class A amplifiers due to the low power consumption of earphones. Pure Class A amplifiers are very inefficient and consume a lot of power, so you need to pay attention to heat dissipation and beware of the effect of temperature on component life and performance. If heat dissipation is poor, components such as transistors may be damaged or suffer from temperature drift, a condition in which performance deviates from ideal conditions due to temperature changes. However, there are some pure-A earphones specifically designed to operate at high temperatures, such as the Burson Soloist Voyager
+Most speaker amps today are either Class D or Class AB. Due to headphones' lower power consumption, many of headphone amps are Class A. Class A is inefficient and consumes a lot of power, necessitating careful heat management to mitigate temperature effects on component lifespan and performance. Poor heat dissipation design can lead to damage to components like transistors or cause **thermal drift**, which occurs when performance deviates from ideal conditions due to temperature changes. However, some Class A amps like Burson Soloist Voyager, are specifically designed to operate at high temperatures and require warm-up for optimal sound quality.
 
-! [Big A and A-B] (<... /... /assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%201)/51.jpg>)  
-Upper left: Fiona K19, a class A and B amplifier designed to operate at room temperature.  
-Bottom left: Burson Soloist Voyager, a large A amplifier designed to work at high temperatures, with warm-up required for optimal sound quality.  
-Top right: Aurel X1s GT, Big A  
-Bottom right: Aurel S17pro, a big A that avoids overheating through heat dissipation
+![Class A and Class AB](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%201)/51.jpg>)  
+Top left: Fiio K19. Class AB, designed to work at room temperature  
+Bottom left: Burson Soloist Voyager, Class A, designed to work at high temperatures, requires warm-up for optimal sound quality  
+Top right: Aune X1s GT, Class A  
+Lower right: Aune S17pro, Class A, needs to avoid overheating
 
-The human ear is highly sensitive to transverse distortion, so high-end ear amplifiers are mostly pure Armor. With similar materials, Class B amplifiers will have more thrust than Class A. Since Class B is more energy efficient, it is also less affected by temperature drift. Therefore, there is no difference between Class A and Class B. There is only a difference between suitable and unsuitable.
+Human ears are highly sensitive to crossover distortion. Thus, high-end headphone amps are predominantly Class A. When having a similar cost, Class B generally provides greater output power than Class A. Due to Class B's higher efficiency, it is also less affected by thermal drift. Therefore, there is no superiority between Class A and Class B. It is only about suit or not.
 
-## “Polyphonic Distortion”
+# "Multitone Distortion"
 
-“Multi-tone distortion is a term I made up to differentiate between simple single-signal distortion and distortion involving multiple signals, so don't worry about it. This section describes harmonic distortion, clipping distortion, and distortion other than noise.
-
----.
-
-Phase distortion is a type of linear distortion that refers to the distortion of the phase of the input signal by the earphone, in other words, the time difference between the output of various frequencies.
-
-[! [phase distortion] (... /... /analysis%20results/phase%20distortion.png)](... /... /analysis%20tools/phase%20distortion%20simulator.py)  
-Figure 1: Input signal to the amplifier.  
-Figure ②: Decomposition of the input signal  
-Figure 3: Phase distortion signal  
-Figure 4: Phase difference between 100hz and 1000hz signals found by decomposing the distorted signal.
-
----.
-
-Intermodulation distortion is a kind of nonlinear distortion, which refers to the distortion caused by different frequency signals interacting with each other to produce frequencies that do not exist in the input signal.
-
-[! [intermodulation distortion](...) /... /analysis%20results/intermodulation%20distortion.png)](... /... /analysis%20tools/intermodulation%20distortion%20simulator.py)  
-Figure 1: Input signal to the amplifier.  
-Figure 2: Decomposition of the input signal  
-Figure 3: Intermodulation distortion signal  
-Fig. 4: The decomposition of the distorted signal reveals that there are more sum and difference signals in addition to the 800hz and 1000hz signals.
-
-## Output Impedance
-
-Not all of the voltage output from the amplifier can be poured into the headphones, part of the energy will be absorbed by the amplifier's own output impedance, which will cause all kinds of problems!
-
-! [Voyager interface](...) /... /assets/voyager%20out.jpg)
-
-The output impedance causes frequency response distortion in the audio system and is not reflected in the frequency response curve of the earphone amplifier itself. If headphones have different impedances at different frequencies (e.g. all moving coil headphones and very few flat panel headphones), then an earphone amplifier with a high output impedance will distribute less voltage to the headphones at frequencies where the headphones have a lower impedance, resulting in a change in the frequency response of the entire headphone system.
-
-The Sennheiser HDV820 is a typical example of an amplifier that has a flat frequency response but can be distorted due to high output impedance. The image below is taken from the HDV820 review on the ASR forums.
-
-[! [HDV820 Frequency Response and Impedance](...) /assets/hdv820 frequency response and impedance.png)](https://www.audiosciencereview.com/forum/index.php?threads/sennheiser-hdv-820-usb-dac-headphone-amp- review.10393)
-
-Similarly, output impedance can cause “polyphonic distortion” with its inductive, capacitive, and resistive characteristics, and this gets complicated. However, toxicity is not a good idea, and modern stone machines generally have very low internal resistance, so these problems have very little effect!
-
-Gallows usually have high output impedance, high output impedance caused by all kinds of distortion is one of the sources of the unique tone of the gallows. Nowadays, there are also some manufacturers who use “front and rear stone”, impedance selection, etc. to realize the “modern sound” of the gallows.
-
-## Distortion Measurement and Psychoacoustics
-
-Non-linear distortion can be categorized into many types depending on the source, characteristics, etc., and each has its own measurement index and method. Interpretation of the various distortion indicators requires a certain degree of specialized knowledge, and will not be repeated here. In this section, we will only talk about some of the most representative indicators.
-
-The most representative indicators will be discussed in this section. [APx555](... /... /assets/apx555.png)
-
-**SINAD (Signal to noise and distortion ratio)** is the most important indicator of an earphone amplifier, including all the components that make up noise and distortion. SINAD at a given load is the best single measure of an ear amplifier's **acoustic reproduction** performance.
-
-However, SINAD does not represent the **psychoacoustic reproduction** performance of an ear amplifier. This is because the human ear is sensitive to different types of distortion, e.g. the human ear is particularly sensitive to transient intermodulation and crossover distortion, and less sensitive to phase distortion, and an ear amplifier with the same SINAD may sound very different depending on the type of distortion!
-
----SINAD
-
-**Transient intermodulation distortion** is a concept that is very popular amongst the more advanced sections of hi. This type of distortion is usually caused by negative feedback hysteresis, and manifests itself in measurements as phase and nonlinear distortion problems with multi-tone signals, and can be very well visualized in square wave tests!
-
-! [Square Wave Testing](... /... /assets/square%20wave%20test.png)  
-Square wave test (time-amplitude)
-
-However, square waves don't exist in nature as instantaneous spikes or drops, and pure square waves are not a direct measure of transient intermodulation distortion, so they don't reflect any metrics and don't represent any performance. The square wave test is more of a visual demonstration to show the consumer how much muscle you have, like maximum undistorted power!
-
-Note that transient intermodulation distortion is only one source of distortion, and does not directly correspond to subjective listening experience. For example, transient intermodulation distortion includes distortion caused by insufficient swing rate, poor power supply, and deep negative feedback, but their waveform characteristics are different from each other. **Transient intermodulation distortion does not directly correspond to the subjective “transients” **sometimes the subjective “transients” are just some harmonic excitation effects!
-
-! [Virtual Bass Enhancement System](...) /... /assets/virtual%20bass%20system.gif)  
-A low-frequency transient enhancement system
-
-Some enthusiasts take transient intermodulation distortion as a standard, take a square wave test and equate it to the transient response performance of the ear amplifier, and subjectively attribute the subjective “high-frequency chaos”, “false dynamics” and “poor transients” to the negative feedback. Listening feeling is simply attributed to negative feedback, and even extended to the conclusion that “THD indicators good-looking scientific machine are transient poor impotence sound”, is extremely irresponsible!
+I made the term "Multitone distortion" up to differentiate between simpler single-signal distortion and distortion issues that only manifest when multiple signals are involved. This section introduces distortion issues beyond harmonic distortion, clipping distortion, and noise.
 
 ---
 
-How to look at various measurements is a typical characterization of the distinction between science hi and metaphysical old burners. The old burner criticizes hi for blindly following measurements instead of subjective hearing, while hi criticizes the old burner for blindly following subjective hearing instead of measurements. ...... I can't say much about these two kinds of people 🙂 !
+Phase distortion is a type of linear distortion, referring to amplifier's distortion of the input signal's phase. In other words, it results in time discrepancies for various output frequencies.
 
-! [5128](... /... /assets/5128.webp)
+[![phase distortion](../../analysis%20results/phase%20distortion.png)](../../analysis%20tools/phase%20distortion%20simulator.py)  
+Fig. 1. Input signal to the amplifier.  
+Fig. 2. Decomposition of the input signal.  
+Fig. 3. Distorted signal.  
+Fig. 4. Phase difference between 100hz and 1000hz signals is found when decomposing the distorted signal.
 
-The causes of distortion in earphones and their impact on subjective listening perception are diverse, they influence each other, intermingle and depend on each other, and they are also reflected in various measurement metrics at the same time. Therefore, a dialectical view of the measurement indicators, do not blindly pursue a certain data, do not impose cause and effect for the subjective sense of hearing and test indicators, is the correct attitude towards electroacoustics, psychoacoustics and audio audiophile!
+---
 
-**Listening to the sound is sound, listening to the sound is not sound, listening to the sound is still sound **  
-\*\*Looking at a measurement indicator is a measurement indicator, looking at a measurement indicator is not a measurement indicator, looking at a measurement indicator is still a measurement indicator
+Intermodulation distortion is a type of nonlinear distortion that occurs when frequencies interact, producing new frequencies which don't exist in the original signal.
 
-! [Human technological development is not very advanced](...) /assets/the-development-of-human-technology-is-not-very-advanced.jpg)
+[![intermodulation distortion](../../analysis%20results/intermodulation%20distortion.png)](../../analysis%20tools/intermodulation%20distortion%20simulator.py)  
+Fig. 1. Input signal to the amplifier.  
+Fig. 2. Decomposition of the input signal.  
+Fig. 3. Distorted signal.  
+Fig. 4. New frequencies were found when decomposing the distorted signal.
 
-# How to talk to audiophiles about earplugs
+# Output Impedance
 
-Audiophiles communicate with each other to form the Hi-Fi circle, which is a circle full of all kinds of anti-intellectual statements, robber baron logic and hate speech, full of pseudoscience, leek cutting, cult followers and all kinds of strange people. The following should not only be the conduct of audiophiles, but also a tool to deal with some exchanges with gunpowder flavor!
+Not all voltage output from a headphone amp reaches the headphones. Some energy is absorbed by the amplifier's output impedance, leading to various issues.
 
-! [I see you are listening to the sound view owes the corrections is it] (...) /assets/ I think you are listening to the sound view is not correct, right.jpg)
+![Voyager interface](../../assets/voyager%20out.jpg)
 
-0. ~~ The most important thing to talk to an audiophile is that your equipment is more expensive than his.
+High output impedance can cause fr distortion in an audio system that may not be reflected in the amplifier's fr curve. If headphones have varied impedances at different frequencies (like most dynamic headphones and a few planar headphones), then an amplifier with high output impedance will allocate less voltage to the headphones at frequencies with lower impedance, altering the overall fr of the headphone system.
 
-1. Responsible communication, do not think that their ears are beryllium suspension diaphragm, can not hear the difference is not shameful. Modern audio products are highly developed in the case of psychological factors on the subjective sense of hearing significantly greater than the difference between the sound of the equipment
+The Sennheiser HDV820 is a typical headphone amp with flat fr but may experience fr distortion due to its high output impedance. Below is an excerpt from ASR Forum's HDV820 review.
 
-2. Your ears have not been trained to make the connection between subjective listening perception and objective factors. Nine times out of ten, judgments such as “bile,” “r2r sound,” “digital sound,” “hairy power supply,” and so on are impositions of Cause and effect. Let's talk about subjective listening, not superficial science; if you have to, add adverbs of degree!
+[![HDV820 fr and impedance](../../assets/hdv820%20fr&impedance.png)](https://www.audiosciencereview.com/forum/index.php?threads/sennheiser-hdv-820-usb-dac-headphone-amp-review.10393)
 
-3. Don't despise other people's subjective sense of hearing, and don't assume that they are wrong just because they have a different sense of hearing than you do. The subjective sense of hearing is influenced by psychological, environmental, physiological structure differences, objective sound and other factors, there is no right or wrong to say!
+Similarly, output impedance may also introduce "multitone distortion" due to its inductive, capacitive, and resistive characteristics, which could be really complex. However, it's rogue to talk about toxicity without dose. Modern transistor amps generally have very low output impedance, so these issues are minimal.
 
-4. Do not cloud! Cloud to the sense of hearing is not your sense of hearing, the cloud audition to comment on the equipment or even to other enthusiasts to make recommendations is extremely irresponsible!
+Tube amps have high output impedance, and the various distortions caused by this high output impedance contribute to the unique sound character of tube amps. Some manufacturers now employ designs like "tube preamp + transistor power amp" and impedance selection to achieve "modern sound" from tube amps.
 
-5. don't persuade people to spend more money unless they are seeking advice from you. the Hi-Fi world is essentially a luxury world, and it's not worth it to squeeze your wallet for it!
+## Distortion Measurement and Psychoacoustics
+
+Nonlinear distortion can be categorized into many types based on its source and characteristics, each with specific indicators and measuring methods. Interpreting distortion metrics requires expertise. This section will only focus on some of the most representative indicators.
+
+![APx555](../../assets/apx555.png)  
+Audio Precision APx555, a professional audio analyzer
+
+SINAD (signal to noise and distortion ratio) is one of the most critical indicators for headphone amps, encompassing all components of noise and distortion. SINAD under certain loads can be considered the best single measure of a headphone amp's **acoustic fidelity performance**.
+
+However, SINAD does not represent amplifier's **psychoacoustic fidelity performance**. This is because human sensitivity varies to different types of distortion; for instance, humans are particularly sensitive to transient intermodulation and crossover distortion, but less so to phase distortion. Two amplifiers with same SINAD may produce distinctly different listening experience based on the type of distortion present.
+
+---
+
+**Transient Intermodulation (TIM) Distortion** is a popular concept among higher level audiophiles. This distortion typically arises from negative feedback delays and manifests in phase and nonlinear distortion issues under multitone signals, clearly seen in square wave tests.
+
+![square wave test](../../assets/square%20wave%20test.png)
+
+However, square waves do not naturally occur in the real world, and pure square wave tests are not one of the methods for measuring TIM. They do not reflect any specific indicators or performance characteristics. Square wave tests serve more as a visual demonstration to showcase the amplifier's capabilities to consumers rather than a definitive measure.
+
+Note that TIM is just one source of distortion and does not directly correspond to subjective listening experiences. For example, it includes issues like slew rate deficiency, inadequate power supply, and distortion caused by deep negative feedback, all with differing waveform characteristics. **There's no direct correlation between TIM and subjective feeling of "transients".** Sometimes, the perceived "transients" are merely the effect of certain harmonics.
+
+![a virtual bass transient enhancement system](../../assets/virtual%20bass%20system.gif)  
+a virtual bass transient enhancement system which has nothing much to do with TIM
+
+Some audiophiles mistakenly take TIM as gospel, equating square wave tests with an amplifier's transient response performance, and simplistically attributing subjective impressions like "chaotic high-frequency", "weak dynamic", or "poor transients" solely to negative feedback, and conclude "'scientific' amps with good THD metrics always have poor transient response", which is highly irresponsible.
+
+---
+
+How one interprets various measurement metrics often distinguishes between "scientific deafs" (Those know half about electroacoustics who generally consider Hi-Fi a swindle. “科 hi” in Chinese) and "brain ampers" (Those addict to all kinds of Hi-Fi snake oils. 老烧 in Chinese). The former criticize the latter for blindly follow subjective impressions and do not believe measurements; while the latter criticize the former for blindly follow the measurements and do not believe subjective impressions... Both idiots.
+
+![5128](../../assets/5128.webp)
+
+The causes of distortion in headphone amps and their impacts on subjective listening experience are diverse and interrelated, and reflected in various measurements. Thus, one should view measurement metrics dialectically, avoiding blind pursuit of specific data, and not impose causality between subjective experiences and measurement indicators. This is the correct attitude toward electroacoustics, psychoacoustics, and the love towards audio.
+
+**Hearing sound is sound, hearing sound is not sound, hearing sound is still sound.**  
+**Viewing measurements as measurements, viewing measurements as not measurements, viewing measurements as still measurements.**  
+(Not sure if you guys understand this, but it's a famous Chinese allegory. 看山是山，看山不是山，看山还是山)
+
+![human tech is not so advanced](../../assets/human%20tech%20is%20not%20so%20advanced.png)
+
+# How to Discuss Headphone Amps with Audiofools
+
+Discussions among audiophiles form the Hi-Fi community, which is filled with anti-intellectual rhetoric, flawed logic, hate speech, and pseudoscience. The following points is a guide to help you navigate the Hi-Fi community and engage in discussions with audiophiles.
+
+![your ears would need some repair](../../assets/your%20ears%20would%20need%20some%20repair.png)
+
+0. ~~The most important thing when chatting with audiofools is that your equipment is more expensive.~~
+
+1. Engage responsibly; do not assume your ears are infallible. In today's highly developed audio landscape, psychological factors significantly outweigh the differences in sound quality between devices.
+
+2. Your ears are untrained and lack the ability to link subjective experiences to objective factors. Subjective judgments on why you hear something are often mistaken causal interpretations. Discuss subjective impressions as such and avoid oversimplified scientific explanations; if you must, use qualifiers.
+
+3. Do not dismiss others' subjective impressions; do not assume someone is wrong simply because their perception differs from yours. Subjective impressions are influenced by psychology, environment, physiological differences, and objective sound, with no absolute right or wrong.
+
+4. Avoid hearsay! Impressions based on hearsay are not your own; recommending equipment based on hearsay is irresponsible.
+
+5. Unless someone seeks your advice, do not suggest they spend more money on Hi-Fi. Hi-Fi is essentially a luxury market, and financially straining oneself for it is foolish.
 
 **We always pretend to know a lot more about audio than we really do.**
 

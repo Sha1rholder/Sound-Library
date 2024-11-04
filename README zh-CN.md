@@ -4,7 +4,7 @@
 
 **Sound Library** 是一个声学知识和数据库，致力于帮助发烧友和对高质量音频感兴趣的人了解声音重放的知识。目前本库主要专注于头戴式耳机的评测、知识和购物指南
 
-如果你不知道从何读起或只是想随便看看，可以看看这篇文章 [《灵敏度与阻抗的代数关系》](./zh-CN/Knowledge/灵敏度与阻抗的代数关系.md)
+如果你不知道从何读起或只是想随便看看，可以从这篇文章开始[《耳放的基本知识》](./zh-CN/Knowledge/耳放的基本知识.md)
 
 # 本土化内容
 
@@ -44,23 +44,22 @@ Audio Science Review（ASR）头戴式耳机灵敏度表。[Audio Science Review
 
 # Analysis Tools & Results 数据分析工具和结果
 
+这里包含一些用于分析和可视化数据的脚本和结果
+
 ## over-ear sensitivity analysis.py
 
 用于分析和对比头戴式耳机的电压和功率需求，能够绘制你感兴趣的耳机驱动到一定声压级所需电压或功率的直方图，可作为评估耳机驱动难度的一个参考
 
-![Voltage Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB](./analysis%20results/Voltage%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Headphones%20to%20Reach%20110%20dB.png)
+![Voltage Requirements of Some Headphones to Reach 96 dB](./analysis%20results/Voltage%20Requirements%20of%20Some%20Headphones%20to%20Reach%2096%20dB.png)
 
-![Power Requirements of Some Headphones to Reach 110 dB](./analysis%20results/Power%20Requirements%20of%20Some%20Headphones%20to%20Reach%20110%20dB.png)
+![Power Requirements of Some Headphones to Reach 96 dB](./analysis%20results/Power%20Requirements%20of%20Some%20Headphones%20to%20Reach%2096%20dB.png)
 
-![Current Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB](./analysis%20results/Current%20Requirements%20of%20the%20Hardest-to-Drive%20Producing%20or%20Inventory%20Headphones%20to%20Reach%20110%20dB.png)
+![Current Requirements of Some Headphones to Reach 96 dB](./analysis%20results/Current%20Requirements%20of%20Some%20Headphones%20to%20Reach%2096%20dB.png)
 
 具体使用方法请参考该脚本内的注释和使用实例
 
 # 任务清单
 
-- 翻译 [zh-CN/knowledge](./zh-CN/Knowledge/) 中的文章
-- [zh-CN/Knowledge/分析耳机的推力需求.md](./zh-CN/Knowledge/分析耳机的推力需求.md)
-- 写一句话产品评论 [data/over-ear assessments cn.csv](./data/over-ear%20assessments%20cn.csv)
-- …
+……
 
-欢迎任何贡献或投稿您的文章，我尊重你的著作权。如果您有任何问题或建议，无论多微不足道，都可以 [创建 Issue](https://github.com/Sha1rholder/Sound-Library/issues/new/choose) 或直接邮件联系我。感谢您的支持!
+欢迎任何贡献或投稿您的文章，我尊重您的著作权。如果您有任何问题或建议，无论多微不足道，都可以 [创建 Issue](https://github.com/Sha1rholder/Sound-Library/issues/new/choose) 或直接邮件联系我。感谢您的支持!

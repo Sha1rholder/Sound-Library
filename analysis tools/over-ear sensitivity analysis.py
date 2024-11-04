@@ -35,7 +35,7 @@ class Headphone:
         for attr, value in self.__dict__.items():
             print(f"{attr}: {value}")
 
-    def voltage_needed_official(self, target_db=110):
+    def voltage_needed_official(self, target_db=96):
         if not math.isnan(self.official_db_vrms):
             return (10 ** ((target_db - self.official_db_vrms) / 20)) * 1000
         elif not math.isnan(self.official_db_mw) and not math.isnan(
@@ -51,11 +51,11 @@ class Headphone:
                 / 20
             )
 
-    def voltage_needed_asr(self, target_db=110):
+    def voltage_needed_asr(self, target_db=96):
         if not math.isnan(self.asr_94db_voltage):
             return 10 ** ((target_db - 94) / 20) * self.asr_94db_voltage
 
-    def power_needed_official(self, target_db=110):
+    def power_needed_official(self, target_db=96):
         if not math.isnan(self.official_db_mw):
             return 10 ** ((target_db - self.official_db_mw) / 10)
         elif not math.isnan(self.official_db_vrms) and not math.isnan(
@@ -74,7 +74,7 @@ class Headphone:
                 * 1000
             )
 
-    def power_needed_asr(self, target_db=110):
+    def power_needed_asr(self, target_db=96):
         if not math.isnan(self.asr_94db_voltage) and not math.isnan(self.asr_impedance):
             return (
                 10 ** ((target_db - 94) / 10)
@@ -83,7 +83,7 @@ class Headphone:
                 / 1000
             )
 
-    def power_needed_asr_voltage_official_impedance(self, target_db=110):
+    def power_needed_asr_voltage_official_impedance(self, target_db=96):
         if not math.isnan(self.asr_94db_voltage) and not math.isnan(
             self.official_impedance
         ):
@@ -94,7 +94,7 @@ class Headphone:
                 / 1000
             )
 
-    def current_needed_official(self, target_db=110):
+    def current_needed_official(self, target_db=96):
         # db/vrms is prefered for no compelling reason. It's just a choice.
         if not math.isnan(self.official_db_vrms) and not math.isnan(
             self.official_impedance
@@ -129,7 +129,7 @@ class Headphone:
                 / 1000
             )
 
-    def current_needed_asr(self, target_db=110):
+    def current_needed_asr(self, target_db=96):
         if not math.isnan(self.asr_94db_voltage) and not math.isnan(self.asr_impedance):
             return (
                 10 ** ((target_db - 94) / 20)
@@ -137,7 +137,7 @@ class Headphone:
                 / self.asr_impedance
             )
 
-    def current_needed_asr_voltage_official_impedance(self, target_db=110):
+    def current_needed_asr_voltage_official_impedance(self, target_db=96):
         if not math.isnan(self.asr_94db_voltage) and not math.isnan(
             self.official_impedance
         ):
@@ -335,6 +335,8 @@ official = pd.read_csv(
         "note": str,
     },
 )
+official = official[official["driver"].isin(
+    ["dynamic", "planar", "AMT", "planar and dynamic"])]
 asr = pd.read_csv(
     "./data/over-ear sensitivity asr.csv",
     dtype={
@@ -381,10 +383,10 @@ plot(
             for headphone in headphones
             if headphone.production in ["producing", "inventory"]
         ],
-        110,
+        96,
     ),
     max_shown=30,
-    title="Voltage Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB",
+    title="Voltage Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 96 dB",
     xlabel="Voltage (mV)",
     save_path="./analysis results/",
 )
@@ -397,10 +399,10 @@ plot(
             if headphone.production in ["producing", "inventory"]
             and headphone.driver == "planar"
         ],
-        110,
+        96,
     ),
     max_shown=30,
-    title="Power Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 110 dB",
+    title="Power Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 96 dB",
     xlabel="Power (mW)",
     save_path="./analysis results/",
 )
@@ -412,10 +414,10 @@ plot(
             for headphone in headphones
             if headphone.production in ["producing", "inventory"]
         ],
-        110,
+        96,
     ),
     max_shown=30,
-    title="Current Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 110 dB",
+    title="Current Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 96 dB",
     xlabel="Current (mA)",
     save_path="./analysis results/",
 )
@@ -424,19 +426,21 @@ reference_headphones_names = dict(
     {
         "sennheiser": ["hd800s", "hd600"],
         "dca": ["expanse"],
-        "fiio": ["jt1", "ft3 350"],
-        "akg": ["k812", "k701"],
+        "fiio": ["jt1"],
+        "akg": ["k701"],
         "audeze": ["lcd-5"],
-        "sony": ["mdr-z1r", "mdr-7506"],
-        "beyer": ["dt880 250", "dt900 prox", "t1 3rd", "dt880 600", "dt1990 pro"],
-        "philips": ["shp9500", "fidelio x2hr"],
+        "sony": ["mdr-7506"],
+        "beyer": ["dt880 250", "dt900 prox", "dt880 600"],
+        "philips": ["shp9500"],
         "focal": ["utopia 2022"],
-        "hifiman": ["susvara", "he400se stealth", "sundara closed", "ananda nano"],
+        "hifiman": ["susvara", "he400se stealth", "susvara unveiled", "ananda nano"],
         "zmf": ["caldera"],
         "abyss": ["1266 phi tc"],
         "anan audio": ["nan-7"],
-        "moondrop": ["cosmo"],
-        "ath": ["adx5000"],
+        "moondrop": ["cosmo", "para"],
+        "ath": ["adx5000", "r70x"],
+        "xk audio": ["serene"],
+        "aune": ["ar5000"]
     }
 )
 
@@ -450,22 +454,22 @@ for brand in reference_headphones_names:
             reference_headphones.append(headphone)
 
 plot(
-    voltage_needed(reference_headphones, 110),
-    title="Voltage Requirements of Some Headphones to Reach 110 dB",
+    voltage_needed(reference_headphones, 96),
+    title="Voltage Requirements of Some Headphones to Reach 96 dB",
     xlabel="Voltage (mV)",
     save_path="./analysis results/",
 )
 
 plot(
-    power_needed(reference_headphones, 110),
-    title="Power Requirements of Some Headphones to Reach 110 dB",
+    power_needed(reference_headphones, 96),
+    title="Power Requirements of Some Headphones to Reach 96 dB",
     xlabel="Power (mW)",
     save_path="./analysis results/",
 )
 
 plot(
-    current_needed(reference_headphones, 110),
-    title="Current Requirements of Some Headphones to Reach 110 dB",
+    current_needed(reference_headphones, 96),
+    title="Current Requirements of Some Headphones to Reach 96 dB",
     xlabel="Current (mA)",
     save_path="./analysis results/",
 )
