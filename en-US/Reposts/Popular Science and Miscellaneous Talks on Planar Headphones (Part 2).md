@@ -132,7 +132,7 @@ Typical examples are various new USB dongles, such as DUNU DTC800, FiiO KA13, ON
 ![17](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%202)/17.jpg>)  
 Products like USB dongles are updated very quickly and are highly competitive.
 
-![18](<../../assets/Popular%20Science%20and%20%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%202)/18.jpg>)  
+![18](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%202)/18.jpg>)  
 Details will be discussed after detailed testing.
 
 This is quite impressive. To know, this level (450-690mW) of output power is something many larger portable players with built-in batteries cannot achieve. Although we cannot solely rely on output power, for planar magnetic headphones that are inherently "power-hungry," we must consider whether the output power is sufficient.

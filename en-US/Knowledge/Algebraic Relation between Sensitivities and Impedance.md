@@ -2,18 +2,6 @@ We usually judge how difficulty it is to drive a certain headphone by its sensit
 
 Since some headphone manufacturers indicate sensitivity in dB/Vrms, while others indicate sensitivity in dB/mW (if only how many dB is mentioned, it usually refers to power sensitivity), we sometimes need to convert the two types of sensitivities to the same unit for comparison.
 
-Editor has also prepared a small puzzle, which you will be able to solve after understanding this article.
-
-![here comes mathemetics](../../assets/here%20comes%20mathemetics.jpg)
-
-> mrima bought a new dynamic headphone and began reviewing it. He started by measuring the frequency response and discovered that the headphone is exactly 92 dB at 1 kHz and exactly 97 dB at 5 kHz. However, right after the measurement, he realized he forgot to record the voltage used for the frequency response test!
->
-> Then, mrima used a 1 kHz sine wave to drive the headphone to exactly 94 dB and noted down the equivalent voltage as $U(mV)$. He continued to measure the impedance curve and found that the headphone had an impedance of $Z_1(Ω)$ at 1 kHz and $Z_2(Ω)$ at 5 kHz. After the measurements, mrima asked the manufacturer about the headphone's linear resistance and got an answer of $R(Ω)$.
->
-> Assuming the headphone has good consistency and the internal resistance of the amplifier used is negligible, can you calculate the actual power required to drive the headphone to exactly 100 dB using a 5 kHz sine wave in mW?
->
-> **(The answer is at the end)**
-
 To achieve $I(dB)$ for a headphone, the required equivalent voltage $U(V)$ and actual power $P(mW)$ are given by:
 
 $$
@@ -159,8 +147,18 @@ $$
 
 Therefore, the conversion between voltage sensitivity and power sensitivity can be made based on the linear resistance and impedance.
 
-> Try to prove that the actual power $P(mW)$ required to achieve $I(dB)$ still satisfies $P=10^\frac{I-S_{mW}}{10}$ when the impedance is much greater than the linear resistance!
+The actual power $P(mW)$ required to achieve $I(dB)$ still satisfies $P=10^\frac{I-S_{mW}}{10}$ when the impedance is much greater than the linear resistance!
 
 ---
 
-> **Answer:** $10^{-2.9}*U^2*R*Z_2^{-2}$ mW
+Editor has also prepared a small puzzle, which you will be able to solve after understanding this article.
+
+![here comes mathemetics](../../assets/here%20comes%20mathemetics.jpg)
+
+mrima bought a new dynamic headphone and began reviewing it. He started by measuring the frequency response and discovered that the headphone is exactly 92 dB at 1 kHz and exactly 97 dB at 5 kHz. However, right after the measurement, he realized he forgot to record the voltage used for the frequency response test!
+
+Then, mrima used a 1 kHz sine wave to drive the headphone to exactly 94 dB and noted down the equivalent voltage as $U(mV)$. He continued to measure the impedance curve and found that the headphone had an impedance of $Z_1(Ω)$ at 1 kHz and $Z_2(Ω)$ at 5 kHz. After the measurements, mrima asked the manufacturer about the headphone's linear resistance and got an answer of $R(Ω)$.
+
+Assuming the headphone has good consistency and the internal resistance of the amplifier used is negligible, can you calculate the actual power required to drive the headphone to exactly 100 dB using a 5 kHz sine wave in mW?
+
+**Answer:** $10^{-2.9}*U^2*R*Z_2^{-2}$ mW

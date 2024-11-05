@@ -185,19 +185,17 @@ If one blindly accepts arbitrary distinctions of superiority, scoffing at transi
 
 # Crossover Distortion and Thermal Drift
 
-Crossover distortion is a type of nonlinear distortion commonly found in Class B amplifiers. To improve efficiency, these amplifiers use a push-pull output, leading to distortion at crossover point, where the rising and falling edges of the output signal become asymmetrical.
-
-Class AB amps behave like Class A at low output and Class B at high output. Efficiency of Class AB amps is higher than that of Class A, and distortion is lower than that of Class B. Crossover distortion only becomes noticeable at higher output.
+Crossover distortion is a type of nonlinear distortion commonly found in Class B amplifiers. To improve efficiency, this type of amplifier uses a push-pull configuration, which causes distortion at the crossover point where the output signals alternate between transistors.
 
 [![corssover distortion](../../analysis%20results/crossover%20distortion.png)](../../analysis%20tools/crossover%20distortion%20simulator.py)
 
+Class AB amplifiers are similar to Class A at low output and similar to Class B at high output. Their efficiency is higher than that of Class A, and distortion is lower than that of Class B. Crossover distortion of Class AB is more significant at higher output.
+
 Most speaker amps today are either Class D or Class AB. Due to headphones' lower power consumption, many of headphone amps are Class A. Class A is inefficient and consumes a lot of power, necessitating careful heat management to mitigate temperature effects on component lifespan and performance. Poor heat dissipation design can lead to damage to components like transistors or cause **thermal drift**, which occurs when performance deviates from ideal conditions due to temperature changes. However, some Class A amps like Burson Soloist Voyager, are specifically designed to operate at high temperatures and require warm-up for optimal sound quality.
 
-![Class A and Class AB](<../../assets/Popular%20Science%20and%20Miscellaneous%20Talks%20on%20Planar%20Magnetic%20Headphones%20(Part%201)/51.jpg>)  
-Top left: Fiio K19. Class AB, designed to work at room temperature  
-Bottom left: Burson Soloist Voyager, Class A, designed to work at high temperatures, requires warm-up for optimal sound quality  
-Top right: Aune X1s GT, Class A  
-Lower right: Aune S17pro, Class A, needs to avoid overheating
+![K19 and Voyager](../../assets/k19%20and%20voyager.jpg)  
+Top: Fiio K19. Class AB, designed to work at room temperature  
+Bottom: Burson Soloist Voyager, Class A, designed to work at high temperatures, requires warm-up for optimal sound quality
 
 Human ears are highly sensitive to crossover distortion. Thus, high-end headphone amps are predominantly Class A. When having a similar cost, Class B generally provides greater output power than Class A. Due to Class B's higher efficiency, it is also less affected by thermal drift. Therefore, there is no superiority between Class A and Class B. It is only about suit or not.
 
