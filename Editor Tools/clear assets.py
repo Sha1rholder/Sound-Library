@@ -40,13 +40,6 @@ def find_unreferenced_images(directory):
                 if file_path not in referenced_images:
                     unreferenced_images.append(file_path)
 
-    # print('Unreferenced images:')
-    # for image in unreferenced_images:
-    #     print(image)
-    # print()
-    # print('Found', len(unreferenced_images), 'unreferenced images')
-    # print()
-
     for image in unreferenced_images:
         try:
             os.remove(image)

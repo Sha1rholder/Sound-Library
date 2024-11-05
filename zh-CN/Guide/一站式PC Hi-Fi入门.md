@@ -141,7 +141,7 @@ Foobar2000 是 Windows 上最好用的本地音乐播放器，没有之一，在
 ![Foobar2000 1](../../assets/my%20foobar.png)  
 ![Foobar2000 2](../../assets/my%20foobar%202.png)
 
-可以直接抄作业，下载 [我的 Foobar2000 配置文件](../../assets/fb2kCFG.7z) 并按附件教程导入，如果只想抄我的 UI 的话可以下载 [我的 Foobar2000 UI](../../assets/fb2kTheme.fth)
+可以直接抄作业，下载我的 Foobar2000 配置文件并按附件教程导入，如果只想抄我的 UI 的话可以下载我的 Foobar2000 UI（discarded）
 
 以上配置文件内置了 ESlyric 歌词插件、SACD 解码以及 DSD 处理器插件，涵盖了 99% 的使用情况。下面介绍一些用法：
 
