@@ -21,7 +21,7 @@ When driving a headphone whose impedance is over 32Ω, the maximum undistorted p
 
 Headphones with lower sensitivities require more power and voltage. Clipping distortion will occur when power of the headphone amp is not enough to meet the headphone's need to reach a certain loudness.
 
-[![Clipping Distortion](../../analysis%20results/clipping%20distortion.png)](../../analysis%20tools/clipping%20distortion%20simulator.py)
+![Clipping Distortion](../../analysis%20results/clipping%20distortion.png)
 
 There are two types of clipping distortion: hard clipping and soft clipping. When hard clipping occurs, the vibration over a certain limit is like being clipped; soft clipping will be smoother in the transition of the clipping amplitude, and the degradation of the listening experience is less obvious. Hard clipping often occors when a transistor amp is experiencing current or voltage overload. Soft clipping happens in the same situation on tube amps.
 
@@ -78,7 +78,7 @@ Headphones vary greatly in sensitivity and impedance characteristics, so perform
 | Edition XS    | Planar headphone with low impedance and lower power sensitivity       | ⭐             | ⭐⭐⭐         |
 | Susvara       | Planar headphone with low impedance and super low power sensitivity   | ⭐⭐⭐         | ⭐⭐⭐⭐⭐     |
 
-As you can see, different types of headphones have different demands on various capabilities of amps. Among them, dynamic headphones with high nominal impedance or peak impedance are expecially voltage-demanding. Though some planar headphones such as the Susvara, which is known as super hard to drive, have lower voltage sensitivity than traditional high-impedance dynamic headphones such as the HD800s, the latter may have higher voltage demand. This is because high-impedance dynamic headphones tend to have significant inductance. The inductance brings significant back electromotive force while being driven, and leads to phase problem. To ease this phase problem, higher voltage output capacity of headphone amps is required to drive these high-impedance dynamic headphones.
+As you can see, different types of headphones have different demands on various capabilities of amps. Among them, dynamic headphones with high nominal impedance or peak impedance are especially voltage-demanding. Though some planar headphones such as the Susvara, which is known as super hard to drive, have lower voltage sensitivity than traditional high-impedance dynamic headphones such as the HD800s, the latter may have higher voltage demand. This is because high-impedance dynamic headphones tend to have significant inductance. The inductance brings significant back electromotive force while being driven, and leads to phase problem. To ease this phase problem, higher voltage output capacity of headphone amps is required to drive these high-impedance dynamic headphones.
 
 ## How to drive a headphone "well"?
 
@@ -142,7 +142,7 @@ Insufficient output power causes distortion. Enough output power is also accompa
 
 Frequency-response distortion (fr distortion) is a type of linear distortion, i.e., it does not produce extra frequencies which doesn't exist in the original signal. Fr distortion refers to the gain difference of frequencies. In other words, not-flat frequency response (fr) curve. Fr is one of the most basic indicators of headphone amps.
 
-[![fr distortion](../../analysis%20results/fr%20distortion.png)](../../analysis%20tools/fr%20distortion%20simulator.py)  
+![fr distortion](../../analysis%20results/fr%20distortion.png)  
 Fig. 1. Input signal to the amplifier.  
 Fig. 2. Decomposition of the input signal.  
 Fig. 3. Distorted signal.  
@@ -158,7 +158,7 @@ Not all headphone amps have a flat fr. **Some unique-sounding amps which hide th
 
 Harmonic distortion is the most common type of nonlinear distortion. Nonlinear distortion, i.e., distortion that produce frequency which the original signal doesn't have. Harmonic distortion refers to the phenomenon that output signal contains harmonic of input frequency. Total harmonic distortion (THD) is one of the most valued indicators for modern audiophiles.
 
-[![harmonic distortion](../../analysis%20results/harmonic%20distortion.png)](../../analysis%20tools/harmonic%20distortion%20simulator.py)  
+![harmonic distortion](../../analysis%20results/harmonic%20distortion.png)
 Fig. 1. Comparison chart of input signal and odd harmonic distorted signal.  
 Fig. 2. Decomposition of odd harmonic distorted signal.  
 Fig. 3. Comparison chart of input signal and even harmonic distorted signal.  
@@ -187,7 +187,7 @@ If one blindly accepts arbitrary distinctions of superiority, scoffing at transi
 
 Crossover distortion is a type of nonlinear distortion commonly found in Class B amplifiers. To improve efficiency, this type of amplifier uses a push-pull configuration, which causes distortion at the crossover point where the output signals alternate between transistors.
 
-[![corssover distortion](../../analysis%20results/crossover%20distortion.png)](../../analysis%20tools/crossover%20distortion%20simulator.py)
+![corssover distortion](../../analysis%20results/crossover%20distortion.png)
 
 Class AB amplifiers are similar to Class A at low output and similar to Class B at high output. Their efficiency is higher than that of Class A, and distortion is lower than that of Class B. Crossover distortion of Class AB is more significant at higher output.
 
@@ -207,7 +207,7 @@ I made the term "Multitone distortion" up to differentiate between simpler singl
 
 Phase distortion is a type of linear distortion, referring to amplifier's distortion of the input signal's phase. In other words, it results in time discrepancies for various output frequencies.
 
-[![phase distortion](../../analysis%20results/phase%20distortion.png)](../../analysis%20tools/phase%20distortion%20simulator.py)  
+![phase distortion](../../analysis%20results/phase%20distortion.png)  
 Fig. 1. Input signal to the amplifier.  
 Fig. 2. Decomposition of the input signal.  
 Fig. 3. Distorted signal.  
@@ -217,7 +217,7 @@ Fig. 4. Phase difference between 100hz and 1000hz signals is found when decompos
 
 Intermodulation distortion is a type of nonlinear distortion that occurs when frequencies interact, producing new frequencies which don't exist in the original signal.
 
-[![intermodulation distortion](../../analysis%20results/intermodulation%20distortion.png)](../../analysis%20tools/intermodulation%20distortion%20simulator.py)  
+![intermodulation distortion](../../analysis%20results/intermodulation%20distortion.png)  
 Fig. 1. Input signal to the amplifier.  
 Fig. 2. Decomposition of the input signal.  
 Fig. 3. Distorted signal.  

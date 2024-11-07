@@ -113,7 +113,7 @@ erzetich,thalia,dynamic,,,32,yes,open,producing,,2024-06-15
 feaulle,century,dynamic,,110,32,yes,open,producing,,2024-06-15
 feaulle,feature,dynamic,,105,32,yes,closed,producing,,2024-06-15
 fiio,ft1,dynamic,98,113,32,yes,closed,producing,,2024-06-15
-fiio,ft1 pro,planar,,,,yes,open,,,2024-11-4
+fiio,ft1 pro,planar,95,112,20,yes,open,producing,,2024-11-6
 fiio,ft3 32,dynamic,,110,32,yes,open,producing,,2024-06-15
 fiio,ft3 350,dynamic,,105,350,yes,open,producing,,2024-06-15
 fiio,ft5,planar,96,110,36,yes,open,producing,,2024-06-15
@@ -164,6 +164,7 @@ grado,sr325 le gold,dynamic,98,,38,,open,producing,,2024-06-15
 grado,sr325x,dynamic,98,,38,,open,producing,,2024-06-15
 grado,sr60x,dynamic,98,,38,,open,producing,,2024-06-15
 grado,sr80x,dynamic,98,,38,,open,producing,,2024-06-15
+grado,hp100se,dynamic,,,38,,open,producing,,2024-11-6
 harmonic dyne,black hole,dynamic,,110,32,yes,semi-closed,producing,,2024-06-15
 harmonic dyne,poseidon,dynamic,103,,64,yes,open,producing,,2024-06-15
 harmonic dyne,zeus elite,dynamic,,105,32,yes,open,producing,,2024-06-15
