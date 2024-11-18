@@ -271,7 +271,7 @@ def power_needed(headphones, target_db):
                 power_data.append(
                     (
                         f"{headphone.brand} {
-                            headphone.model} ASR (official impedance)",
+                            headphone.model} ASR OI",
                         power_needed,
                         headphone.driver,
                         headphone.balance,
@@ -311,7 +311,7 @@ def current_needed(headphones, target_db):
                 current_data.append(
                     (
                         f"{headphone.brand} {
-                            headphone.model} ASR (official impedance)",
+                            headphone.model} ASR OI",
                         current_needed,
                         headphone.driver,
                         headphone.balance,
@@ -376,51 +376,6 @@ for index, data in asr.iterrows():
               data['model']+" but official data does not")
         sys.exit(1)
 
-plot(
-    voltage_needed(
-        [
-            headphone
-            for headphone in headphones
-            if headphone.production in ["producing", "inventory"]
-        ],
-        96,
-    ),
-    max_shown=30,
-    title="Voltage Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 96 dB",
-    xlabel="Voltage (mV)",
-    save_path="./analysis results/",
-)
-
-plot(
-    power_needed(
-        [
-            headphone
-            for headphone in headphones
-            if headphone.production in ["producing", "inventory"]
-            and headphone.driver == "planar"
-        ],
-        96,
-    ),
-    max_shown=30,
-    title="Power Requirements of the Hardest-to-Drive Producing or Inventory Planar Headphones to Reach 96 dB",
-    xlabel="Power (mW)",
-    save_path="./analysis results/",
-)
-
-plot(
-    current_needed(
-        [
-            headphone
-            for headphone in headphones
-            if headphone.production in ["producing", "inventory"]
-        ],
-        96,
-    ),
-    max_shown=30,
-    title="Current Requirements of the Hardest-to-Drive Producing or Inventory Headphones to Reach 96 dB",
-    xlabel="Current (mA)",
-    save_path="./analysis results/",
-)
 
 reference_headphones_names = dict(
     {

@@ -21,8 +21,8 @@ def freq_power(data):
     plt.ylabel('Relative Power (dB)')
     plt.title('Frequency-Power Spectrum of Hotel California (Live On MTV, 1994)')
     plt.grid(True)
-    plt.xticks([20, 50, 100, 500, 1000, 5000, 10000, 20000], [
-               '20', '50', '100', '500', '1000', '5000', '10000', '20000'])
+    plt.xticks([20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000], [
+               '20', '50', '100', '200', '500', '1000', '2000', '5000', '10000', '20000'])
     plt.yticks([5, 8, 15, 35, 65], ['0', '3', '10', '30', '60'])
     plt.savefig(
         './analysis results/freq power spectrum of Hotel California (Live On MTV, 1994).png')
@@ -40,8 +40,8 @@ def time_freq_power(data):
         'Power Spectrum of Hotel California (Live On MTV, 1994)')
     plt.xlabel('Time (s)')
     plt.ylabel('Frequency (Hz)')
-    plt.yticks([20, 50, 100, 500, 1000, 5000, 10000, 20000], [
-               '20', '50', '100', '500', '1000', '5000', '10000', '20000'])
+    plt.yticks([20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000], [
+               '20', '50', '100', '200', '500', '1000', '2000', '5000', '10000', '20000'])
     plt.savefig(
         './analysis results/power spectrum of Hotel California (Live On MTV, 1994).png')
 

@@ -31,6 +31,7 @@ meze,elite,98,,,
 sony,mdr-7506,101,75,impedance rises to 96 Ω in 70 hz,
 koss,prota pro,102,,,yes
 sony,mdr-zx110,105,,,yes
+sony,mdr-7506,105,75,impedance rises to 100 Ω in 70 hz,
 taksar,pro82,108,30,impedance rises to 42 Ω in 60 hz,
 sony,mdr-v7,111,,,yes
 tascam,th-07,113,,,yes
@@ -64,11 +65,14 @@ akg,k271,164,60,impendance rises to 90 Ω in 120 hz and drops to 60 Ω in 20 hz 
 dca,ether flow 1.1 open,164,,,yes
 sennheiser,hd490 pro,164,134,impendance rises to 200 Ω in 60 ~ 100 hz,
 drop,hd58x jubilee,166,,,yes
+yamaha,yh-5000se,171,32,,
 sennheiser,hd660s,176,170,impedance rises to 360 Ω in 100 hz but drops 180 Ω in 20 hz,
 drop,ether elex,180,,,yes
 mark,levinson 5909,180,,,yes
 drop,ether cx,182,,,yes
 hifiman,ananda stealth v2,183,28,,
+akg,k60,186,640,impedance varies,yes
+sennheiser,hd620s,197,159,impedance rises to 336 at 117 hz; falls to 190 at 20 hz
 meze,liric,204,33,impepance rises to 85 Ω in 18000 hz but drops to 23 Ω in 20 hz and drops to 20 Ω in 20000 hz,
 akg,k712,207,62,impedance rises to 90 Ω in 20000 hz,
 zmf,caldera,208,55,,
