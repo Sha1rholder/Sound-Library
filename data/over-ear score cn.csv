@@ -1,6 +1,6 @@
 brand,model,score,sound,build,comfort,comment,date
 akg,k701,3,2,3,5,,2024-06-16
-akg,k812,3,2,3,4,,2024-06-16
+akg,k812,2,2,3,4,,2024-06-16
 anan audio,nan-6,4,4,4,4,,2024-09-27
 anan audio,nan-7,5,4,4,5,,2024-09-27
 ath,m50x,1,1,2,3,,2024-06-16
@@ -8,7 +8,8 @@ ath,r70x,2,3,2,4,,2024-06-16
 audeze,lcd-1,2,2,1,3,,2024-06-16
 audeze,lcd-5,3,3,2,2,,2024-06-16
 audeze,maxwell,4,5,4,2,,2024-06-16
-aune,ar5000,5,4,5,5,,2024-06-16
+aune,ar5000,5,5,5,5,,2024-06-16
+aune,sr7000,3,4,4,5,,2024-12-19
 austrian,composer,2,2,3,5,,2024-09-27
 beyer,dt700 prox,5,4,5,4,,2024-06-16
 beyer,dt770 pro 80,2,2,3,2,,2024-06-16
@@ -16,14 +17,14 @@ beyer,dt880 250,3,3,3,2,,2024-06-16
 beyer,dt900 prox,5,5,5,4,,2024-06-16
 beyer,dt990 250,2,3,3,2,,2024-06-16
 beyer,dt990 pro,2,3,3,2,,2024-06-16
-denon,ah-d7200,4,4,4,4,,2024-06-16
-denon,ah-d9200,3,3,3,4,,2024-06-16
+denon,ah-d7200,3,3,3,4,,2024-12-19
+denon,ah-d9200,2,2,2,4,,2024-12-19
 feaulle,feature,4,4,4,4,,2024-06-16
-fiio,ft1,5,5,5,5,,2024-09-27
+fiio,ft1,5,5,5,5,,2024-12-19
 fiio,ft3 350,4,3,5,4,,2024-06-16
 fiio,ft5,3,3,5,3,,2024-06-16
-fiio,jt1,5,5,5,5,,2024-06-16
-focal,radiance,5,4,5,3,,2024-06-16
+fiio,jt1,5,5,5,4,,2024-12-19
+focal,radiance,4,3,4,3,,2024-12-19
 focal,utopia 2022,3,3,4,3,,2024-06-16
 hifiman,arya organic,3,3,3,4,,2024-09-27
 hifiman,edition xs,4,5,3,3,,2024-09-27
@@ -33,8 +34,8 @@ hifiman,he400se stealth,3,5,4,3,,2024-06-16
 hifiman,he400se v1,4,5,4,3,,2024-06-16
 hifiman,he6se v2,3,3,3,0,,2024-09-27
 hifiman,sundara closed,5,5,5,5,,2024-06-16
-hifiman,susvara,3,3,3,4,,2024-06-16
-hifiman,susvara unveiled,3,3,3,5,,2024-09-27
+hifiman,susvara,3,3,3,5,,2024-12-19
+hifiman,susvara unveiled,3,4,3,5,,2024-12-19
 kennerton,Magni,2,1,5,4,,2024-08-25
 moondrop,cosmo,2,3,2,3,,2024-06-16
 moondrop,joker,1,1,2,2,,2024-06-16
@@ -47,11 +48,12 @@ sennheiser,hd600,2,2,2,3,,2024-06-16
 sennheiser,hd620s,2,1,3,4,,2024-06-16
 sennheiser,hd650,3,3,2,3,,2024-06-16
 sennheiser,hd800s,3,2,3,2,,2024-06-16
-shure,srh1840,2,2,3,2,可能买到假货了,2024-06-16
-ultrasone,edition 11,3,3,4,4,,2024-09-27
+shure,srh1840,2,2,3,2,难以置信得差我都怀疑可能买到假货了,2024-06-16
+ultrasone,edition 11,2,2,4,4,,2024-09-27
 venture,supernova,1,1,1,3,,2024-06-16
 vzr,model one,3,2,5,4,,2024-06-16
 xk audio,avalon mkii,2,2,3,2,,2024-07-03
 xk audio,x1266,0,0,3,1,,2024-09-27
+xk audio,serene,3,4,3,3,,2024-12-19
 yamaha,yh-5000se,2,1,5,5,,2024-06-16
 zmf,atticus,3,3,3,3,,2024-06-16
