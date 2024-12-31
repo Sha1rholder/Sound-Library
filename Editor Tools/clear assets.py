@@ -36,18 +36,20 @@ def find_unreferenced_images(directory):
         for root, _, files in os.walk(assets_dir):
             for file in files:
                 file_path = os.path.normpath(os.path.join(root, file))
-                file_path = file_path.replace(' ', '%20')
-                if file_path not in referenced_images:
+                file_path_normalized = file_path.replace(' ', '%20')
+                if file_path_normalized not in referenced_images:
                     unreferenced_images.append(file_path)
-
+                    # print(file_path)
     for image in unreferenced_images:
         try:
             os.remove(image)
             print(f'Deleted: {image}')
         except OSError as e:
             print(f'Error deleting {image}: {e}')
-    return unreferenced_images
+            return False
+    return True
 
 
 directory = '.'
+# find_image_paths(directory)
 find_unreferenced_images(directory)
