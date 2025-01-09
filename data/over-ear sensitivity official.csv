@@ -94,12 +94,12 @@ beyer,t5 1st,dynamic,,,,yes,closed,discontinued,,2024-06-15
 beyer,t5 2nd,dynamic,,,,yes,closed,discontinued,,2024-06-15
 beyer,t5 3rd,dynamic,100,,32,yes,closed,producing,sensitivity at 500 hz,2024-06-15
 dca,aeon 2,planar,,,,yes,open,producing,,2024-06-15
-dca,noire x,planar,,,,yes,closed,producing,,2024-11-27
 dca,aeon 2 noire,planar,,,,yes,closed,producing,,2024-06-15
 dca,aeon rt closed,planar,,,,yes,closed,producing,,2024-06-15
 dca,aeon rt open,planar,,,,yes,open,producing,,2024-06-15
 dca,e3,planar,90,,27,yes,semi-closed,producing,,2024-06-15
 dca,expanse,planar,,,,yes,open,producing,,2024-06-15
+dca,noire x,planar,,,,yes,closed,producing,,2024-11-27
 dca,stealth,planar,,,,yes,closed,producing,,2024-06-15
 denon,ah-d5200,dynamic,103,,24,yes,closed,producing,,2024-06-15
 denon,ah-d7200,dynamic,105,,25,yes,closed,producing,,2024-06-15
@@ -155,6 +155,7 @@ grado,gs1000x,dynamic,99.8,,38,,open,producing,,2024-06-15
 grado,gs2000e,dynamic,99.8,,32,,open,producing,,2024-06-15
 grado,gs3000x,dynamic,99.8,,38,both,open,producing,,2024-06-15
 grado,hemp,dynamic,,,38,,open,producing,,2024-06-15
+grado,hp100se,dynamic,,,38,,open,producing,,2024-11-6
 grado,ps1000 le,dynamic,99.8,,38,,open,producing,,2024-06-15
 grado,ps500 special,dynamic,98.8,,38,,open,producing,,2024-06-15
 grado,rs1x,dynamic,99.8,,38,both,open,producing,,2024-06-15
@@ -165,7 +166,6 @@ grado,sr325 le gold,dynamic,98,,38,,open,producing,,2024-06-15
 grado,sr325x,dynamic,98,,38,,open,producing,,2024-06-15
 grado,sr60x,dynamic,98,,38,,open,producing,,2024-06-15
 grado,sr80x,dynamic,98,,38,,open,producing,,2024-06-15
-grado,hp100se,dynamic,,,38,,open,producing,,2024-11-6
 harmonic dyne,black hole,dynamic,,110,32,yes,semi-closed,producing,,2024-06-15
 harmonic dyne,poseidon,dynamic,103,,64,yes,open,producing,,2024-06-15
 harmonic dyne,zeus elite,dynamic,,105,32,yes,open,producing,,2024-06-15
@@ -217,8 +217,8 @@ hifiman,sundara closed,planar,98,,20,yes,closed,producing,,2024-06-15
 hifiman,susvara,planar,83,,60,yes,open,producing,,2024-06-15
 hifiman,susvara unveiled,planar,86,,45,yes,open,producing,,2024-06-15
 kennerton,rognir,planar,,,42,yes,closed,producing,100 db sensitivity not sure db/mw or db/vrms;more models should be added to this brand,2024-06-16
-meze,109 pro,dynamic,112,,40,yes,open,producing,,2024-06-15
 meze,105 aer,dynamic,112,,42,yes,open,producing,,2024-11-27
+meze,109 pro,dynamic,112,,40,yes,open,producing,,2024-06-15
 meze,99 classics,dynamic,103,,32,yes,closed,producing,,2024-06-15
 meze,99 neo,dynamic,103,,26,yes,closed,producing,,2024-06-15
 meze,elite,planar,101,,32,yes,open,producing,,2024-06-15

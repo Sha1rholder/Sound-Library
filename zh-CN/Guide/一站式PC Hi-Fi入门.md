@@ -30,6 +30,10 @@ PC：本地曲库 + OneDrive + 调教后的 Foobar2000 v2
 
 ![Bandcamp](../../assets/bandcamp.png)
 
+**Ototoy** 需要魔法和 Paypal。专辑数量很多，元数据支持到位，价格很贵（一张专 100 多块），很多 Mora 上没有无损的资源它有
+
+![Ototoy](../../assets/ototoy.png)
+
 **Mora** 需要日本魔法和日元结算方式（如 VISA）。专辑数量最多，元数据支持到位，价格很贵但可以买单曲（一张专 100 多块，一首歌大概 20 块），部分专辑只有 aac 有损格式或音质低人一等（部分发行商为了卖 CD 真是无恶不作！）
 
 ![Mora](../../assets/mora.png)

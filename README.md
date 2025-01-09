@@ -1,10 +1,10 @@
-English / [中文](./README%20zh-CN.md)
+English | [中文](./README%20zh-CN.md)
 
 # What is Sound Library?
 
 **Sound Library** is an acoustics knowledge base, dedicated to helping audiophiles and those interested in high-quality audio learn the knowledge of sound.
 
-If you don't know how to get started or just want to have a glance, you can check this article [_Not Very Advanced Knowledge about Headphone Amplifiers_](./en-US/Knowledge/Not%20Very%20Advanced%20Knowledge%20about%20Headphone%20Amplifiers.md).
+If you don't know how to get started or just want to have a glance, you can check this article [_Begin with Digital Audio_](./en-US/Knowledge/Begin%20with%20Digital%20Audio.md).
 
 # Localized Contents
 
