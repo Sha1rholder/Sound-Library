@@ -1,3 +1,5 @@
+# Warning: This script will delete all unreferenced images in the assets folder.
+
 import os
 import re
 
