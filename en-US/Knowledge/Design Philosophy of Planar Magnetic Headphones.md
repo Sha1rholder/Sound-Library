@@ -107,7 +107,7 @@ Discarding the stator plate is one of the major design changes seen in Hifiman's
 
 Single-sided magnet array, where magnets are arranged only on one side of the diaphragm, is a technical route adopted by Abyss for their AB-1266 model. However, if arrange magnets of different widths non-equidistantly, we can still achieve better magnetic field uniformity.
 
-However, arranging magnets of different widths non-equidistantly leads to severe QC and cost problems. Even a 0.1mm deviation on magnets spacing can cause serious magnetic field confusion. Thus, Abyss designed a single-piece non-uniform molded magnet, ensuring an easier QC. As long as the single-piece magnet meets the standards, it can be directly assembled to a driver without further error worries.
+However, arranging magnets of different widths non-equidistantly leads to severe QC and cost problems. Even a 1 mm deviation on magnets spacing can cause serious magnetic field confusion. Thus, Abyss designed a single-piece non-uniform molded magnet, ensuring an easier QC. As long as the single-piece magnet meets the standards, it can be directly assembled to a driver without further error worries.
 
 ![X1226 Magnet](../../assets/1266%20magnet.png)  
 Imitation of AB-1266's magnet
