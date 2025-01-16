@@ -1,19 +1,18 @@
 import os
 import shutil
 from PIL import Image, UnidentifiedImageError
-import pillow_avif # 这句不能删
+import pillow_avif  # 这句不能删
 import re
 
 
 def clear_folder(folder_path):
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
-    for filename in os.listdir(folder_path):
-        file_path = os.path.join(folder_path, filename)
-        if os.path.isfile(file_path) or os.path.islink(file_path):
-            os.unlink(file_path)
-        elif os.path.isdir(file_path):
-            shutil.rmtree(file_path)
+        print(f"Folder created: {folder_path}")
+    else:
+        shutil.rmtree(folder_path)
+        os.makedirs(folder_path)
+        print(f"Folder erased: {folder_path}")
 
 
 def copy_img(file_path, output_path, file_index):
@@ -22,26 +21,27 @@ def copy_img(file_path, output_path, file_index):
         output_path, f"{file_index}{file_extension}"))
 
 
-def compress_jpg(jpg_path, max_kb):
-    jpg = Image.open(jpg_path)
-    quality = 95
-    while os.path.getsize(jpg_path) > max_kb * 1024 and quality > 0:
-        jpg.save(jpg_path, quality=quality)
-        quality -= 1
+def compress_jpg(jpg_path, max_kb=0):
+    if max_kb != 0:
+        jpg = Image.open(jpg_path)
+        quality = 95
+        while os.path.getsize(jpg_path) > max_kb * 1024 and quality > 0:
+            jpg.save(jpg_path, quality=quality)
+            quality -= 1
 
 
-def convert_and_compress(file_path, output_path, file_index, max_kb):
+def convert_and_compress(file_path, output_path, file_index, max_kb=0):
     try:
         img = Image.open(file_path)
         img = img.convert('RGB')
         jpg_path = os.path.join(output_path, f'{file_index}.jpg')
         img.save(jpg_path, 'JPEG', quality=95)
-        compress_jpg(jpg_path, max_kb)
+        compress_jpg(jpg_path, max_kb=max_kb)
     except UnidentifiedImageError:
         print(f"Cannot identify image file: {file_path}")
 
 
-def find_and_process(article_path, output_path, max_kb):
+def find_and_process(article_path, output_path, max_kb=0):
     clear_folder(output_path)
     md_pattern = re.compile(r'!\[.*?\]\((.*?)\)')
     md_pattern_special = re.compile(r'!\[.*?\]\(<(.*?)>\)')
@@ -65,21 +65,30 @@ def find_and_process(article_path, output_path, max_kb):
         if img_path.endswith('.jpg'):
             copy_img(img_path, output_path, file_index)
             compress_jpg(f"{output_path}\\{file_index}.jpg", max_kb)
-        elif img_path.endswith('.png'):
-            if os.path.getsize(img_path) > max_kb * 1024:
-                convert_and_compress(img_path, output_path, file_index, max_kb)
-            else:
-                copy_img(img_path, output_path, file_index)
-        elif img_path.endswith('.webp') or img_path.endswith('.avif'):
-            convert_and_compress(img_path, output_path, file_index, max_kb)
         else:
-            print('not an image')
+            extension_allowed = False
+            for extension in allowed_extensions:
+                if img_path.endswith(extension):
+                    extension_allowed = True
+                    if os.path.getsize(img_path) <= max_kb * 1024 or max_kb == 0:
+                        copy_img(img_path, output_path, file_index)
+                    else:
+                        convert_and_compress(
+                            img_path, output_path, file_index, max_kb)
+            if not extension_allowed:
+                convert_and_compress(
+                    img_path, output_path, file_index, max_kb)
         file_index += 1
+    print(f"{file_index-1} images processed to {output_path}")
 
-
-article_path = "./zh-CN/Knowledge/平面磁耳机的设计逻辑.md"
 
 user_name = "sha1r"
 output_path = f"C:\\Users\\{user_name}\\Pictures\\assets"
 
-find_and_process(article_path, output_path, 299)
+# article_path = "./zh-CN/Knowledge/平面磁耳机的设计逻辑.md"
+# allowed_extensions = ['.jpg', '.png', '.gif']
+# find_and_process(article_path, output_path, 999)
+
+article_path = "./en-US/Knowledge/Design Philosophy of Planar Magnetic Headphones.md"
+allowed_extensions = ['.jpg', '.png', '.gif', '.webp', '.avif']
+find_and_process(article_path, output_path)
