@@ -149,7 +149,9 @@ class Headphone:
 
 
 def plot(
-    data,
+    headphones_list,
+    indicator,
+    target_db=96,
     title="",
     xlabel="",
     scale="linear",  # The scale of the x-axis. If data is too spread out, use "log"
@@ -159,6 +161,122 @@ def plot(
     order=True,  # Whether to show the headphones from the highest or the lowest
     save_path=None,
 ):
+
+    def voltage_needed(headphones, target_db):
+        voltage_data = []
+        for headphone in headphones:
+            voltage_needed = headphone.voltage_needed_official(
+                target_db=target_db)
+            if voltage_needed:
+                voltage_data.append(
+                    (
+                        f"{headphone.brand} {headphone.model}",
+                        voltage_needed,
+                        headphone.driver,
+                        headphone.balance,
+                    )
+                )
+            voltage_needed = headphone.voltage_needed_asr(target_db=target_db)
+            if voltage_needed:
+                voltage_data.append(
+                    (
+                        f"{headphone.brand} {headphone.model} ASR",
+                        voltage_needed,
+                        headphone.driver,
+                        headphone.balance,
+                    )
+                )
+        return voltage_data
+
+    def power_needed(headphones, target_db):
+        power_data = []
+        for headphone in headphones:
+            power_needed = headphone.power_needed_official(target_db=target_db)
+            if power_needed:
+                power_data.append(
+                    (
+                        f"{headphone.brand} {headphone.model}",
+                        power_needed,
+                        headphone.driver,
+                        headphone.balance,
+                    )
+                )
+            power_needed = headphone.power_needed_asr(target_db=target_db)
+            if power_needed:
+                power_data.append(
+                    (
+                        f"{headphone.brand} {headphone.model} ASR",
+                        power_needed,
+                        headphone.driver,
+                        headphone.balance,
+                    )
+                )
+            else:
+                power_needed = headphone.power_needed_asr_voltage_official_impedance(
+                    target_db
+                )
+                if power_needed:
+                    power_data.append(
+                        (
+                            f"{headphone.brand} {
+                                headphone.model} ASR OI",
+                            power_needed,
+                            headphone.driver,
+                            headphone.balance,
+                        )
+                    )
+        return power_data
+
+    def current_needed(headphones, target_db):
+        current_data = []
+        for headphone in headphones:
+            current_needed = headphone.current_needed_official(
+                target_db=target_db)
+            if current_needed:
+                current_data.append(
+                    (
+                        f"{headphone.brand} {headphone.model}",
+                        current_needed,
+                        headphone.driver,
+                        headphone.balance,
+                    )
+                )
+            current_needed = headphone.current_needed_asr(target_db=target_db)
+            if current_needed:
+                current_data.append(
+                    (
+                        f"{headphone.brand} {headphone.model} ASR",
+                        current_needed,
+                        headphone.driver,
+                        headphone.balance,
+                    )
+                )
+            else:
+                current_needed = headphone.current_needed_asr_voltage_official_impedance(
+                    target_db
+                )
+                if current_needed:
+                    current_data.append(
+                        (
+                            f"{headphone.brand} {
+                                headphone.model} ASR OI",
+                            current_needed,
+                            headphone.driver,
+                            headphone.balance,
+                        )
+                    )
+        return current_data
+
+    if indicator == "voltage":
+        data = voltage_needed(find_headphones(headphones_list), target_db)
+    elif indicator == "power":
+        data = power_needed(find_headphones(headphones_list), target_db)
+    elif indicator == "current":
+        data = current_needed(find_headphones(headphones_list), target_db)
+    else:
+        print("please input a valid indicator")
+        return
+
     data.sort(key=lambda x: x[1], reverse=not order)
     if beginner > len(data):
         print("Beginner is too large.")
@@ -214,110 +332,19 @@ def plot(
         plt.show()
 
 
-def voltage_needed(headphones, target_db):
-    voltage_data = []
-    for headphone in headphones:
-        voltage_needed = headphone.voltage_needed_official(target_db=target_db)
-        if voltage_needed:
-            voltage_data.append(
-                (
-                    f"{headphone.brand} {headphone.model}",
-                    voltage_needed,
-                    headphone.driver,
-                    headphone.balance,
-                )
-            )
-        voltage_needed = headphone.voltage_needed_asr(target_db=target_db)
-        if voltage_needed:
-            voltage_data.append(
-                (
-                    f"{headphone.brand} {headphone.model} ASR",
-                    voltage_needed,
-                    headphone.driver,
-                    headphone.balance,
-                )
-            )
-    return voltage_data
+# def inquire(headphones_list):
 
 
-def power_needed(headphones, target_db):
-    power_data = []
-    for headphone in headphones:
-        power_needed = headphone.power_needed_official(target_db=target_db)
-        if power_needed:
-            power_data.append(
-                (
-                    f"{headphone.brand} {headphone.model}",
-                    power_needed,
-                    headphone.driver,
-                    headphone.balance,
-                )
-            )
-        power_needed = headphone.power_needed_asr(target_db=target_db)
-        if power_needed:
-            power_data.append(
-                (
-                    f"{headphone.brand} {headphone.model} ASR",
-                    power_needed,
-                    headphone.driver,
-                    headphone.balance,
-                )
-            )
-        else:
-            power_needed = headphone.power_needed_asr_voltage_official_impedance(
-                target_db
-            )
-            if power_needed:
-                power_data.append(
-                    (
-                        f"{headphone.brand} {
-                            headphone.model} ASR OI",
-                        power_needed,
-                        headphone.driver,
-                        headphone.balance,
-                    )
-                )
-    return power_data
-
-
-def current_needed(headphones, target_db):
-    current_data = []
-    for headphone in headphones:
-        current_needed = headphone.current_needed_official(target_db=target_db)
-        if current_needed:
-            current_data.append(
-                (
-                    f"{headphone.brand} {headphone.model}",
-                    current_needed,
-                    headphone.driver,
-                    headphone.balance,
-                )
-            )
-        current_needed = headphone.current_needed_asr(target_db=target_db)
-        if current_needed:
-            current_data.append(
-                (
-                    f"{headphone.brand} {headphone.model} ASR",
-                    current_needed,
-                    headphone.driver,
-                    headphone.balance,
-                )
-            )
-        else:
-            current_needed = headphone.current_needed_asr_voltage_official_impedance(
-                target_db
-            )
-            if current_needed:
-                current_data.append(
-                    (
-                        f"{headphone.brand} {
-                            headphone.model} ASR OI",
-                        current_needed,
-                        headphone.driver,
-                        headphone.balance,
-                    )
-                )
-    return current_data
+def find_headphones(headphones_list):
+    found_headphones = []
+    for brand in headphones_list:
+        for headphone in headphones:
+            if (
+                headphone.brand == brand
+                and headphone.model in headphones_list[brand]
+            ):
+                found_headphones.append(headphone)
+    return found_headphones
 
 
 official = pd.read_csv(
@@ -376,15 +403,22 @@ for index, data in asr.iterrows():
               data['model']+" but official data does not")
         sys.exit(1)
 
+inquire_headphones_list = dict(
+    {
+        "aune": ["ar5000", "sr7000"],
+        "akg": ["k701"]
+    }
+)
 
-reference_headphones_names = dict(
+
+reference_headphones_list = dict(
     {
         "sennheiser": ["hd800s", "hd600"],
         "dca": ["expanse"],
-        "fiio": ["jt1"],
+        "fiio": ["jt1", "ft1", "ft1 pro"],
         "akg": ["k701"],
         "audeze": ["lcd-5"],
-        "sony": ["mdr-7506"],
+        "sony": ["mdr-m1"],
         "beyer": ["dt880 250", "dt900 prox", "dt880 600"],
         "philips": ["shp9500"],
         "focal": ["utopia 2022"],
@@ -399,31 +433,26 @@ reference_headphones_names = dict(
     }
 )
 
-reference_headphones = []
-for brand in reference_headphones_names:
-    for headphone in headphones:
-        if (
-            headphone.brand == brand
-            and headphone.model in reference_headphones_names[brand]
-        ):
-            reference_headphones.append(headphone)
 
 plot(
-    voltage_needed(reference_headphones, 96),
+    headphones_list=reference_headphones_list,
+    indicator="voltage",
     title="Voltage Requirements of Some Headphones to Reach 96 dB",
     xlabel="Voltage (mV)",
     save_path="./analysis results/",
 )
 
 plot(
-    power_needed(reference_headphones, 96),
+    headphones_list=reference_headphones_list,
+    indicator="power",
     title="Power Requirements of Some Headphones to Reach 96 dB",
     xlabel="Power (mW)",
     save_path="./analysis results/",
 )
 
 plot(
-    current_needed(reference_headphones, 96),
+    headphones_list=reference_headphones_list,
+    indicator="current",
     title="Current Requirements of Some Headphones to Reach 96 dB",
     xlabel="Current (mA)",
     save_path="./analysis results/",
