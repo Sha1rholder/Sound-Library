@@ -1,3 +1,6 @@
+# Sensitivity: dB/Vrms
+# Efficiency: dB/mW
+
 import sys
 import math
 import matplotlib.pyplot as plt
@@ -16,8 +19,11 @@ class Headphone:
         balance=None,
         back=None,
         production=None,
+        official_note=None,
+        date=None,
         asr_94db_voltage=math.nan,
         asr_impedance=math.nan,
+        asr_note=None,
     ):
         self.brand = brand
         self.model = model
@@ -28,8 +34,11 @@ class Headphone:
         self.balance = balance
         self.back = back
         self.production = production
+        self.official_note = official_note
+        self.date = date
         self.asr_94db_voltage = asr_94db_voltage
         self.asr_impedance = asr_impedance
+        self.asr_note = asr_note
 
     def print_info(self):
         for attr, value in self.__dict__.items():
@@ -332,7 +341,64 @@ def plot(
         plt.show()
 
 
-# def inquire(headphones_list):
+def inquire(headphones_list):
+    def calculate_db_vrms(db_mw, impedance):
+        return round(db_mw - 10 * math.log10(impedance) + 30, 1)
+
+    def calculate_db_mw(db_vrms, impedance):
+        return round(db_vrms + 10 * math.log10(impedance) - 30, 1)
+
+    def calculate_impedance(db_vrms, db_mw):
+        return round(10 ** ((db_mw - db_vrms + 30) / 10), 1)
+
+    def calculate_asr_db_vrms(asr_94db_voltage):
+        return round(94 - 20 * math.log10(asr_94db_voltage), 1)
+
+    def calculate_asr_db_mw(asr_94db_voltage, impedance):
+        return round(64 - 20 * math.log10(asr_94db_voltage) + 10 * math.log10(impedance), 1)
+
+    data = find_headphones(headphones_list)
+    for headphone in data:
+        print(f"{headphone.brand} {headphone.model}")
+        print(f"Driver type: {headphone.driver}")
+        if not math.isnan(headphone.official_db_mw):
+            print(f"Official efficiency: {headphone.official_db_mw} dB/mW")
+        elif not math.isnan(headphone.official_db_vrms) and not math.isnan(headphone.official_impedance):
+            print(f"Official efficiency (calculated): {calculate_db_mw(
+                headphone.official_db_vrms, headphone.official_impedance)} dB/mW")
+        if not math.isnan(headphone.official_db_vrms):
+            print(f"Official sensitivity: {
+                  headphone.official_db_vrms} dB/Vrms")
+        elif not math.isnan(headphone.official_db_mw) and not math.isnan(headphone.official_impedance):
+            print(f"Official sensitivity (calculated): {calculate_db_vrms(
+                headphone.official_db_mw, headphone.official_impedance)} dB/Vrms")
+        if not math.isnan(headphone.official_impedance):
+            print(f"Official impedance: {headphone.official_impedance} Ω")
+        elif not math.isnan(headphone.official_db_vrms) and not math.isnan(headphone.official_mw):
+            print(f"Official impedance (calculated): {
+                  calculate_impedance(headphone.official_db_vrms, headphone.official_db_mw)} Ω")
+        if not math.isnan(headphone.asr_94db_voltage):
+            if not math.isnan(headphone.asr_impedance):
+                print(f"ASR efficiency: {calculate_asr_db_mw(
+                    headphone.asr_94db_voltage, headphone.asr_impedance)} dB/mW")
+            elif not math.isnan(headphone.official_impedance):
+                print(f"ASR efficiency (calculated with official impedance): {calculate_asr_db_mw(
+                    headphone.asr_94db_voltage, headphone.official_impedance)} dB/mW")
+            print(f"ASR sensitivity: {calculate_asr_db_vrms(
+                headphone.asr_94db_voltage)} dB/Vrms")
+            if not math.isnan(headphone.asr_impedance):
+                print(f"ASR impedance: {headphone.asr_impedance} Ω")
+        print(f"Allow balanced input: {
+              "yes" if headphone.balance == "yes" else "no"}")
+        print(f"{headphone.back}-back design")
+        print(f"Production status: {headphone.production}")
+        official_note = headphone.official_note
+        if isinstance(official_note, str):
+            print(f"Official note: {headphone.official_note}")
+        asr_note = headphone.asr_note
+        if isinstance(asr_note, str):
+            print(f"ASR note: {headphone.asr_note}")
+        print(f"Record date: {headphone.date.strftime('%Y-%m-%d')}\n")
 
 
 def find_headphones(headphones_list):
@@ -361,6 +427,7 @@ official = pd.read_csv(
         "production": str,
         "note": str,
     },
+    parse_dates=["date"]
 )
 official = official[official["driver"].isin(
     ["dynamic", "planar", "AMT", "planar and dynamic"])]
@@ -388,6 +455,8 @@ for index, data in official.iterrows():
             data["balance"],
             data["back"],
             data["production"],
+            data["note"],
+            data["date"]
         )
     )
 for index, data in asr.iterrows():
@@ -396,6 +465,7 @@ for index, data in asr.iterrows():
         if headphone.brand == data["brand"] and headphone.model == data["model"]:
             headphone.asr_94db_voltage = data["94db voltage"]
             headphone.asr_impedance = data["impedance"]
+            headphone.asr_note = data["note"]
             found = True
             break
     if not found:
@@ -409,7 +479,7 @@ inquire_headphones_list = dict(
         "akg": ["k701"]
     }
 )
-
+inquire(inquire_headphones_list)
 
 reference_headphones_list = dict(
     {
