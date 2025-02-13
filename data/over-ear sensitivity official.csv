@@ -39,6 +39,8 @@ ath,m50x,dynamic,99,,38,no,closed,producing,,2024-06-15
 ath,m60x,dynamic,102,,38,no,closed,producing,,2024-06-15
 ath,m70x,dynamic,97,,35,no,closed,producing,,2024-06-15
 ath,msr7,dynamic,101,,36,yes,closed,producing,,2024-06-15
+ath,r30x,dynamic,92,,32,no,open,producing,,2025-02-13
+ath,r50x,dynamic,93.3,,50,no,open,producing,,2025-02-13
 ath,r70x,dynamic,98,,470,yes,open,producing,,2024-06-15
 ath,r70xa,dynamic,97,,470,yes,open,producing,,2025-01-21
 ath,w2022,dynamic,98,,48,yes,closed,producing,,2024-06-15
@@ -231,6 +233,9 @@ moondrop,para,planar,,101,8,yes,open,producing,,2024-01-21
 moondrop,venus,planar,,100,18,yes,open,inventory,,2024-06-15
 moondrop,void,dynamic,,110,64,yes,open,producing,,2024-06-15
 music wizard,pmh-1,planar,99,,60,yes,open,producing,,2024-06-15
+ori sonic,cs97g,planar,82,,50,yes,open,producing,,2025-02-13
+ori sonic,cs97m,planar,98,,30,yes,open,producing,,2025-02-13
+ori sonic,cs97p+,planar,88,,18,yes,open,producing,,2025-02-13
 philips,fidelio x1s,dynamic,100,,30,no,open,producing,,2024-06-15
 philips,fidelio x2,dynamic,100,,30,no,open,discontinued,,2024-06-15
 philips,fidelio x2hr,dynamic,100,,30,yes,open,producing,,2024-06-15
