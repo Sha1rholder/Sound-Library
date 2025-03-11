@@ -7,6 +7,25 @@ sample_rate, data = wavfile.read(
     "./draft/Hotel California (Live On MTV, 1994) mono.wav")
 
 
+def freq_amplitude(data):
+    frequencies, times, Zxx = stft(data, fs=sample_rate, nperseg=8192)
+    power = np.abs(Zxx)
+    avg_power = np.mean(power, axis=1)
+    plt.fill_between(frequencies, 10*np.log10(avg_power),
+                     color='skyblue')
+    plt.xscale('log')
+    plt.xlim(20, 20000)
+    plt.ylim(0, 30)
+    plt.xlabel('Frequency (Hz)')
+    plt.ylabel('Relative Power (dB)')
+    plt.title('Frequency-Amplitude Spectrum of Hotel California (Live On MTV, 1994)')
+    plt.grid(True)
+    plt.xticks([20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000], [
+               '20', '50', '100', '200', '500', '1000', '2000', '5000', '10000', '20000'])
+    plt.savefig(
+        './analysis results/freq amplitude spectrum of Hotel California (Live On MTV, 1994).png')
+
+
 def freq_power(data):
     frequencies, times, Zxx = stft(data, fs=sample_rate, nperseg=8192)
     power = np.abs(Zxx) ** 2
@@ -14,16 +33,14 @@ def freq_power(data):
     plt.fill_between(frequencies, 10*np.log10(avg_power),
                      color='skyblue')
     plt.xscale('log')
-    plt.yscale('log')
     plt.xlim(20, 20000)
-    plt.ylim(5, 65)
+    plt.ylim(0, 70)
     plt.xlabel('Frequency (Hz)')
     plt.ylabel('Relative Power (dB)')
     plt.title('Frequency-Power Spectrum of Hotel California (Live On MTV, 1994)')
     plt.grid(True)
     plt.xticks([20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000], [
                '20', '50', '100', '200', '500', '1000', '2000', '5000', '10000', '20000'])
-    plt.yticks([5, 8, 15, 35, 65], ['0', '3', '10', '30', '60'])
     plt.savefig(
         './analysis results/freq power spectrum of Hotel California (Live On MTV, 1994).png')
 
@@ -46,5 +63,6 @@ def time_freq_power(data):
         './analysis results/power spectrum of Hotel California (Live On MTV, 1994).png')
 
 
+# freq_amplitude(data)
 # freq_power(data)
-time_freq_power(data)
+# time_freq_power(data)
