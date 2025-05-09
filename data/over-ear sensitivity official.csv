@@ -126,7 +126,7 @@ fiio,ft1 pro,planar,95,112,20,yes,open,producing,,2024-11-6
 fiio,ft3 32,dynamic,,110,32,yes,open,producing,,2024-06-15
 fiio,ft3 350,dynamic,,105,350,yes,open,producing,,2024-06-15
 fiio,ft5,planar,96,110,36,yes,open,producing,,2024-06-15
-fiio,ft7,planar,,,,yes,open,producing,,2025-03-8
+fiio,ft7,planar,94,110,25,yes,open,producing,,2025-04-18
 fiio,jt1,dynamic,103,117,32,yes,closed,producing,,2024-06-15
 final,d7000,planar,89,,50,yes,open,producing,,2024-06-15
 final,d8000,planar,98,,60,yes,open,producing,,2024-06-15
@@ -262,6 +262,7 @@ raal,sr-1b,ribbon,,,,yes,speaker,producing,,2024-06-16
 sennheiser,hd25,dynamic,,,70,no,closed,producing,,2024-06-19
 sennheiser,hd490 pro,dynamic,96,105,130,yes,open,producing,,2024-06-15
 sennheiser,hd505,dynamic,,107.9,120,no,open,producing,,2025-03-8
+sennheiser,hd550,dynamic,,106,150,no,closed,producing,,2025-04-18
 sennheiser,hd560s,dynamic,,110,,no,open,producing,,2024-06-15
 sennheiser,hd569,dynamic,,115,23,no,closed,producing,,2024-06-15
 sennheiser,hd600,dynamic,,97,300,yes,open,producing,,2024-06-15

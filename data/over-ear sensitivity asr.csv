@@ -2,7 +2,7 @@ brand,model,94db voltage,impedance,note,ignore
 custom,w/elleven acoustica r1,17,,,yes
 v-moda,m200,31,33,,
 panasonic,rp-tcm125,35,,IEM,yes
-sivga,pheonix,43,35,42 Ω in 60 hz,
+sivga,phoenix,43,35,42 Ω in 60 hz,
 drop,meze 99 noir,47,,,
 verum,verum 1,54,6.6,,
 nad,hp50,55,,,yes
@@ -22,6 +22,7 @@ ath,msr7,86,,,
 aurorus,borealis,87,,,yes
 zero audio,zh-dx200-ct,88,,,yes
 focal,celestee,89,31,impedance rises to 55 Ω in 60 ~ 90 hz and drops to 40 Ω in 20 hz,
+meze,105 aer,91,44,,
 hifiman,ananda v1,93,33,,
 yamaha,rh-5ma,96,,,yes
 focal,stellia,96,33,impedance rises to 55 Ω in 70 ~ 90 hz,
@@ -40,12 +41,14 @@ grado,sr60x,123,40,impendance rises to 102 Ω in 100 hz and drops to 40 Ω in 20
 sivga,robin sv021,128,36,,
 superlux,hd688b,129,,,yes
 audeze,lcd-24,130,14,,
+lts,v3,130,35,impedance rises to 80 Ω in 70 hz,yes
 audeze,lcd-xc,131,20,,
 zmf,bokeh,131,86,,
 bose,qc35 ii (on),135,,,yes
 oppo,pm3,138,,,yes
 audeze,sine,139,22,impedance rises to 39 Ω in 2470 hz,
 kennerton,rognir,143,38,,
+thieraudio,ghost,143,72,,yes
 ether,cx closed,145,,,yes
 austrian,hi-x60,145,28,,
 panasonic,rp-ht16,146,,,yes

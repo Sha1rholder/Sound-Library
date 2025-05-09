@@ -23,8 +23,8 @@ def find_image_paths(directory):
                     for match in matches_special:
                         image_paths.add(os.path.normpath(
                             os.path.join(root, match)))
-    # for image_path in image_paths:
-    #     print(image_path)
+    for image_path in image_paths:
+        print(image_path)
     return image_paths
 
 
@@ -53,5 +53,5 @@ def find_unreferenced_images(directory):
 
 
 directory = '.'
-# find_image_paths(directory)
-find_unreferenced_images(directory)
+find_image_paths(directory)
+# find_unreferenced_images(directory)
