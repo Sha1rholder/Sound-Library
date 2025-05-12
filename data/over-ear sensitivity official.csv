@@ -108,6 +108,7 @@ dca,e3,planar,90,,27,yes,semi-closed,producing,,2024-06-15
 dca,expanse,planar,,,,yes,open,producing,,2024-06-15
 dca,noire x,planar,,,,yes,closed,producing,,2024-11-27
 dca,noire x,planar,94,,,yes,closed,producing,,2025-03-8
+dca,noire xo,planar,,,13,yes,open,producing,,2025-05-12
 dca,stealth,planar,,,,yes,closed,producing,,2024-06-15
 denon,ah-d5200,dynamic,103,,24,yes,closed,producing,,2024-06-15
 denon,ah-d7200,dynamic,105,,25,yes,closed,producing,,2024-06-15
@@ -284,6 +285,7 @@ shure,srh840a,dynamic,97,,40,no,open,producing,,2024-06-15
 simgot,ep5,dynamic,,113,32,yes,semi-closed,producing,,2025-03-8
 simgot,et1000,planar,94,,20,yes,open,producing,,2025-03-8
 sivga,aiva,planar,96,,32,yes,open,producing,,2024-06-15
+sivga,anser,dynamic,105,,38,yes,open,producing,,2025-03-12
 sivga,apollo,planar,95,,16,yes,open,producing,,2024-06-15
 sivga,luan,dynamic,100,,38,yes,open,producing,,2024-06-15
 sivga,oriole,dynamic,108,,32,yes,closed,producing,,2024-06-15
@@ -293,6 +295,7 @@ sivga,peacock,planar,103,,50,yes,open,producing,,2024-06-15
 sivga,phoenix,dynamic,103,,32,yes,open,producing,,2025-03-12
 sivga,robin sv021,dynamic,105,,32,yes,closed,producing,,2024-06-15
 sivga,sv007,dynamic,105,,16,yes,open,producing,,2024-06-15
+sivga,sv021,dynamic,105,,32,yes,closed,producing,,2025-03-12
 sivga,sv023,dynamic,105,,300,yes,open,producing,,2024-06-15
 sonciemeory,g50,dynamic,,98,32,yes,closed,producing,,2025-01-21
 sony,mdr-7506,dynamic,106,,63,no,closed,producing,,2024-06-15
@@ -323,7 +326,7 @@ verum,verum 1,planar,96,116,8,yes,open,discontinued,,2025-03-8
 verum,verum 2,planar,94,,12,yes,open,producing,,2024-06-15
 vzr,model one,dynamic,100,,32,yes,closed,producing,,2024-06-15
 xk audio,avalon mkii,dynamic,97,,280,yes,open,discontinued,,2025-03-8
-xk audio,fluxion,planar,,,,yes,open,producing,,2025-03-8
+xk audio,fluxion,planar,96,,25,yes,open,producing,,2025-05-9
 xk audio,ken,dynamic,110,,32,yes,open,discontinued,,2025-03-8
 xk audio,serene,planar,85,,45,yes,open,producing,,2024-11-4
 xk audio,sinae closed,dynamic,98,,300,yes,closed,discontinued,,2025-03-8
@@ -339,5 +342,3 @@ zmf,caldera closed,planar,94,,60,yes,closed,producing,,2024-06-15
 zmf,eikon,dynamic,98,,300,yes,semi-closed,producing,,2024-06-15
 zmf,verite,dynamic,97,,300,yes,open,producing,,2024-06-15
 zmf,verite closed,dynamic,99,,300,yes,closed,producing,,2024-06-15
-sivga,sv021,dynamic,105,,32,yes,closed,producing,,2025-03-12
-sivga,anser,dynamic,105,,38,yes,open,producing,,2025-03-12
