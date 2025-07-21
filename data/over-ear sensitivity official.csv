@@ -64,6 +64,7 @@ audeze,mm-100,planar,98,,18,no,open,producing,,2024-06-15
 audeze,mm-500,planar,100,,18,yes,open,producing,,2024-06-15
 audeze,sine,planar,,,,no,closed,discontinued,,2024-06-15
 aune,ar5000,dynamic,,108,28,yes,open,producing,,2025-01-21
+aune,ar9000,dynamic,,,,yes,open,,,2025-05-14
 aune,sr7000,dynamic,,106,55,yes,closed,producing,,2025-01-21
 aurorus,quasar,dynamic,,,300,yes,open,producing,,2025-03-8
 austrian,composer,dynamic,,112,22,yes,open,producing,,2024-06-15
@@ -131,6 +132,7 @@ fiio,ft7,planar,94,110,25,yes,open,producing,,2025-04-18
 fiio,jt1,dynamic,103,117,32,yes,closed,producing,,2024-06-15
 final,d7000,planar,89,,50,yes,open,producing,,2024-06-15
 final,d8000,planar,98,,60,yes,open,producing,,2024-06-15
+final,d8000 dc,planar,,,,yes,open,producing,,2025-06-30
 final,d8000pro,planar,98,,60,yes,open,producing,,2024-06-15
 final,sonorous iii,dynamic,105,,16,yes,,,,2024-06-15
 final,sonorous iv,dynamic,105,,8,yes,,,,2024-06-15
@@ -150,7 +152,7 @@ focal,radiance,dynamic,101,,35,yes,closed,producing,,2024-06-15
 focal,stellia,dynamic,106,,35,yes,closed,producing,,2024-06-15
 focal,utopia 2016,dynamic,104,,80,yes,open,discontinued,,2024-06-15
 focal,utopia 2022,dynamic,104,,80,yes,open,producing,,2024-06-15
-fosi,i5,planar,,,,yes,open,producing,,2025-03-8
+fosi,i5,planar,98,,28,yes,open,producing,,2025-06-30
 gold planar,gl1000,planar,100,,50,yes,open,producing,,2024-06-15
 gold planar,gl1000c,planar,97,,18,yes,closed,producing,,2024-06-15
 gold planar,gl1200,ribbon,90,,0.1,yes,open,producing,0.1 Ω trans to 4.2 Ω,2024-06-15
@@ -188,18 +190,21 @@ hifiman,ananda bt,planar,103,,35,no,open,producing,wireless,2024-06-15
 hifiman,ananda nano,planar,94,,14,yes,open,producing,,2024-06-15
 hifiman,ananda stealth v2,planar,93,,26,yes,open,discontinued,,2024-06-15
 hifiman,ananda stealth v3,planar,93,,16,yes,open,producing,,2024-06-15
+hifiman,ananda unveiled,planar,93,,22,yes,open,producing,,2025-07-21
 hifiman,ananda v1,planar,93,,26,yes,open,discontinued,,2024-06-15
 hifiman,arya organic,planar,94,,16,yes,open,producing,,2024-06-15
 hifiman,arya stealth,planar,94,,32,yes,open,discontinued,,2024-06-15
 hifiman,arya unveiled,planar,94,,27,yes,open,producing,,2024-11-4
 hifiman,arya v1,planar,90,,35,yes,open,discontinued,,2024-06-15
 hifiman,audivina,planar,97,,20,yes,closed,producing,,2024-06-15
+hifiman,audivina le,planar,96,,20,yes,closed,producing,,2025-07-21
 hifiman,deva,planar,93.5,,18,yes,open,discontinued,wireless,2024-06-15
 hifiman,deva pro,planar,93.5,,18,yes,open,producing,wireless,2024-06-15
 hifiman,edition s,dynamic,113,,18,yes,closed,discontinued,,2024-06-15
 hifiman,edition x v1,planar,103,,25,yes,open,discontinued,,2024-06-15
 hifiman,edition x v2,planar,103,,25,yes,open,discontinued,,2024-06-15
 hifiman,edition xs,planar,92,,18,yes,open,producing,,2024-06-15
+hifiman,edition xv,planar,92,,12,yes,open,producing,,2025-07-21
 hifiman,he-r10d,dynamic,103,,60,yes,closed,producing,,2024-06-15
 hifiman,he-r10p,planar,100,,35,yes,closed,producing,,2024-06-15
 hifiman,he-r9,dynamic,100,,60,yes,closed,producing,跳水后规格有变动,2024-06-15
@@ -222,6 +227,7 @@ hifiman,he560,planar,90,,45,yes,open,,,2024-06-15
 hifiman,he560 v4,planar,,,,yes,open,discontinued,,2024-06-15
 hifiman,he5se,planar,92,,40,yes,open,discontinued,,2024-06-15
 hifiman,he6,planar,83.5,,50,yes,open,discontinued,,2024-06-15
+hifiman,he600,planar,94,,28,yes,open,producing,,2025-07-21
 hifiman,he6se v1,planar,,,,yes,open,discontinued,not sure the data describes which version of he6se;it has two major versions,2025-01-21
 hifiman,he6se v2,planar,83.5,,50,yes,open,producing,not sure the data describes which version of he6se;it has two major versions,2024-06-22
 hifiman,isvarna,planar and dynamic,93,,16,yes,semi-closed,producing,,2025-01-21
@@ -240,8 +246,10 @@ meze,empyrean ii,planar,,105,32,yes,open,producing,,2024-06-15
 meze,liric,planar,100,,61,yes,closed,producing,,2024-06-15
 meze,poet,planar,101,,55,yes,open,producing,,2025-03-8
 moondrop,cosmo,planar,,100,15,yes,open,producing,,2024-06-15
+moondrop,horizon,dynamic,94,109,32,yes,open,producing,,2025-06-30
 moondrop,joker,dynamic,,106,68,yes,closed,producing,,2024-06-15
-moondrop,para,planar,,101,8,yes,open,producing,,2024-01-21
+moondrop,para,planar,,101,8,yes,open,discontinued,,2024-01-21
+moondrop,para2,planar,,103,9,yes,open,producing,,2025-07-9
 moondrop,venus,planar,,100,18,yes,open,discontinued,,2025-03-8
 moondrop,void,dynamic,,110,64,yes,open,producing,,2024-06-15
 music wizard,pmh-1,planar,99,,60,yes,open,producing,,2024-06-15
