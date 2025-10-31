@@ -125,11 +125,13 @@ feaulle,century,dynamic,,110,32,yes,open,producing,,2024-06-15
 feaulle,feature,dynamic,,105,32,yes,closed,producing,,2024-06-15
 fiio,ft1,dynamic,98,113,32,yes,closed,producing,,2024-06-15
 fiio,ft1 pro,planar,95,112,20,yes,open,producing,,2024-11-6
-fiio,ft3 32,dynamic,,110,32,yes,open,producing,,2024-06-15
-fiio,ft3 350,dynamic,,105,350,yes,open,producing,,2024-06-15
+fiio,ft13,dynamic,98,113,32,yes,closed,producing,,2025-09-10
+fiio,ft3 32,dynamic,,110,32,yes,open,discontinued,,2025-09-10
+fiio,ft3 350,dynamic,,105,350,yes,open,discontinued,,2025-09-10
 fiio,ft5,planar,96,110,36,yes,open,producing,,2024-06-15
 fiio,ft7,planar,94,110,25,yes,open,producing,,2025-04-18
 fiio,jt1,dynamic,103,117,32,yes,closed,producing,,2024-06-15
+fiio,jt3,dynamic,97,110,80,yes,open,producing,,2025-11-1
 final,d7000,planar,89,,50,yes,open,producing,,2024-06-15
 final,d8000,planar,98,,60,yes,open,producing,,2024-06-15
 final,d8000 dc,planar,,,,yes,open,producing,,2025-06-30
@@ -247,11 +249,12 @@ meze,liric,planar,100,,61,yes,closed,producing,,2024-06-15
 meze,poet,planar,101,,55,yes,open,producing,,2025-03-8
 moondrop,cosmo,planar,,100,15,yes,open,producing,,2024-06-15
 moondrop,horizon,dynamic,94,109,32,yes,open,producing,,2025-06-30
-moondrop,joker,dynamic,,106,68,yes,closed,producing,,2024-06-15
+moondrop,joker,dynamic,,106,68,yes,closed,discontinued,,2025-09-10
+moondrop,laputa,planar,,96,60,yes,open,producing,,2025-08-27
 moondrop,para,planar,,101,8,yes,open,discontinued,,2024-01-21
 moondrop,para2,planar,,103,9,yes,open,producing,,2025-07-9
 moondrop,venus,planar,,100,18,yes,open,discontinued,,2025-03-8
-moondrop,void,dynamic,,110,64,yes,open,producing,,2024-06-15
+moondrop,void,dynamic,,110,64,yes,open,discontinued,,2025-09-10
 music wizard,pmh-1,planar,99,,60,yes,open,producing,,2024-06-15
 ori sonic,cs97g,planar,82,,50,yes,open,producing,,2025-02-13
 ori sonic,cs97m,planar,98,,30,yes,open,producing,,2025-02-13
@@ -340,7 +343,9 @@ xk audio,serene,planar,85,,45,yes,open,producing,,2024-11-4
 xk audio,sinae closed,dynamic,98,,300,yes,closed,discontinued,,2025-03-8
 xk audio,sinae open,dynamic,98,,300,yes,open,discontinued,,2025-03-8
 xk audio,x1226,planar,88,,30,yes,open,discontinued,,2025-03-8
+yamaha,yh-4000,planar,,,,yes,open,producing,,2025-09-10
 yamaha,yh-5000se,planar,98,,34,yes,open,producing,,2024-06-15
+yamaha,yh-c3000,dynamic,,,,yes,closed,producing,,2025-09-10
 zmf,aeolus,dynamic,99,,300,yes,open,producing,,2024-06-15
 zmf,atticus,dynamic,99,,300,yes,semi-closed,discontinued,,2024-06-19
 zmf,auteur,dynamic,97,,300,yes,open,producing,,2024-06-15
