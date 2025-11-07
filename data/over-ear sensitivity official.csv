@@ -31,6 +31,7 @@ ath,ad700x,dynamic,100,,38,no,open,producing,,2024-06-15
 ath,ad900x,dynamic,103,,38,no,open,producing,,2024-06-15
 ath,adx3000,dynamic,98,,50,yes,open,producing,,2025-03-8
 ath,adx5000,dynamic,100,,420,yes,open,producing,,2024-06-15
+ath,adx7000,dynamic,100,,490,yes,open,producing,,2025-11-8
 ath,awas,dynamic,99,,40,yes,closed,producing,,2024-06-15
 ath,awkg,dynamic,102,,48,yes,closed,producing,,2024-06-15
 ath,awkt,dynamic,102,,48,yes,closed,producing,,2024-06-15
@@ -74,13 +75,13 @@ austrian,hi-x55,dynamic,,118,25,no,closed,producing,,2024-06-15
 austrian,hi-x60,dynamic,,110,25,no,closed,producing,,2024-06-15
 austrian,hi-x65,dynamic,,110,25,no,open,producing,,2024-06-15
 beyer,amiron home,dynamic,102,,250,yes,open,producing,sensitivity at 500 hz,2024-06-15
-beyer,dj300 pro x,dynamic,109,117,48,no,closed,producing,on-ear and over-ear; on-ear sensitivity is different: 115/122 dB at 500hz,2025-11-8
+beyer,dj300 prox,dynamic,109,117,48,no,closed,producing,on-ear and over-ear; on-ear sensitivity is different: 115/122 dB at 500hz,2025-11-8
 beyer,dt150,dynamic,97,,250,no,closed,,sensitivity not sure at what frequency,2024-06-15
 beyer,dt1770 pro,dynamic,102,,250,no,closed,producing,sensitivity at 500 hz,2024-06-15
 beyer,dt1770 pro mkii,dynamic,95,,30,no,closed,producing,sensitivity at 500 hz,2024-11-1
 beyer,dt1990 pro,dynamic,102,,250,no,open,producing,sensitivity at 500 hz,2024-06-15
 beyer,dt1990 pro mkii,dynamic,94,,30,no,open,producing,sensitivity at 500 hz,2024-11-1
-beyer,dt270pro,dynamic,96,109,45,no,closed,producing,at 500hz,2025-11-8
+beyer,dt270 pro,dynamic,96,109,45,no,closed,producing,at 500hz,2025-11-8
 beyer,dt700 prox,dynamic,100,114,48,no,closed,producing,sensitivity at 500 hz,2024-06-15
 beyer,dt770 pro 250,dynamic,96,,250,no,closed,producing,sensitivity at 500 hz,2024-06-15
 beyer,dt770 pro 32,dynamic,96,,32,no,closed,producing,sensitivity at 500 hz,2024-06-15
@@ -134,6 +135,7 @@ fiio,ft5,planar,96,110,36,yes,open,producing,,2024-06-15
 fiio,ft7,planar,94,110,25,yes,open,producing,,2025-04-18
 fiio,jt1,dynamic,103,117,32,yes,closed,producing,,2024-06-15
 fiio,jt3,dynamic,97,110,80,yes,open,producing,,2025-11-1
+fiio,jt7,planar,92,109,18,yes,open,producing,,2025-11-8
 final,d7000,planar,89,,50,yes,open,producing,,2024-06-15
 final,d8000,planar,98,,60,yes,open,producing,,2024-06-15
 final,d8000 dc,planar,,,,yes,open,producing,,2025-06-30
@@ -349,6 +351,7 @@ yamaha,yh-4000,planar,,,,yes,open,producing,,2025-09-10
 yamaha,yh-5000se,planar,98,,34,yes,open,producing,,2024-06-15
 yamaha,yh-c3000,dynamic,,,,yes,closed,producing,,2025-09-10
 zmf,aeolus,dynamic,99,,300,yes,open,producing,,2024-06-15
+zmf,atrium,dynamic,96,,300,yes,open,producing,,2025-11-8
 zmf,atticus,dynamic,99,,300,yes,semi-closed,discontinued,,2024-06-19
 zmf,auteur,dynamic,97,,300,yes,open,producing,,2024-06-15
 zmf,bokeh,dynamic,103,,80,yes,closed,producing,,2024-06-15

@@ -22,26 +22,6 @@
 
 Audio Science Review（ASR）头戴式耳机灵敏度表。[Audio Science Review 论坛](https://www.audiosciencereview.com) 是比较权威的第三方音频设备测试网站之一，其测试数据相对较为严谨。本表存有一些 ASR 测试过的头戴式耳机驱动到 94 dBSPL 所需的电压（mVrms）以及 1000 hz 下的阻抗数据，如果耳机的阻抗随频率变化较大，备注中会对阻抗曲线变化趋势作简单概括
 
-## over-ear score cn.csv
-
-头戴式耳机评分表（基于中国大陆），包含本库主要贡献者对耳机的综合评分、音质评分、做工评分、佩戴舒适度评分以及备注和评分日期。每个评分都在 1 到 5 之间
-
-**Score** 总分，综合考虑了评分时的价格、音质、做工、佩戴舒适度、外观、品控以及售后等因素。1 分为纯粹的垃圾，无论如何都不推荐购买；2 分为产品性价比较低，一般不推荐购买；3 分为平均水平的产品，可以购买；4 分为性价比较高的产品，推荐购买；5 分为这个价位下几乎完美的选择，强烈推荐
-
-**Sound** 音质评分，依赖于评分时的价格和驱动难度。在价格相似的产品中，1 分为声音垃圾至极；2 分为音质 **明显** 逊色；3 分是声音中规中矩；4 分是音质出色；5 分是音质出类拔萃远超竞品
-
-> 你可能会注意到一些如 hd600 的经典产品获得 2 分的低分，这是因为该评分仅关注这些耳机的声价比，或者说聆听愉悦感和金钱代价本身，而不会考虑其历史地位。客观上，许多经典耳机产品的音质已经落后于较新的产品
->
-> 另外，耳机的驱动难度不同，对前端的要求也不同。更难推的耳机通常需要搭配更昂贵的前端，这也会对声价比产生负面影响
-
-**Build** 做工评分，依赖于评分时的价格。在相近价位横向对比，1 分为做工垃圾至极；2 分为做工质量略显不佳；3 分是中规中矩；4 分是做工优良；5 分是做工出类拔萃远超竞品
-
-**Comfort** 佩戴舒适度评分，和价格无关。1 分为折磨般的佩戴；2 分为对许多人来说佩戴不舒适；3 分是大多数人能够久戴；4 分是大多数人会觉得舒适；5 分是轻盈的重量加近乎完美的佩戴。超过 400 g 的耳机无法获得 5 分
-
-由于一款耳机的价格可能发生变动，产线也可能更新，评分日期也是一个重要的参考因素。一般来说评分日期越近，评分越有参考价值。产品评分相同并不意味着它们质量相近，比如 Audeze LCD-5 和拜亚 dt880 都获得 3 分并不意味着它们质量差不多
-
-由于本库的主要贡献者在中国大陆，打分会依据耳机在中国大陆的售价、保修以及口碑等。如果您在其他地区，以上因素可能有所不同，分数也会不同
-
 # Analysis Tools & Results 数据分析工具和结果
 
 这里包含一些用于分析和可视化数据的脚本和结果
@@ -55,6 +35,14 @@ Audio Science Review（ASR）头戴式耳机灵敏度表。[Audio Science Review
 ![Power Requirements of Some Headphones to Reach 96 dB](./analysis%20results/Power%20Requirements%20of%20Some%20Headphones%20to%20Reach%2096%20dB.png)
 
 ![Current Requirements of Some Headphones to Reach 96 dB](./analysis%20results/Current%20Requirements%20of%20Some%20Headphones%20to%20Reach%2096%20dB.png)
+
+它还可以用作分析有史以来本库记载的所有耳机的灵敏度、效率和阻抗分布（虽然没有经过数据筛选，意义不大，仅图一乐）
+
+![Sensitivity Distribution of All Headphones](./analysis%20results/sensitivity%20distribution.png)
+
+![Efficiency Distribution of All Headphones](./analysis%20results/efficiency%20distribution.png)
+
+![Impedance Distribution of All Headphones](./analysis%20results/impedance%20distribution.png)
 
 具体使用方法请参考该脚本内的注释和使用实例
 

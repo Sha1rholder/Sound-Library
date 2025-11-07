@@ -175,8 +175,7 @@ def plot(
     def voltage_needed(headphones, target_db):
         voltage_data = []
         for headphone in headphones:
-            voltage_needed = headphone.voltage_needed_official(
-                target_db=target_db)
+            voltage_needed = headphone.voltage_needed_official(target_db=target_db)
             if voltage_needed:
                 voltage_data.append(
                     (
@@ -240,8 +239,7 @@ def plot(
     def current_needed(headphones, target_db):
         current_data = []
         for headphone in headphones:
-            current_needed = headphone.current_needed_official(
-                target_db=target_db)
+            current_needed = headphone.current_needed_official(target_db=target_db)
             if current_needed:
                 current_data.append(
                     (
@@ -262,8 +260,8 @@ def plot(
                     )
                 )
             else:
-                current_needed = headphone.current_needed_asr_voltage_official_impedance(
-                    target_db
+                current_needed = (
+                    headphone.current_needed_asr_voltage_official_impedance(target_db)
                 )
                 if current_needed:
                     current_data.append(
@@ -294,14 +292,13 @@ def plot(
     elif beginner == 0:
         data = data[-max_shown:]
     else:
-        data = data[-beginner - max_shown: -beginner]
+        data = data[-beginner - max_shown : -beginner]
     models, values, drivers, balances = zip(*data)
 
     colors = []
     for driver, balance in zip(drivers, balances):
         if driver == "dynamic":
-            colors.append("red" if balance == "yes" or balance ==
-                          "both" else "darkred")
+            colors.append("red" if balance == "yes" or balance == "both" else "darkred")
         elif driver == "planar":
             colors.append(
                 "green" if balance == "yes" or balance == "both" else "darkgreen"
@@ -311,8 +308,9 @@ def plot(
                 "magenta" if balance == "yes" or balance == "both" else "darkmagenta"
             )
         elif driver == "planar and dynamic":
-            colors.append("blue" if balance == "yes" or balance ==
-                          "both" else "darkblue")
+            colors.append(
+                "blue" if balance == "yes" or balance == "both" else "darkblue"
+            )
         else:
             print(f"Unknown driver: {driver}")
             sys.exit(1)
@@ -356,7 +354,9 @@ def inquire(headphones_list):
         return round(94 - 20 * math.log10(asr_94db_voltage), 1)
 
     def calculate_asr_db_mw(asr_94db_voltage, impedance):
-        return round(64 - 20 * math.log10(asr_94db_voltage) + 10 * math.log10(impedance), 1)
+        return round(
+            64 - 20 * math.log10(asr_94db_voltage) + 10 * math.log10(impedance), 1
+        )
 
     data = find_headphones(headphones_list)
     for headphone in data:
@@ -364,33 +364,55 @@ def inquire(headphones_list):
         print(f"Driver type: {headphone.driver}")
         if not math.isnan(headphone.official_db_mw):
             print(f"Official efficiency: {headphone.official_db_mw} dB/mW")
-        elif not math.isnan(headphone.official_db_vrms) and not math.isnan(headphone.official_impedance):
-            print(f"Official efficiency (calculated): {calculate_db_mw(
-                headphone.official_db_vrms, headphone.official_impedance)} dB/mW")
+        elif not math.isnan(headphone.official_db_vrms) and not math.isnan(
+            headphone.official_impedance
+        ):
+            print(
+                f"Official efficiency (calculated): {calculate_db_mw(
+                headphone.official_db_vrms, headphone.official_impedance)} dB/mW"
+            )
         if not math.isnan(headphone.official_db_vrms):
-            print(f"Official sensitivity: {
-                  headphone.official_db_vrms} dB/Vrms")
-        elif not math.isnan(headphone.official_db_mw) and not math.isnan(headphone.official_impedance):
-            print(f"Official sensitivity (calculated): {calculate_db_vrms(
-                headphone.official_db_mw, headphone.official_impedance)} dB/Vrms")
+            print(
+                f"Official sensitivity: {
+                  headphone.official_db_vrms} dB/Vrms"
+            )
+        elif not math.isnan(headphone.official_db_mw) and not math.isnan(
+            headphone.official_impedance
+        ):
+            print(
+                f"Official sensitivity (calculated): {calculate_db_vrms(
+                headphone.official_db_mw, headphone.official_impedance)} dB/Vrms"
+            )
         if not math.isnan(headphone.official_impedance):
             print(f"Official impedance: {headphone.official_impedance} Ω")
-        elif not math.isnan(headphone.official_db_vrms) and not math.isnan(headphone.official_mw):
-            print(f"Official impedance (calculated): {
-                  calculate_impedance(headphone.official_db_vrms, headphone.official_db_mw)} Ω")
+        elif not math.isnan(headphone.official_db_vrms) and not math.isnan(
+            headphone.official_mw
+        ):
+            print(
+                f"Official impedance (calculated): {
+                  calculate_impedance(headphone.official_db_vrms, headphone.official_db_mw)} Ω"
+            )
         if not math.isnan(headphone.asr_94db_voltage):
             if not math.isnan(headphone.asr_impedance):
-                print(f"ASR efficiency: {calculate_asr_db_mw(
-                    headphone.asr_94db_voltage, headphone.asr_impedance)} dB/mW")
+                print(
+                    f"ASR efficiency: {calculate_asr_db_mw(
+                    headphone.asr_94db_voltage, headphone.asr_impedance)} dB/mW"
+                )
             elif not math.isnan(headphone.official_impedance):
-                print(f"ASR efficiency (calculated with official impedance): {calculate_asr_db_mw(
-                    headphone.asr_94db_voltage, headphone.official_impedance)} dB/mW")
-            print(f"ASR sensitivity: {calculate_asr_db_vrms(
-                headphone.asr_94db_voltage)} dB/Vrms")
+                print(
+                    f"ASR efficiency (calculated with official impedance): {calculate_asr_db_mw(
+                    headphone.asr_94db_voltage, headphone.official_impedance)} dB/mW"
+                )
+            print(
+                f"ASR sensitivity: {calculate_asr_db_vrms(
+                headphone.asr_94db_voltage)} dB/Vrms"
+            )
             if not math.isnan(headphone.asr_impedance):
                 print(f"ASR impedance: {headphone.asr_impedance} Ω")
-        print(f"Allow balanced input: {
-              "yes" if headphone.balance == "yes" else "no"}")
+        print(
+            f"Allow balanced input: {
+              "yes" if headphone.balance == "yes" else "no"}"
+        )
         print(f"{headphone.back}-back design")
         print(f"Production status: {headphone.production}")
         official_note = headphone.official_note
@@ -406,10 +428,7 @@ def find_headphones(headphones_list):
     found_headphones = []
     for brand in headphones_list:
         for headphone in headphones:
-            if (
-                headphone.brand == brand
-                and headphone.model in headphones_list[brand]
-            ):
+            if headphone.brand == brand and headphone.model in headphones_list[brand]:
                 found_headphones.append(headphone)
     return found_headphones
 
@@ -421,22 +440,37 @@ def official_sensitivity_distribution(official):
 
     # Fill in missing values using the formula: efficiency = sensitivity + 10*log10(impedance) - 30
     # Fill missing efficiency (db/mw) values
-    mask_missing_efficiency = df['db/mw'].isna(
-    ) & ~df['db/vrms'].isna() & ~df['impedance'].isna()
-    df.loc[mask_missing_efficiency, 'db/mw'] = df.loc[mask_missing_efficiency,
-                                                      'db/vrms'] + 10 * np.log10(df.loc[mask_missing_efficiency, 'impedance']) - 30
+    mask_missing_efficiency = (
+        df["db/mw"].isna() & ~df["db/vrms"].isna() & ~df["impedance"].isna()
+    )
+    df.loc[mask_missing_efficiency, "db/mw"] = (
+        df.loc[mask_missing_efficiency, "db/vrms"]
+        + 10 * np.log10(df.loc[mask_missing_efficiency, "impedance"])
+        - 30
+    )
 
     # Fill missing sensitivity (db/vrms) values
-    mask_missing_sensitivity = ~df['db/mw'].isna(
-    ) & df['db/vrms'].isna() & ~df['impedance'].isna()
-    df.loc[mask_missing_sensitivity, 'db/vrms'] = df.loc[mask_missing_sensitivity,
-                                                         'db/mw'] - 10 * np.log10(df.loc[mask_missing_sensitivity, 'impedance']) + 30
+    mask_missing_sensitivity = (
+        ~df["db/mw"].isna() & df["db/vrms"].isna() & ~df["impedance"].isna()
+    )
+    df.loc[mask_missing_sensitivity, "db/vrms"] = (
+        df.loc[mask_missing_sensitivity, "db/mw"]
+        - 10 * np.log10(df.loc[mask_missing_sensitivity, "impedance"])
+        + 30
+    )
 
     # Fill missing impedance values
-    mask_missing_impedance = ~df['db/mw'].isna(
-    ) & ~df['db/vrms'].isna() & df['impedance'].isna()
-    df.loc[mask_missing_impedance, 'impedance'] = 10 ** (
-        (df.loc[mask_missing_impedance, 'db/mw'] - df.loc[mask_missing_impedance, 'db/vrms'] + 30) / 10)
+    mask_missing_impedance = (
+        ~df["db/mw"].isna() & ~df["db/vrms"].isna() & df["impedance"].isna()
+    )
+    df.loc[mask_missing_impedance, "impedance"] = 10 ** (
+        (
+            df.loc[mask_missing_impedance, "db/mw"]
+            - df.loc[mask_missing_impedance, "db/vrms"]
+            + 30
+        )
+        / 10
+    )
 
     # 打印sensitivity最高和最低的十款耳机的"brand"+"model"+"driver"
     # 打印efficiency最高和最低的十款耳机的"brand"+"model"+"driver"
@@ -450,7 +484,7 @@ def official_sensitivity_distribution(official):
     stats = {}
 
     # Create separate plots for each metric
-    for metric in ['db/mw', 'db/vrms', 'impedance']:
+    for metric in ["db/mw", "db/vrms", "impedance"]:
         # plt.figure(figsize=(10, 6))
 
         # Collect data for each driver type
@@ -458,7 +492,7 @@ def official_sensitivity_distribution(official):
         labels = []
 
         for driver in driver_types:
-            values = df[df['driver'] == driver][metric].dropna()
+            values = df[df["driver"] == driver][metric].dropna()
             if len(values) > 0:
                 data.append(values)
                 labels.append(driver)
@@ -467,39 +501,45 @@ def official_sensitivity_distribution(official):
                 if driver not in stats:
                     stats[driver] = {}
                 stats[driver][metric] = {
-                    'median': values.median(),
-                    'count': len(values)
+                    "median": values.median(),
+                    "count": len(values),
                 }
 
         # Create boxplot
         if data:
-            if metric == 'db/mw':
+            if metric == "db/mw":
                 current_whis = 1.5
                 plt.ylim(75, 115)
-                plt.title('Efficiency (dB/mW) whis='+str(current_whis))
-                plt.ylabel('dB/mW')
-                fig_name = 'efficiency distribution.png'
-            elif metric == 'db/vrms':
+                plt.title("Efficiency (dB/mW) whis=" + str(current_whis))
+                plt.ylabel("dB/mW")
+                fig_name = "efficiency distribution.png"
+            elif metric == "db/vrms":
                 current_whis = 1.5
                 plt.ylim(90, 130)
-                plt.title('Sensitivity (dB/Vrms) whis='+str(current_whis))
-                plt.ylabel('dB/Vrms')
-                fig_name = 'sensitivity distribution.png'
-            elif metric == 'impedance':
+                plt.title("Sensitivity (dB/Vrms) whis=" + str(current_whis))
+                plt.ylabel("dB/Vrms")
+                fig_name = "sensitivity distribution.png"
+            elif metric == "impedance":
                 current_whis = 2.5
                 plt.ylim(4, 375)
-                plt.title('Impedance (Ω) whis='+str(current_whis))
-                plt.ylabel('Ω (log scale)')
-                plt.yscale('log')
-                plt.yticks([16, 32, 64, 128, 256, 512], [
-                           '16', '32', '64', '128', '256', '512'])
-                fig_name = 'impedance distribution.png'
+                plt.title("Impedance (Ω) whis=" + str(current_whis))
+                plt.ylabel("Ω (log scale)")
+                plt.yscale("log")
+                plt.yticks(
+                    [16, 32, 64, 128, 256, 512], ["16", "32", "64", "128", "256", "512"]
+                )
+                fig_name = "impedance distribution.png"
             else:
                 print("ERROR")
                 return
 
-            plt.boxplot(data, tick_labels=labels,
-                        patch_artist=True, whis=current_whis, widths=0.6)
+            plt.boxplot(
+                data,
+                tick_labels=labels,
+                patch_artist=True,
+                whis=current_whis,
+                widths=0.6,
+            )
 
             for i, values in enumerate(data):
                 # 计算统计量
@@ -511,29 +551,59 @@ def official_sensitivity_distribution(official):
                 x_pos = i + 1  # 箱线图的x坐标
 
                 # 添加标签(根据是否为对数刻度调整格式)
-                if metric == 'impedance':
-                    plt.text(x_pos + 0.3, median, f"{median:.1f}Ω",
-                             verticalalignment='center', fontsize=8)
-                    plt.text(x_pos + 0.3, q1, f"{q1:.1f}Ω",
-                             verticalalignment='center', fontsize=8)
-                    plt.text(x_pos + 0.3, q3, f"{q3:.1f}Ω",
-                             verticalalignment='center', fontsize=8)
+                if metric == "impedance":
+                    plt.text(
+                        x_pos + 0.3,
+                        median,
+                        f"{median:.1f}Ω",
+                        verticalalignment="center",
+                        fontsize=8,
+                    )
+                    plt.text(
+                        x_pos + 0.3,
+                        q1,
+                        f"{q1:.1f}Ω",
+                        verticalalignment="center",
+                        fontsize=8,
+                    )
+                    plt.text(
+                        x_pos + 0.3,
+                        q3,
+                        f"{q3:.1f}Ω",
+                        verticalalignment="center",
+                        fontsize=8,
+                    )
                 else:
-                    plt.text(x_pos + 0.3, median, f"{median:.1f}",
-                             verticalalignment='center', fontsize=8)
-                    plt.text(x_pos + 0.3, q1, f"{q1:.1f}",
-                             verticalalignment='center', fontsize=8)
-                    plt.text(x_pos + 0.3, q3, f"{q3:.1f}",
-                             verticalalignment='center', fontsize=8)
+                    plt.text(
+                        x_pos + 0.3,
+                        median,
+                        f"{median:.1f}",
+                        verticalalignment="center",
+                        fontsize=8,
+                    )
+                    plt.text(
+                        x_pos + 0.3,
+                        q1,
+                        f"{q1:.1f}",
+                        verticalalignment="center",
+                        fontsize=8,
+                    )
+                    plt.text(
+                        x_pos + 0.3,
+                        q3,
+                        f"{q3:.1f}",
+                        verticalalignment="center",
+                        fontsize=8,
+                    )
 
             # Add grid lines for better readability
-            plt.grid(axis='y', linestyle='--', alpha=0.7)
+            plt.grid(axis="y", linestyle="--", alpha=0.7)
             # Set title and labels
 
             plt.gcf().set_size_inches(4, 4)
             plt.tight_layout()
             # plt.show()
-            plt.savefig('./analysis results/'+fig_name, dpi=400)
+            plt.savefig("./analysis results/" + fig_name, dpi=400)
             plt.close()
 
 
@@ -551,10 +621,11 @@ official = pd.read_csv(
         "production": str,
         "note": str,
     },
-    parse_dates=["date"]
+    parse_dates=["date"],
 )
-official = official[official["driver"].isin(
-    ["dynamic", "planar", "AMT", "planar and dynamic"])]
+official = official[
+    official["driver"].isin(["dynamic", "planar", "AMT", "planar and dynamic"])
+]
 asr = pd.read_csv(
     "./data/over-ear sensitivity asr.csv",
     dtype={
@@ -580,7 +651,7 @@ for index, data in official.iterrows():
             data["back"],
             data["production"],
             data["note"],
-            data["date"]
+            data["date"],
         )
     )
 for index, data in asr.iterrows():
@@ -593,63 +664,62 @@ for index, data in asr.iterrows():
             found = True
             break
     if not found:
-        print("Error! ASR has "+data['brand']+" " +
-              data['model']+" but official data does not")
+        print(
+            "Error! ASR has "
+            + data["brand"]
+            + " "
+            + data["model"]
+            + " but official data does not"
+        )
         sys.exit(1)
 
-# inquire_headphones_list = dict(
-#     {
-#         "aune": ["ar5000", "sr7000"],
-#         "akg": ["k701"]
-#     }
-# )
-# inquire(inquire_headphones_list)
+inquire_headphones_list = dict({"moondrop": ["lapota"], "fiio": ["jt7"]})
+inquire(inquire_headphones_list)
 
-# reference_headphones_list = dict(
-#     {
-#         "sennheiser": ["hd800s", "hd600"],
-#         "dca": ["expanse"],
-#         "fiio": ["jt1", "ft1", "ft1 pro"],
-#         "akg": ["k701"],
-#         "audeze": ["lcd-5"],
-#         "sony": ["mdr-m1"],
-#         "beyer": ["dt880 250", "dt900 prox", "dt880 600"],
-#         "philips": ["shp9500"],
-#         "focal": ["utopia 2022"],
-#         "hifiman": ["susvara", "he400se stealth", "susvara unveiled", "ananda nano"],
-#         "zmf": ["caldera"],
-#         "abyss": ["1266 phi tc"],
-#         "anan audio": ["nan-7"],
-#         "moondrop": ["cosmo", "para"],
-#         "ath": ["adx5000", "r70x"],
-#         "xk audio": ["serene"],
-#         "aune": ["ar5000"]
-#     }
-# )
+reference_headphones_list = dict(
+    {
+        "sennheiser": ["hd800s", "hd600", "hd490 pro"],
+        "dca": ["expanse"],
+        "fiio": ["ft1", "ft7"],
+        "akg": ["k701"],
+        "audeze": ["lcd-5"],
+        "sony": ["mdr-m1"],
+        "beyer": ["dt880 250", "dt900 prox", "dt270 pro"],
+        "philips": ["shp9500"],
+        "focal": ["utopia 2022"],
+        "hifiman": ["susvara", "he400se stealth", "edition xs"],
+        "abyss": ["1266 phi tc"],
+        "anan audio": ["nan-7"],
+        "moondrop": ["laputa", "para2"],
+        "ath": ["adx7000", "r70x"],
+        "xk audio": ["serene", "fluxion"],
+        "aune": ["ar5000"],
+    }
+)
 
 
-# plot(
-#     headphones_list=reference_headphones_list,
-#     indicator="voltage",
-#     title="Voltage Requirements of Some Headphones to Reach 96 dB",
-#     xlabel="Voltage (mV)",
-#     save_path="./analysis results/",
-# )
+plot(
+    headphones_list=reference_headphones_list,
+    indicator="voltage",
+    title="Voltage Requirements of Some Headphones to Reach 96 dB",
+    xlabel="Voltage (mV)",
+    save_path="./analysis results/",
+)
 
-# plot(
-#     headphones_list=reference_headphones_list,
-#     indicator="power",
-#     title="Power Requirements of Some Headphones to Reach 96 dB",
-#     xlabel="Power (mW)",
-#     save_path="./analysis results/",
-# )
+plot(
+    headphones_list=reference_headphones_list,
+    indicator="power",
+    title="Power Requirements of Some Headphones to Reach 96 dB",
+    xlabel="Power (mW)",
+    save_path="./analysis results/",
+)
 
-# plot(
-#     headphones_list=reference_headphones_list,
-#     indicator="current",
-#     title="Current Requirements of Some Headphones to Reach 96 dB",
-#     xlabel="Current (mA)",
-#     save_path="./analysis results/",
-# )
+plot(
+    headphones_list=reference_headphones_list,
+    indicator="current",
+    title="Current Requirements of Some Headphones to Reach 96 dB",
+    xlabel="Current (mA)",
+    save_path="./analysis results/",
+)
 
 official_sensitivity_distribution(official)

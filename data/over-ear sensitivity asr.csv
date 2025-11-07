@@ -23,9 +23,11 @@ aurorus,borealis,87,,,yes
 zero audio,zh-dx200-ct,88,,,yes
 focal,celestee,89,31,impedance rises to 55 Ω in 60 ~ 90 hz and drops to 40 Ω in 20 hz,
 meze,105 aer,91,44,,
+B&W,p7,93,23,,yes
 hifiman,ananda v1,93,33,,
 yamaha,rh-5ma,96,,,yes
 focal,stellia,96,33,impedance rises to 55 Ω in 70 ~ 90 hz,
+fiio,ft1,96,36,
 sennheiser,hd598se,97,,,yes
 emu,teak,97,,,yes
 meze,elite,98,,,
@@ -83,11 +85,13 @@ hifiman,he-r10p,208,30,,
 drop,akg k7xx,210,,,yes
 beyer,amiron home,212,250,impedance rises to 500 Ω in 100 hz,
 hifiman,arya stealth,214,30,,
+moondrop,para2,220,8,
 akg,k240,230,57,impedance rises to 170 Ω in 107 hz and drops to 50 Ω in 20 hz and rises to 130 Ω in 20000 hz,
 audeze,lcd-1,230,15,,
 zmf,atticus,239,350,,
 monoprice,m1570c,240,,,yes
 sennheiser,hd560s,246,133,impendance rises to 224 Ω in 80 hz,
+zmf,atrium,254,298,,
 sennheiser,hd820,256,390,impedance rises to 520 Ω in 50 hz and drops to 350 Ω in 3000 hz,
 sennheiser,hd650,288,320,imdepance rises to 480 Ω in 100 hz and drops to 305 Ω in 20 hz and rises to 370 Ω in 20000 hz,
 akg,k701,295,59,impedance rises to 90 Ω in 20000 hz; tested both China and Austrian version,
