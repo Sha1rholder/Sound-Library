@@ -1,3 +1,5 @@
+**I've moved on to other things.**
+
 English | [中文](./README%20zh-CN.md)
 
 # What is Sound Library?
